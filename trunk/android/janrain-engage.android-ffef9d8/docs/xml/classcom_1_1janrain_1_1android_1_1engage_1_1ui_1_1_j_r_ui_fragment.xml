@@ -1,0 +1,824 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::ui::JRUiFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_landing_fragment" prot="public" virt="non-virtual">JRLandingFragment</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_provider_list_fragment" prot="public" virt="non-virtual">JRProviderListFragment</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_publish_fragment" prot="public" virt="non-virtual">JRPublishFragment</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_web_view_fragment" prot="public" virt="non-virtual">JRWebViewFragment</derivedcompoundref>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_finish_receiver" prot="private">com::janrain::android::engage::ui::JRUiFragment::FinishReceiver</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_managed_dialog" prot="private">com::janrain::android::engage::ui::JRUiFragment::ManagedDialog</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a1536c3f7278935d217592f26c37a8c6b" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_MANAGED_DIALOGS</definition>
+        <argsstring></argsstring>
+        <name>KEY_MANAGED_DIALOGS</name>
+        <initializer>&quot;jr_managed_dialogs&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="65" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a839892bb1bc1493d5830f7c3183bb8f2" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_DIALOG_ID</definition>
+        <argsstring></argsstring>
+        <name>KEY_DIALOG_ID</name>
+        <initializer>&quot;jr_dialog_id&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="66" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1aa43b2feb4eea0a63b71836126fd680dd" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_MANAGED_DIALOG_OPTIONS</definition>
+        <argsstring></argsstring>
+        <name>KEY_MANAGED_DIALOG_OPTIONS</name>
+        <initializer>&quot;jr_dialog_options&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="67" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ab79009965f5bec03803f9b3a6e3bd92a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int REQUEST_LANDING</definition>
+        <argsstring></argsstring>
+        <name>REQUEST_LANDING</name>
+        <initializer> 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="68" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1aeaa7ce712a8e7ea8421186a1b87eb4a6" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int REQUEST_WEBVIEW</definition>
+        <argsstring></argsstring>
+        <name>REQUEST_WEBVIEW</name>
+        <initializer> 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="69" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1aa5dbf028c9971e99017cec5aea254901" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int DIALOG_ABOUT</definition>
+        <argsstring></argsstring>
+        <name>DIALOG_ABOUT</name>
+        <initializer> 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="70" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a5b97e54f81a44912c02d6786ca76fd3c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int DIALOG_PROGRESS</definition>
+        <argsstring></argsstring>
+        <name>DIALOG_PROGRESS</name>
+        <initializer> 1001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="71" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a544518c611eaeaad476062b802021054" prot="private" static="no" mutable="no">
+        <type>FinishReceiver</type>
+        <definition>FinishReceiver mFinishReceiver</definition>
+        <argsstring></argsstring>
+        <name>mFinishReceiver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="73" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1abaf1b073f154f42671c41fe18d3d79f9" prot="private" static="no" mutable="no">
+        <type>HashMap&lt; Integer, ManagedDialog &gt;</type>
+        <definition>HashMap&lt;Integer, ManagedDialog&gt; mManagedDialogs</definition>
+        <argsstring></argsstring>
+        <name>mManagedDialogs</name>
+        <initializer> new HashMap&lt;Integer, ManagedDialog&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="74" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a35a40b886acd0f82cc60bdcdf7bd72fa" prot="protected" static="no" mutable="no">
+        <type>JRSession</type>
+        <definition>JRSession mSession</definition>
+        <argsstring></argsstring>
+        <name>mSession</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="76" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ac6815b13487e4ebd97809fb2fc897510" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer> JRUiFragment.class.getSimpleName()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="77" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ae15fe90738b5b8c4d7e1e493a36c2907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onAttach</definition>
+        <argsstring>(Activity activity)</argsstring>
+        <name>onAttach</name>
+        <param>
+          <type>Activity</type>
+          <declname>activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="104" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="104" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a85e87cb5ced88dff7c8173ecc4f636d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="113" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="113" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a5e729d0c3f1baa46ff20b7879719d3b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onActivityCreated</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onActivityCreated</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="128" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="128" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a11bcf4e3177fdb549350a4aa149e9e67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onStart</definition>
+        <argsstring>()</argsstring>
+        <name>onStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="154" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a14768c382cfd134f7688413a3eb56d08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="160" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="160" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a5d3d68fa39de696c590323e171a5fbc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean isShowing</definition>
+        <argsstring>()</argsstring>
+        <name>isShowing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="166" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="166" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ad36a232bff79e67140875eff1a578827" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onPause</definition>
+        <argsstring>()</argsstring>
+        <name>onPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="171" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a458397229d0b2076a739955b1cb8be35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onStop</definition>
+        <argsstring>()</argsstring>
+        <name>onStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="177" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="177" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1aa313fbad648f4a1660b2b0c05fe8f10c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onDestroyView</definition>
+        <argsstring>()</argsstring>
+        <name>onDestroyView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="183" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="183" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a8a744b43949a3939f448facad211e3d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>onDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="192" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="192" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a2a5fb1d2cc923b25a65c58d32ef19903" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onDetach</definition>
+        <argsstring>()</argsstring>
+        <name>onDetach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="200" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="200" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a5aef4625808fe4445a71e4697211bfa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onInflate</definition>
+        <argsstring>(Activity activity, AttributeSet attrs, Bundle savedInstanceState)</argsstring>
+        <name>onInflate</name>
+        <param>
+          <type>Activity</type>
+          <declname>activity</declname>
+        </param>
+        <param>
+          <type>AttributeSet</type>
+          <declname>attrs</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="209" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="209" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1affd37de59d03c06511be4a6d509ffe18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onSaveInstanceState</definition>
+        <argsstring>(Bundle outState)</argsstring>
+        <name>onSaveInstanceState</name>
+        <param>
+          <type>Bundle</type>
+          <declname>outState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="227" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="227" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ad539240d964251febfd9aee25f05c5bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onConfigurationChanged</definition>
+        <argsstring>(Configuration newConfig)</argsstring>
+        <name>onConfigurationChanged</name>
+        <param>
+          <type>Configuration</type>
+          <declname>newConfig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="244" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="244" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ac0c22c55dcaa5f7730f3bba78aa1dd1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onHiddenChanged</definition>
+        <argsstring>(boolean hidden)</argsstring>
+        <name>onHiddenChanged</name>
+        <param>
+          <type>boolean</type>
+          <declname>hidden</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="250" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="250" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a5c16dff8cae5b02eb3e557a675d83b46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onCreateOptionsMenu</definition>
+        <argsstring>(Menu menu, MenuInflater inflater)</argsstring>
+        <name>onCreateOptionsMenu</name>
+        <param>
+          <type>Menu</type>
+          <declname>menu</declname>
+        </param>
+        <param>
+          <type>MenuInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="268" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="268" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a37a55c533c74b60c0290ef1329d74e65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean onOptionsItemSelected</definition>
+        <argsstring>(MenuItem item)</argsstring>
+        <name>onOptionsItemSelected</name>
+        <param>
+          <type>MenuItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="281" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="281" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a08c7960e836e8d4cfbf7240222a63dc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean isEmbeddedMode</definition>
+        <argsstring>()</argsstring>
+        <name>isEmbeddedMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="320" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="320" bodyend="323"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ac6bdb290fb5fdfd60352066dad2acc34" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showHideTaglines</definition>
+        <argsstring>()</argsstring>
+        <name>showHideTaglines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="256" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="256" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ae7efcfde93d7ceb0206931534352c759" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ProgressDialog</type>
+        <definition>ProgressDialog getProgressDialog</definition>
+        <argsstring>()</argsstring>
+        <name>getProgressDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="290" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="290" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a1286fe77adde4f6325588c56c7ab1bc6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showProgressDialog</definition>
+        <argsstring>()</argsstring>
+        <name>showProgressDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="297" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="297" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a0540765cef7a5b4e72504dacdf4858bb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dismissProgressDialog</definition>
+        <argsstring>()</argsstring>
+        <name>dismissProgressDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="301" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="301" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a3d11859dcce1d9703a49b6c8ec735c2b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dialog</type>
+        <definition>Dialog onCreateDialog</definition>
+        <argsstring>(int id, Bundle options)</argsstring>
+        <name>onCreateDialog</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="325" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="325" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a762293ed03c59428a6ff8d0736b399a4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void onPrepareDialog</definition>
+        <argsstring>(int id, Dialog d, Bundle options)</argsstring>
+        <name>onPrepareDialog</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>Dialog</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="340" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="340" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a0a1f59dba9333e1831c59bccdf3713ff" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showDialog</definition>
+        <argsstring>(int dialogId)</argsstring>
+        <name>showDialog</name>
+        <param>
+          <type>int</type>
+          <declname>dialogId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="342" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="342" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ae39cb766fd8581905419e6be957f0a2c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showDialog</definition>
+        <argsstring>(int dialogId, Bundle options)</argsstring>
+        <name>showDialog</name>
+        <param>
+          <type>int</type>
+          <declname>dialogId</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="346" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="346" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a58e814875164d9bbefd858745927e443" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dismissDialog</definition>
+        <argsstring>(int dialogId)</argsstring>
+        <name>dismissDialog</name>
+        <param>
+          <type>int</type>
+          <declname>dialogId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="361" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="361" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ae42361d417cdd2b6caa48d180630003a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getColor</definition>
+        <argsstring>(int colorId)</argsstring>
+        <name>getColor</name>
+        <param>
+          <type>int</type>
+          <declname>colorId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="376" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="376" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a965ed0c6b9b447aab33b7a1e378ba1ce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showUserLanding</definition>
+        <argsstring>()</argsstring>
+        <name>showUserLanding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="402" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="402" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a8c7a796fac48c7473fae5441dbb5274a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showWebView</definition>
+        <argsstring>(boolean socialSharingSignIn)</argsstring>
+        <name>showWebView</name>
+        <param>
+          <type>boolean</type>
+          <declname>socialSharingSignIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="406" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="406" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a57906a9365280fa996bd8f7672f97f6c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showWebView</definition>
+        <argsstring>()</argsstring>
+        <name>showWebView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="412" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="412" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a6e82a4f092104fff8ea7997ae00d918d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void tryToFinishActivity</definition>
+        <argsstring>()</argsstring>
+        <name>tryToFinishActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="416" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="416" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a01ca0266c7b810e59f412107c94b8a79" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void onBackPressed</definition>
+        <argsstring>()</argsstring>
+        <name>onBackPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only for operation in JRFragmentHostActivity </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="424"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1acb12b4b2bce96f6c0e541efb7cfc752c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AlertDialog</type>
+        <definition>AlertDialog getAboutDialog</definition>
+        <argsstring>()</argsstring>
+        <name>getAboutDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="305" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="305" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1aa07b2f955d16334d81f3453fbc244722" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void startActivityForFragId</definition>
+        <argsstring>(int fragId, int requestCode)</argsstring>
+        <name>startActivityForFragId</name>
+        <param>
+          <type>int</type>
+          <declname>fragId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>requestCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="372" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="372" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a8284615693d95144a8e954804e7a8c44" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void startActivityForFragId</definition>
+        <argsstring>(int fragId, int requestCode, Bundle opts)</argsstring>
+        <name>startActivityForFragId</name>
+        <param>
+          <type>int</type>
+          <declname>fragId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>requestCode</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>opts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="380" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="380" bodyend="400"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="108">
+        <label>JRUiFragment</label>
+      </node>
+      <node id="109">
+        <label>JRPublishFragment</label>
+        <link refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_publish_fragment"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="64" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="64" bodyend="425"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1aa5dbf028c9971e99017cec5aea254901" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>DIALOG_ABOUT</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a5b97e54f81a44912c02d6786ca76fd3c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>DIALOG_PROGRESS</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a58e814875164d9bbefd858745927e443" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>dismissDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a0540765cef7a5b4e72504dacdf4858bb" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>dismissProgressDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1acb12b4b2bce96f6c0e541efb7cfc752c" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>getAboutDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ae42361d417cdd2b6caa48d180630003a" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>getColor</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ae7efcfde93d7ceb0206931534352c759" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>getProgressDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a08c7960e836e8d4cfbf7240222a63dc1" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>isEmbeddedMode</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a5d3d68fa39de696c590323e171a5fbc3" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>isShowing</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a839892bb1bc1493d5830f7c3183bb8f2" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>KEY_DIALOG_ID</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1aa43b2feb4eea0a63b71836126fd680dd" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>KEY_MANAGED_DIALOG_OPTIONS</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a1536c3f7278935d217592f26c37a8c6b" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>KEY_MANAGED_DIALOGS</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a544518c611eaeaad476062b802021054" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>mFinishReceiver</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1abaf1b073f154f42671c41fe18d3d79f9" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>mManagedDialogs</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a35a40b886acd0f82cc60bdcdf7bd72fa" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>mSession</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a5e729d0c3f1baa46ff20b7879719d3b7" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onActivityCreated</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ae15fe90738b5b8c4d7e1e493a36c2907" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onAttach</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a01ca0266c7b810e59f412107c94b8a79" prot="protected" virt="pure-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onBackPressed</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ad539240d964251febfd9aee25f05c5bc" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onConfigurationChanged</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a85e87cb5ced88dff7c8173ecc4f636d1" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a3d11859dcce1d9703a49b6c8ec735c2b" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onCreateDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a5c16dff8cae5b02eb3e557a675d83b46" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onCreateOptionsMenu</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a8a744b43949a3939f448facad211e3d2" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onDestroy</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1aa313fbad648f4a1660b2b0c05fe8f10c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onDestroyView</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a2a5fb1d2cc923b25a65c58d32ef19903" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onDetach</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ac0c22c55dcaa5f7730f3bba78aa1dd1f" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onHiddenChanged</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a5aef4625808fe4445a71e4697211bfa9" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onInflate</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a37a55c533c74b60c0290ef1329d74e65" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onOptionsItemSelected</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ad36a232bff79e67140875eff1a578827" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onPause</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a762293ed03c59428a6ff8d0736b399a4" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onPrepareDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a14768c382cfd134f7688413a3eb56d08" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onResume</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1affd37de59d03c06511be4a6d509ffe18" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onSaveInstanceState</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a11bcf4e3177fdb549350a4aa149e9e67" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onStart</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a458397229d0b2076a739955b1cb8be35" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>onStop</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ab79009965f5bec03803f9b3a6e3bd92a" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>REQUEST_LANDING</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1aeaa7ce712a8e7ea8421186a1b87eb4a6" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>REQUEST_WEBVIEW</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a0a1f59dba9333e1831c59bccdf3713ff" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>showDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ae39cb766fd8581905419e6be957f0a2c" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>showDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ac6bdb290fb5fdfd60352066dad2acc34" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>showHideTaglines</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a1286fe77adde4f6325588c56c7ab1bc6" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>showProgressDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a965ed0c6b9b447aab33b7a1e378ba1ce" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>showUserLanding</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a8c7a796fac48c7473fae5441dbb5274a" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>showWebView</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a57906a9365280fa996bd8f7672f97f6c" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>showWebView</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1aa07b2f955d16334d81f3453fbc244722" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>startActivityForFragId</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a8284615693d95144a8e954804e7a8c44" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>startActivityForFragId</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1ac6815b13487e4ebd97809fb2fc897510" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>TAG</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1a6e82a4f092104fff8ea7997ae00d918d" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment</scope><name>tryToFinishActivity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

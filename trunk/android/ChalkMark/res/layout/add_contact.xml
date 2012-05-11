@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff" >
+
+	<TableLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="1" >
+		
+		<TextView
+			android:text="Add new ChalkMark contact!"
+	        android:gravity="center"
+			android:layout_height="wrap_content"
+	        android:layout_marginLeft="15px"
+	        android:layout_marginRight="15px"
+	        android:layout_marginTop="10px" 
+		 	android:textSize="16sp"
+			android:textColor="#696969" >
+		</TextView>
+			
+		<EditText 
+			android:id="@+id/name"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:hint="Contact Name"
+			android:singleLine="true"
+        	android:layout_marginLeft="15px"
+        	android:layout_marginRight="15px"
+			android:layout_marginTop="10px"
+			android:textSize="14sp" >
+		</EditText>
+		
+		<EditText 
+			android:id="@+id/email"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+        	android:layout_marginLeft="15px"
+        	android:layout_marginRight="15px"
+			android:layout_marginTop="12px"
+			android:hint="Contact Email Address"
+			android:textSize="14sp" >
+		</EditText>
+		
+	</TableLayout>
+		
+	<Button
+		android:id="@+id/add"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Add Contact"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:layout_marginBottom="10px" 
+		android:background="#ffd700"
+		android:textColor="#1e90ff"
+		android:padding="7px"
+		android:layout_alignParentBottom="true"
+	/>      
+    
+</RelativeLayout>

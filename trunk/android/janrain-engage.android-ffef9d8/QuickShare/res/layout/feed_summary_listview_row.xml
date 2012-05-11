@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profiles_row_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="6dip"
+    >
+
+    <LinearLayout
+        android:id="@+id/row_content"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/row_story_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:gravity="center"
+
+            android:singleLine="true"
+            android:textSize="@dimen/textSizeStoryTitle"
+            android:textStyle="bold"
+            android:textColor="@color/jr_janrain_mediumblue_100percent"
+            />
+
+        <RelativeLayout
+            android:id="@+id/icon_text_and_date"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <ImageView
+                android:id="@+id/row_story_icon"
+                android:layout_width="@dimen/listIconSize"
+                android:layout_height="@dimen/listIconSize"
+
+                android:layout_marginTop="4dip"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:layout_alignParentTop="true"
+
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                />
+
+            <LinearLayout
+                android:id="@+id/text_and_date"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:layout_toRightOf="@id/row_story_icon"
+                android:gravity="center_horizontal|center_vertical"
+
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/row_story_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="left|center_vertical"
+                    android:paddingBottom="2dip"
+
+                    android:maxLines="2"
+                    android:textSize="@dimen/textSizeStoryDescription"
+                    android:ellipsize="end"
+                    />
+
+                <TextView
+                    android:id="@+id/row_story_date"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:maxWidth="200dip"
+                    android:gravity="left|center_vertical"
+                    
+                    android:singleLine="true"
+                    android:textSize="11dip"
+                    android:textColor="#333333"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::JREngageError</compoundname>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_authentication_error" prot="public">com::janrain::android::engage::JREngageError::AuthenticationError</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_configuration_error" prot="public">com::janrain::android::engage::JREngageError::ConfigurationError</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type" prot="public">com::janrain::android::engage::JREngageError::ErrorType</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error" prot="public">com::janrain::android::engage::JREngageError::SocialPublishingError</innerclass>
+      <sectiondef kind="user-defined">
+      <header>Private Attributes</header>
+      <description><para>The properties of the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error" kindref="compound">JREngageError</ref> that can be accessed and configured through the object&apos;s constructor and getters </para></description>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1adc00833722df4f26a365c53a43a04631" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mCode</definition>
+        <argsstring></argsstring>
+        <name>mCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The integer code for the error, one of the constants defined in <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_configuration_error" kindref="compound">ConfigurationError</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_authentication_error" kindref="compound">AuthenticationError</ref>, or <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error" kindref="compound">SocialPublishingError</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="219" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a84262b4adb38cc036235e6f973b922fe" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mType</definition>
+        <argsstring></argsstring>
+        <name>mType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A String representation of the type of error. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="224" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a474571c8d09a3a86c739856bf3adbc91" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mMessage</definition>
+        <argsstring></argsstring>
+        <name>mMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A human readable message describing the error. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="229" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1aa1fdc5d484d4ef146caf59088cd63a63" prot="private" static="no" mutable="no">
+        <type>Throwable</type>
+        <definition>Throwable mCause</definition>
+        <argsstring></argsstring>
+        <name>mCause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A Throwable (frequently an IOException subtype) that precipitated the error. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="234" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Getters</header>
+      <description><para>Getters for JREngageError&apos;s private properties. </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a8361b009dd85dd991e5e684d648ffabf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getCode</definition>
+        <argsstring>()</argsstring>
+        <name>getCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the mCode property. <simplesect kind="return"><para>The error code </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="260" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="260" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a68adac94351807681f1b2828b9c68734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the mType property. <simplesect kind="return"><para>The error type </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="268" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="268" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1afafd068b736520af1e24269a284980a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getMessage</definition>
+        <argsstring>()</argsstring>
+        <name>getMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the mMessage property. <simplesect kind="return"><para>The human readable error message </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="276" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="276" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a251906299c0912286a8fbae1eb232dcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Throwable</type>
+        <definition>Throwable getException</definition>
+        <argsstring>()</argsstring>
+        <name>getException</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the mCause property. <simplesect kind="return"><para>The Throwable which precipitated the error </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="284" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="284" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1aca91ab5b7feb80edb463577fda5d2dbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean hasException</definition>
+        <argsstring>()</argsstring>
+        <name>hasException</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the error was precipitated by an Exception </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="291" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="291" bodyend="293"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a5d0e96578d3b58cac95214fac3c245d1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int CODE_UNKNOWN</definition>
+        <argsstring></argsstring>
+        <name>CODE_UNKNOWN</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="39" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1ae4451919f716c2d2c274b0d2b2d9104e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JREngageError</definition>
+        <argsstring>(String message, int code, String type)</argsstring>
+        <name>JREngageError</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="237" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="237" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a3e557172a9c2da6a96351bbd29ce1f8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JREngageError</definition>
+        <argsstring>(String message, int code, String type, Throwable cause)</argsstring>
+        <name>JREngageError</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>Throwable</type>
+          <declname>cause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="243" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="243" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A representation of an error encountered by the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> library. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="38" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="38" bodyend="295"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a5d0e96578d3b58cac95214fac3c245d1" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>CODE_UNKNOWN</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a8361b009dd85dd991e5e684d648ffabf" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>getCode</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a251906299c0912286a8fbae1eb232dcb" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>getException</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1afafd068b736520af1e24269a284980a9" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>getMessage</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a68adac94351807681f1b2828b9c68734" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>getType</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1aca91ab5b7feb80edb463577fda5d2dbb" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>hasException</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1ae4451919f716c2d2c274b0d2b2d9104e" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>JREngageError</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a3e557172a9c2da6a96351bbd29ce1f8b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>JREngageError</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1aa1fdc5d484d4ef146caf59088cd63a63" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>mCause</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1adc00833722df4f26a365c53a43a04631" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>mCode</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a474571c8d09a3a86c739856bf3adbc91" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>mMessage</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a84262b4adb38cc036235e6f973b922fe" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError</scope><name>mType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+	<item android:id="@+id/delete"
+		android:icon="@drawable/ic_menu_trash"
+		android:title="Delete" 
+	/>
+	
+	<item android:id="@+id/map"
+		android:icon="@drawable/ic_menu_map"
+		android:title="Show on Map" />
+		
+		
+	<item android:id="@+id/unread"
+		android:icon="@drawable/ic_menu_span"
+		android:title="Mark as Unread" />
+		
+	<item android:id="@+id/repost"
+		android:icon="@drawable/ic_menu_repost"
+		android:title="Repost Mark" />
+	
+</menu>

@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::types::JRFlashMediaObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JRMediaObject</basecompoundref>
+      <sectiondef kind="user-defined">
+      <header>Private Attributes</header>
+      <description><para>The various properties of the flash media object that you can access and configure through the object&apos;s constructor, getters, and setters </para></description>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a9b17f35d97f72efb09e749a042dfde9f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mSwfSrc</definition>
+        <argsstring></argsstring>
+        <name>mSwfSrc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The URL of the Flash object to be rendered.</para><para><simplesect kind="par"><title>Getter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ae7f94344f09b598d41a30f2037d4adf0" kindref="member">getSwfSrc()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="77" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a41b79808af056e6c361bf90129f2f9e9" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mImgSrc</definition>
+        <argsstring></argsstring>
+        <name>mImgSrc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The URL of an photo that should be displayed in place of the flash object.</para><para><simplesect kind="par"><title>Getter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a328eb639ec47e6998651863dba8df1ee" kindref="member">getImgSrc()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="85" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ae36b625839b797b566a7231a82df6457" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer mWidth</definition>
+        <argsstring></argsstring>
+        <name>mWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Used to override the default width.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1aaea5f36f63d6c8ff03ce8f69df432cd0" kindref="member">getWidth()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a8b4c8bccc530aa0a9b0139e04913af32" kindref="member">setWidth()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="93" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a59a7d547fd72f4019c3b9fa46e9a593c" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer mHeight</definition>
+        <argsstring></argsstring>
+        <name>mHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Used to override the default height.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a7929f15a32dafdfeff0f80c0f94110b3" kindref="member">getHeight()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a7013185ad2825ade83994b396c4fdfcd" kindref="member">setHeight()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="101" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a6ff6da0e3a536fc50e5d576260ab3801" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer mExpandedWidth</definition>
+        <argsstring></argsstring>
+        <name>mExpandedWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Width the video will resize to once the user clicks it.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a51a1157689e6ab8924122ab926017107" kindref="member">getExpandedWidth()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ac00b039224f01f568a1633e339310329" kindref="member">setExpandedWidth()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="109" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ad2e3a8e0e5eaab7e8e9480eae81ee5b8" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer mExpandedHeight</definition>
+        <argsstring></argsstring>
+        <name>mExpandedHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Height the video will resize to once the user clicks it.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a7627932d624e9c2a468ceb66ef96e0f4" kindref="member">getExpandedHeight()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a55ac98e9566ed6ee286122a3b05bf9cc" kindref="member">setExpandedHeight()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="117" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Constructors</header>
+      <description><para>Constructor for flash media object </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a6517406c8905055f31f287bb63a94b8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JRFlashMediaObject</definition>
+        <argsstring>(String swfSrc, String imgSrc)</argsstring>
+        <name>JRFlashMediaObject</name>
+        <param>
+          <type>String</type>
+          <declname>swfSrc</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>imgSrc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object" kindref="compound">JRFlashMediaObject</ref> initialized with the given swfSrc and imgSrc.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>swfSrc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL of the Flash object to be rendered. This value cannot be null</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>imgSrc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL of an photo that should be displayed in place of the flash object. This value cannot be null</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IllegalArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if swfSrc or imgSrc is null </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="145" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="145" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Getters/Setters</header>
+      <description><para>Getters and setters for the flash media object&apos;s private properties </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ae7f94344f09b598d41a30f2037d4adf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getSwfSrc</definition>
+        <argsstring>()</argsstring>
+        <name>getSwfSrc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the flash object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a9b17f35d97f72efb09e749a042dfde9f" kindref="member">mSwfSrc</ref> property.</para><para><simplesect kind="return"><para>The URL of the Flash object to be rendered </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="163" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="163" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a328eb639ec47e6998651863dba8df1ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getImgSrc</definition>
+        <argsstring>()</argsstring>
+        <name>getImgSrc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the flash object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a41b79808af056e6c361bf90129f2f9e9" kindref="member">mImgSrc</ref> property.</para><para><simplesect kind="return"><para>The URL of an photo that should be displayed in place of the flash object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="173" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="173" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1aaea5f36f63d6c8ff03ce8f69df432cd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the flash object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ae36b625839b797b566a7231a82df6457" kindref="member">mWidth</ref> property.</para><para><simplesect kind="return"><para>Used to override the default width </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="183" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="183" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a8b4c8bccc530aa0a9b0139e04913af32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setWidth</definition>
+        <argsstring>(int width)</argsstring>
+        <name>setWidth</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the flash object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ae36b625839b797b566a7231a82df6457" kindref="member">mWidth</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Used to override the default width </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="193" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="193" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a7929f15a32dafdfeff0f80c0f94110b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the flash object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a59a7d547fd72f4019c3b9fa46e9a593c" kindref="member">mHeight</ref> property.</para><para><simplesect kind="return"><para>Used to override the default height </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="203" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="203" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a7013185ad2825ade83994b396c4fdfcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setHeight</definition>
+        <argsstring>(int height)</argsstring>
+        <name>setHeight</name>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the flash object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a59a7d547fd72f4019c3b9fa46e9a593c" kindref="member">mHeight</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Used to override the default height </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="213" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="213" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a51a1157689e6ab8924122ab926017107" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer getExpandedWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getExpandedWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the flash object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a6ff6da0e3a536fc50e5d576260ab3801" kindref="member">mExpandedWidth</ref> property.</para><para><simplesect kind="return"><para>Width the video will resize to once the user clicks it </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="223" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="223" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ac00b039224f01f568a1633e339310329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setExpandedWidth</definition>
+        <argsstring>(int expandedWidth)</argsstring>
+        <name>setExpandedWidth</name>
+        <param>
+          <type>int</type>
+          <declname>expandedWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the flash object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a6ff6da0e3a536fc50e5d576260ab3801" kindref="member">mExpandedWidth</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>expandedWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width the video will resize to once the user clicks it </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="233" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="233" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a7627932d624e9c2a468ceb66ef96e0f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer getExpandedHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getExpandedHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the flash object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ad2e3a8e0e5eaab7e8e9480eae81ee5b8" kindref="member">mExpandedHeight</ref> property.</para><para><simplesect kind="return"><para>Height the video will resize to once the user clicks it </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="243" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="243" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a55ac98e9566ed6ee286122a3b05bf9cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setExpandedHeight</definition>
+        <argsstring>(int expandedHeight)</argsstring>
+        <name>setExpandedHeight</name>
+        <param>
+          <type>int</type>
+          <declname>expandedHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the flash object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ad2e3a8e0e5eaab7e8e9480eae81ee5b8" kindref="member">mExpandedHeight</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>expandedHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Height the video will resize to once the user clicks it </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="253" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="253" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1aaa43036003a51a54dd2cae740b7b2fde" prot="private" static="no" mutable="no">
+        <type>transient Bitmap</type>
+        <definition>transient Bitmap mPreview</definition>
+        <argsstring></argsstring>
+        <name>mPreview</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="126" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1aa35d8f551eaf3515c78e7493c5f02ee7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bitmap</type>
+        <definition>Bitmap getPreview</definition>
+        <argsstring>()</argsstring>
+        <name>getPreview</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="258" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="258" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a25540df8a46ce2c9df1cab038150f983" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setPreview</definition>
+        <argsstring>(Bitmap preview)</argsstring>
+        <name>setPreview</name>
+        <param>
+          <type>Bitmap</type>
+          <declname>preview</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="262" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="262" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1aced99e4192a47fe0592231db2e10f27c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean hasThumbnail</definition>
+        <argsstring>()</argsstring>
+        <name>hasThumbnail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="267" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="267" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ac086e95fc7fdfe34853c5bcf18ba62a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getThumbnail</definition>
+        <argsstring>()</argsstring>
+        <name>getThumbnail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="273" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="273" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a68adac94351807681f1b2828b9c68734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="278" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="278" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a985a1b0429a8a359a4783c7409b91e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>JRDictionary toJRDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>toJRDictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="283" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="283" bodyend="295"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Flash object to be included in a post to a user&apos;s stream. </para>    </briefdescription>
+    <detaileddescription>
+<para>Create an flash media object, fill in the object&apos;s fields, and add the object to the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3d89cbb011a9839da0b559556acad5f3" kindref="member">JRActivityObject.mMedia</ref> array in your <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref>. How the flash videos get presented and whether or not they are used, depend on the provider.</para><para>Each video must contain a <emphasis>swfSrc</emphasis> url, which is the URL of the Flash object to be rendered, and an <emphasis>imgSrc</emphasis>, which is the URL of an photo that should be displayed in place of the flash object until the user clicks to prompt the flash object to play. Flash object has two optional fields, <emphasis>width</emphasis> and <emphasis>height</emphasis>, which can be used to override the default choices when displaying the video in the provider&apos;s stream (e.g., Facebook&apos;s stream). It also has two optional fields, <emphasis>expanded_width</emphasis> and <emphasis>expanded_height</emphasis>, to specify the width and height of flash object will resize to, on the provider&apos;s stream, once the user clicks on it.</para><para><simplesect kind="note"><para>You can only include one <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object" kindref="compound">JRFlashMediaObject</ref> in the media array. Any others will be ignored.</para></simplesect>
+<simplesect kind="see"><para>Format and rules are identical to those described on the <ulink url="http://developers.facebook.com/docs/guides/attachments">Facebook Developer page on Attachments</ulink>. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" line="64" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRFlashMediaObject.java" bodystart="64" bodyend="296"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1a69a942495a0864024e78ba629b005b41" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>downloadThumbnail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a7627932d624e9c2a468ceb66ef96e0f4" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>getExpandedHeight</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a51a1157689e6ab8924122ab926017107" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>getExpandedWidth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a7929f15a32dafdfeff0f80c0f94110b3" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>getHeight</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a328eb639ec47e6998651863dba8df1ee" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>getImgSrc</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1aa35d8f551eaf3515c78e7493c5f02ee7" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>getPreview</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ae7f94344f09b598d41a30f2037d4adf0" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>getSwfSrc</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ac086e95fc7fdfe34853c5bcf18ba62a6" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>getThumbnail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a68adac94351807681f1b2828b9c68734" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>getType</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1aaea5f36f63d6c8ff03ce8f69df432cd0" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>getWidth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1aced99e4192a47fe0592231db2e10f27c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>hasThumbnail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a6517406c8905055f31f287bb63a94b8a" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>JRFlashMediaObject</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ad2e3a8e0e5eaab7e8e9480eae81ee5b8" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>mExpandedHeight</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a6ff6da0e3a536fc50e5d576260ab3801" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>mExpandedWidth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a59a7d547fd72f4019c3b9fa46e9a593c" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>mHeight</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a41b79808af056e6c361bf90129f2f9e9" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>mImgSrc</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1aaa43036003a51a54dd2cae740b7b2fde" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>mPreview</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a9b17f35d97f72efb09e749a042dfde9f" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>mSwfSrc</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ae36b625839b797b566a7231a82df6457" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>mWidth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a55ac98e9566ed6ee286122a3b05bf9cc" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>setExpandedHeight</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1ac00b039224f01f568a1633e339310329" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>setExpandedWidth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a7013185ad2825ade83994b396c4fdfcd" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>setHeight</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a25540df8a46ce2c9df1cab038150f983" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>setPreview</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a8b4c8bccc530aa0a9b0139e04913af32" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>setWidth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object_1a985a1b0429a8a359a4783c7409b91e3a" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRFlashMediaObject</scope><name>toJRDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

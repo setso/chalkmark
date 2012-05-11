@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--
+       - Bordered box/container.
+       -
+       - TODO:  Layout is filling vertically and not centered in landscape mode.
+      -->
+    <LinearLayout
+        android:id="@+id/jr_landing_dialog"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/jr_landing_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            />
+
+        <EditText
+            android:id="@+id/jr_landing_edit"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+
+            android:singleLine="true"
+            android:textColorHint="@color/jr_text_color_hint"
+            />
+
+
+        <TextView
+            android:id="@+id/jr_landing_welcome_label"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+
+            android:singleLine="true"
+            android:textSize="26dip"
+            />
+
+        <LinearLayout
+            android:id="@+id/jr_landing_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/jr_landing_switch_account_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+
+                android:text="@string/jr_landing_switch_account_button_text"
+                android:visibility="invisible"
+                style="?android:textAppearanceSmall"
+                />
+
+            <com.janrain.android.engage.ui.ColorButton
+                android:id="@+id/jr_landing_small_signin_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+
+                android:text="@string/jr_landing_signin_button_text"
+                android:visibility="visible"
+                style="?android:textAppearanceLarge"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/jr_shared_footer" />
+
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff" >
+	
+	<LinearLayout
+	    android:id="@+id/buttons"
+		android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+		android:layout_marginTop="5dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+		
+		<Button android:id="@+id/people"
+			android:textSize="16sp" 
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:text="Select Friends" 
+			android:layout_weight="19.02">
+		</Button>
+		
+		<LinearLayout android:id="@+id/list1"
+			android:layout_width="wrap_content" 
+			android:layout_weight="1" 
+			android:layout_height="40dp" >
+			
+			<ImageView android:id="@+id/camera"
+				android:src="@drawable/button_include_photo" 
+				android:layout_width="fill_parent" 
+				android:gravity="center|center_vertical"
+			    android:orientation="horizontal" 
+			    android:layout_height="35dp" 
+			    android:layout_gravity="center">
+			</ImageView>
+				
+		</LinearLayout>	
+	
+	</LinearLayout>
+			
+	<LinearLayout
+	    android:id="@+id/textitems"
+		android:layout_below="@id/buttons"	
+		android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <EditText android:id="@+id/subject"
+    		android:layout_width="200dp" 
+    		android:layout_height="60dp"
+    		android:hint="Short Message Summary"
+    		android:textSize="16sp" 
+    	/>
+    	
+	    <EditText android:id="@+id/body"
+	    	 android:textSize="16sp" 
+	    	 android:layout_width="fill_parent" 
+	    	 android:layout_height="60dp"
+	    	 android:hint="Type full message details here to be received on location" >
+	    </EditText>
+    	
+	</LinearLayout>
+					
+			
+	<LinearLayout
+	    android:id="@+id/progressitems"
+		android:layout_below="@id/textitems"	
+		android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+			
+		<TextView android:id="@+id/progress" 
+			android:layout_height="wrap_content"
+			android:layout_width="200dp" 
+			android:text="Expiration 25 days"
+			android:textSize="18sp"
+			android:layout_alignParentLeft="true" >
+		</TextView>
+		
+		
+		<SeekBar android:id="@+id/seekbar" 
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent" 
+			android:max="51" 
+			android:progress="25"
+			android:focusable="true" 
+			android:contentDescription="Expiration" >
+		</SeekBar>
+		
+	</LinearLayout>
+			
+	<TextView android:id="@+id/radius" 
+		android:layout_below="@id/progressitems"
+		android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:text="Pick-Up Radius: 1000 yards"
+		android:textSize="18sp"
+		android:layout_alignParentLeft="true" >
+	</TextView>
+	
+	
+	<SeekBar android:id="@+id/seekbar2" 
+		android:layout_below="@id/radius"
+		android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:max="1760" 
+		android:progress="1000"
+		android:focusable="true" 
+		android:contentDescription="Radius" >
+	</SeekBar>
+			
+	<LinearLayout
+	    android:id="@+id/mbuttons"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal" 
+	    android:gravity="center"
+	    android:layout_height="wrap_content" 
+	    android:layout_marginLeft="10px"
+	    android:layout_marginRight="10px"
+	    android:layout_marginBottom="5px"
+	    android:layout_alignParentBottom="true">
+	    
+		<LinearLayout
+		    android:id="@+id/b1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:orientation="horizontal"
+		    android:layout_weight="1">
+		    <Button android:id="@+id/cancel"
+		    	android:text="Cancel" 
+		    	android:textColor="#000000" 
+		    	android:textSize="16sp"  
+		    	android:padding="2dp" 
+		    	android:layout_height="wrap_content" 
+		    	android:layout_width="wrap_content" 
+		    	android:layout_weight="1" 
+		    	android:gravity="center|center_horizontal">
+		    </Button>
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/b2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:orientation="horizontal"
+		    android:layout_weight="1">
+		    <Button android:id="@+id/drop" 
+		    	android:gravity="center" 
+		    	android:text="Submit" 
+		    	android:textColor="#000000" 
+		    	android:textSize="16sp" 
+		    	android:padding="2dp" 
+		    	android:layout_height="wrap_content" 
+		    	android:layout_width="wrap_content" 
+		    	android:layout_weight="1">
+		    </Button>
+		</LinearLayout>
+		
+	</LinearLayout> 
+	
+</RelativeLayout>
+

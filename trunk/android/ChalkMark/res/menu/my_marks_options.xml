@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#ffffff" >
+		
+	<item android:id="@+id/sign_off"
+		android:title="Sign Off" 
+		android:icon="@drawable/ic_menu_signout" />
+		
+	<item android:id="@+id/refresh"
+		android:title="Refresh Map"
+		android:icon="@drawable/ic_menu_refresh" />
+		
+	<item android:id="@+id/span"
+		android:title="Zoom to Span"
+		android:icon="@drawable/ic_menu_span" />
+
+	<item android:id="@+id/here"
+		android:title="Drop on My Loc"
+		android:icon="@drawable/ic_menu_myloc" />
+
+	<item android:id="@+id/mine"
+		android:title="Show From Me"
+		android:icon="@drawable/ic_menu_showmine" />
+		
+	<item android:id="@+id/hidemine"
+		android:title="Hide From Me"
+		android:icon="@drawable/ic_menu_hidemine" />
+	
+</menu>

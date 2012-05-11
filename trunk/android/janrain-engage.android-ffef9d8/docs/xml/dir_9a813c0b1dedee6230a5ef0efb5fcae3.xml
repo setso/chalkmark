@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="dir_9a813c0b1dedee6230a5ef0efb5fcae3" kind="dir">
+    <compoundname>/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/</compoundname>
+    <innerfile refid="_j_r_authenticated_user_8java">JRAuthenticatedUser.java</innerfile>
+    <innerfile refid="_j_r_provider_8java">JRProvider.java</innerfile>
+    <innerfile refid="_j_r_session_8java">JRSession.java</innerfile>
+    <innerfile refid="_j_r_session_delegate_8java">JRSessionDelegate.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/"/>
+  </compounddef>
+</doxygen>

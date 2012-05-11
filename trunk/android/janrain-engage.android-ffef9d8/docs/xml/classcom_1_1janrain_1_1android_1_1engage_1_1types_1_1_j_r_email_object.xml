@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::types::JREmailObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="user-defined">
+      <header>Private Attributes</header>
+      <description><para>The various properties of the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kindref="compound">JREmailObject</ref> that you can access and configure through the object&apos;s constructor and getters </para></description>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a19f1dff35df3fbabce86adea0b90fffc" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mSubject</definition>
+        <argsstring></argsstring>
+        <name>mSubject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The pre-composed subject of the email.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a37c754e78ee57cba705ef0660f0a0e26" kindref="member">getSubject()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a39f0298f055f0b78ad2ac781d38f326f" kindref="member">setSubject()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="64" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1ace7af73cf1ec9b97f73ac9badb12c321" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mBody</definition>
+        <argsstring></argsstring>
+        <name>mBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The pre-composed body of the email.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1aff2f2ca4042b71a1c005ef33d796073f" kindref="member">getBody()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1aafa2e1148f40b8c77b01e849324620ce" kindref="member">setBody()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="72" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a927dee6b6e7145029fe7bcc3a3bd19e0" prot="private" static="no" mutable="no">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; mUrls</definition>
+        <argsstring></argsstring>
+        <name>mUrls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The list of URLs found in the body that are to be shortened.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a3fe96da2a85dff14969500fa13159121" kindref="member">getUrls()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a744f055478816813bc41d7db2979430f" kindref="member">setUrls()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1ab482a851576f3766af32a2988ca25f59" kindref="member">addUrl()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="80" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Constructors</header>
+      <description><para>Constructors for the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kindref="compound">JREmailObject</ref> </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a1d9a3cdeb592ba75d95b14ab6d2abbda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JREmailObject</definition>
+        <argsstring>()</argsstring>
+        <name>JREmailObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an empty email object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="98" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a3198347307e17cd38fe6cd00ba6eb253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JREmailObject</definition>
+        <argsstring>(String subject, String body)</argsstring>
+        <name>JREmailObject</name>
+        <param>
+          <type>String</type>
+          <declname>subject</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an email object with a given subject and body.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>subject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The email&apos;s subject line, passed to the device&apos;s email application</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The email&apos;s body, which will be appended to the user&apos;s comment and passed to the device&apos;s email application. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="112" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="112" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Getters/Setters</header>
+      <description><para>Getters for the JREmailObject&apos;s private properties </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a37c754e78ee57cba705ef0660f0a0e26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getSubject</definition>
+        <argsstring>()</argsstring>
+        <name>getSubject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the email object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a19f1dff35df3fbabce86adea0b90fffc" kindref="member">mSubject</ref> property.</para><para><simplesect kind="return"><para>The subject of the email </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="148" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="148" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a39f0298f055f0b78ad2ac781d38f326f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setSubject</definition>
+        <argsstring>(String subject)</argsstring>
+        <name>setSubject</name>
+        <param>
+          <type>String</type>
+          <declname>subject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the email object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a19f1dff35df3fbabce86adea0b90fffc" kindref="member">mSubject</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>subject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The subject of the email </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="158" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="158" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1aff2f2ca4042b71a1c005ef33d796073f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getBody</definition>
+        <argsstring>()</argsstring>
+        <name>getBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the email object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1ace7af73cf1ec9b97f73ac9badb12c321" kindref="member">mBody</ref> property.</para><para><simplesect kind="return"><para>The body of the email </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="168" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="168" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1aafa2e1148f40b8c77b01e849324620ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setBody</definition>
+        <argsstring>(String body)</argsstring>
+        <name>setBody</name>
+        <param>
+          <type>String</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the email object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1ace7af73cf1ec9b97f73ac9badb12c321" kindref="member">mBody</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The body of the email </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="178" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="178" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a3fe96da2a85dff14969500fa13159121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; getUrls</definition>
+        <argsstring>()</argsstring>
+        <name>getUrls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the email object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a927dee6b6e7145029fe7bcc3a3bd19e0" kindref="member">mUrls</ref> property, a list of URLs to be shortened.</para><para><simplesect kind="return"><para>An immutable list of URLs to be shortened </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="188" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="188" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a744f055478816813bc41d7db2979430f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setUrls</definition>
+        <argsstring>(List&lt; String &gt; urls)</argsstring>
+        <name>setUrls</name>
+        <param>
+          <type>List&lt; String &gt;</type>
+          <declname>urls</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the email object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a927dee6b6e7145029fe7bcc3a3bd19e0" kindref="member">mUrls</ref> property, a list of URLs to be shortened. Each of these URLs will be shortened to an rpx.me URL, which tracks click-throughs, and provides analytics. Once shortened, the Engage for Android library will substitute the shortened version for the original long version for each URL found in the body of the email.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>urls</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The email object&apos;s list of URLs to be shortened, not more than five URLs </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="201" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="201" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1ab482a851576f3766af32a2988ca25f59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void addUrl</definition>
+        <argsstring>(String url)</argsstring>
+        <name>addUrl</name>
+        <param>
+          <type>String</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a single URL to the list of URLs to shorten.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL to add to the list of URLs to shorten </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="215" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="215" bodyend="221"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a23071d8a9b9a7c8c2f17095e4b87e217" prot="private" static="no" mutable="no">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; mShortUrls</definition>
+        <argsstring></argsstring>
+        <name>mShortUrls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="88" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1af25e20b23d3c51764e32fb991d5f63b1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setShortUrls</definition>
+        <argsstring>(List&lt; String &gt; shortUrls)</argsstring>
+        <name>setShortUrls</name>
+        <param>
+          <type>List&lt; String &gt;</type>
+          <declname>shortUrls</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="128" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="128" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Object containing content to be shared by email. </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kindref="compound">JREmailObject</ref> is a simple container object for a pre-composed email to be attached to a <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref>.</para><para>Instantiate a new <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kindref="compound">JREmailObject</ref> with a subject and a body. Optionally, add a list of URLs from the body and Engage will automatically shorten them, track click-throughs, and provide analytics on your dashboard. </para>    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" line="51" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JREmailObject.java" bodystart="51" bodyend="223"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1ab482a851576f3766af32a2988ca25f59" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>addUrl</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1aff2f2ca4042b71a1c005ef33d796073f" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>getBody</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a37c754e78ee57cba705ef0660f0a0e26" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>getSubject</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a3fe96da2a85dff14969500fa13159121" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>getUrls</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a1d9a3cdeb592ba75d95b14ab6d2abbda" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>JREmailObject</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a3198347307e17cd38fe6cd00ba6eb253" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>JREmailObject</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1ace7af73cf1ec9b97f73ac9badb12c321" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>mBody</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a23071d8a9b9a7c8c2f17095e4b87e217" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>mShortUrls</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a19f1dff35df3fbabce86adea0b90fffc" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>mSubject</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a927dee6b6e7145029fe7bcc3a3bd19e0" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>mUrls</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1aafa2e1148f40b8c77b01e849324620ce" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>setBody</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1af25e20b23d3c51764e32fb991d5f63b1" prot="package" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>setShortUrls</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a39f0298f055f0b78ad2ac781d38f326f" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>setSubject</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object_1a744f055478816813bc41d7db2979430f" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JREmailObject</scope><name>setUrls</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="textSizeLarge">27sp</dimen>
+    <dimen name="textSizeMedium">21sp</dimen>
+    <dimen name="textSizeStoryTitle">18sp</dimen>
+    <dimen name="textSizeStoryDescription">16dip</dimen>
+    <dimen name="listIconSize">80dp</dimen>
+    <dimen name="fragmentImageWidth">750px</dimen>
+</resources>

@@ -1,0 +1,795 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::types::JRDictionary</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">java::util::HashMap&lt; String, Object &gt;</basecompoundref>
+      <sectiondef kind="user-defined">
+      <header>JSON Serialization</header>
+      <description><para>Methods that serialize/deserialize the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref> to/from JSON </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a693608dec873ba750e1bf45f50d81817" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String toJSON</definition>
+        <argsstring>()</argsstring>
+        <name>toJSON</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encodes the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref> into a JSON string.</para><para><simplesect kind="return"><para>JSON representation of the specified <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref> object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="79" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="79" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a6d1e53c79bf2c04fa81079f01b301016" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>static JRDictionary fromJSON</definition>
+        <argsstring>(String json)</argsstring>
+        <name>fromJSON</name>
+        <param>
+          <type>String</type>
+          <declname>json</declname>
+        </param>
+        <exceptions> throws JSONException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decodes the JSON string into a <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref> instance.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>json</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The JSON string to be decoded.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref> object representation of the JSON string</para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>JSONException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>When the JSON couldn&apos;t be parsed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="102" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="102" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Getting Dictionary Content</header>
+      <description><para>Methods that return typed values given a <emphasis>String</emphasis> key </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1aa658996dc3ad784535daf3c877006496" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getAsString</definition>
+        <argsstring>(String key)</argsstring>
+        <name>getAsString</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method used to retrieve a named value as a <emphasis>String</emphasis> object.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key of the value to be retrieved</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <emphasis>String</emphasis> object if found, empty string otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="257" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="257" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1af532552e3bacf033ede4b38388575763" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getAsString</definition>
+        <argsstring>(String key, String defaultValue)</argsstring>
+        <name>getAsString</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method used to retrieve a named value as a <emphasis>String</emphasis> object.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key of the value to be retrieved</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be returned if the key is not found</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <emphasis>String</emphasis> value if found, value of <emphasis>defaultValue</emphasis> otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="273" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="273" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1ac63bf7999f4c6cd32eff4bb21dd41eae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getAsInt</definition>
+        <argsstring>(String key)</argsstring>
+        <name>getAsInt</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method used to retrieve a named value as an <emphasis>int</emphasis>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key of the value to be retrieved</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <emphasis>int</emphasis> value if found, <computeroutput>-1</computeroutput> otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="286" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="286" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1aee5a70494e7163fa1cdee66df51b90ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getAsInt</definition>
+        <argsstring>(String key, int defaultValue)</argsstring>
+        <name>getAsInt</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method used to retrieve a named value as an <emphasis>int</emphasis>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key of the value to be retrieved</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be returned if the key is not found</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <emphasis>int</emphasis> value if found, value of <emphasis>defaultValue</emphasis> otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="302" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="302" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a21316c4269c7b15e172aa48e1c7dc883" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean getAsBoolean</definition>
+        <argsstring>(String key)</argsstring>
+        <name>getAsBoolean</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method used to retrieve a named value as a <emphasis>boolean</emphasis>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key of the value to be retrieved</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <emphasis>boolean</emphasis> value if found, <computeroutput>false</computeroutput> otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="331" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="331" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a983d6d591c054d5c6fc0cd359f584d04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean getAsBoolean</definition>
+        <argsstring>(String key, boolean defaultValue)</argsstring>
+        <name>getAsBoolean</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method used to retrieve a named value as a <emphasis>boolean</emphasis>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key of the value to be retrieved</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be returned if the key is not found</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <emphasis>boolean</emphasis> value if found, value of <emphasis>defaultValue</emphasis> otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="347" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="347" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a21cc44cc5264cee8252891600b28e669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>JRDictionary getAsDictionary</definition>
+        <argsstring>(String key)</argsstring>
+        <name>getAsDictionary</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method used to retrieve a named value as a <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key of the value to be retrieved</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref> value if key is found, null otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="370" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="370" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a755a04e077b2d3fa3a873291a88bc5ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>JRDictionary getAsDictionary</definition>
+        <argsstring>(String key, boolean shouldCreateIfNotFound)</argsstring>
+        <name>getAsDictionary</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>shouldCreateIfNotFound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method used to retrieve a named value as a <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key of the value to be retrieved</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shouldCreateIfNotFound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag indicating whether or not a new <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref> object should be created if the specified key does not exist</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref> value if key is found, empty object or null otherwise (based on value of the <emphasis>shouldCreateIfNotFound</emphasis> flag) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="388" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="388" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1aba6c601cd9f8eca420682dfffae8aaf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; getAsListOfStrings</definition>
+        <argsstring>(String key)</argsstring>
+        <name>getAsListOfStrings</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method used to retrieve a named value as an array of strings.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key of the value to be retrieved</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <emphasis>ArrayList&lt;String&gt;</emphasis> value if key is found, null otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="411" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="411" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1afec71e1565a79ca196c3c5411eb4f136" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; getAsListOfStrings</definition>
+        <argsstring>(String key, boolean shouldCreateIfNotFound)</argsstring>
+        <name>getAsListOfStrings</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>shouldCreateIfNotFound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method used to retrieve a named value as an array of strings.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key of the value to be retrieved</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shouldCreateIfNotFound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag indicating whether or not a new <emphasis>ArrayList&lt;String&gt;</emphasis> object should be created if the specified key does not exist</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <emphasis>ArrayList&lt;String&gt;</emphasis> value if key is found, empty array or null otherwise (based on value of the <emphasis>shouldCreateIfNotFound</emphasis> flag) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="433" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="433" bodyend="446"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Miscellaneous</header>
+      <description><para>Miscellaneous methods </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a9f1e3128dfb718f3c73be956f1c9fa63" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean isEmpty</definition>
+        <argsstring>(JRDictionary dictionary)</argsstring>
+        <name>isEmpty</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+          <declname>dictionary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Utility method used to check if a dictionary object is &quot;empty&quot;, that is, it is null or contains zero items</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dictionary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The dictionary object to be tested</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the dictionary is null or contains zero items, <computeroutput>false</computeroutput> otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="487" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="487" bodyend="489"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a868d785d9acf2c64430719d6f46a5cee" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String DEFAULT_VALUE_STRING</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_VALUE_STRING</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="62" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a87a25aef84ef8c1dbe0c07aa6e09ce22" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int DEFAULT_VALUE_INT</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_VALUE_INT</name>
+        <initializer> -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="63" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1ac10d4b03c7463f3b1322475f8eef3d98" prot="public" static="yes" mutable="no">
+        <type>final boolean</type>
+        <definition>final boolean DEFAULT_VALUE_BOOLEAN</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_VALUE_BOOLEAN</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="64" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer> JRDictionary.class.getSimpleName()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="66" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1aea3476646ca042dd082f73e0070469d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object put</definition>
+        <argsstring>(String key, Object value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="188" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="188" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1ad3453fc513746169422b55f2505c26d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void putAll</definition>
+        <argsstring>(Map&lt;?extends String,?&gt; map)</argsstring>
+        <name>putAll</name>
+        <param>
+          <type>Map&lt;?extends String,?&gt;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="202" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a512e4134fb793ed11fa380f7973d8531" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object put</definition>
+        <argsstring>(String key, String value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="207" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="207" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a28ede8e20620e3c896eeffad4d1ff3b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object put</definition>
+        <argsstring>(String key, Integer value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="211" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="211" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1aef8b1235c991781fabc56719d1d1f55d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object put</definition>
+        <argsstring>(String key, Long value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>Long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="215" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="215" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a89d88ec2ba42a10e1d9d3ca530eec24a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object put</definition>
+        <argsstring>(String key, Double value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>Double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="219" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="219" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a2dcafb44c326b3d4a8b90a2979c2233d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object put</definition>
+        <argsstring>(String key, JRDictionary value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="223" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="223" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a119a39174a4e931f3e2c1667304a77ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object put</definition>
+        <argsstring>(String key, Object[] value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>Object[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="227" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="227" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a5f9c662d1686e799935834f5cf336259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object put</definition>
+        <argsstring>(String key, Boolean value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>Boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="231" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="231" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1ab2180ad1176368ec105ebd4f4cb4ab19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object put</definition>
+        <argsstring>(String key, Collection value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>Collection</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="235" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="235" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a4d73e6eb5deac61d3418e330ae5b75b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object put</definition>
+        <argsstring>(String key, JRJsonifiable value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>JRJsonifiable</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="239" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="239" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1abfc2e2a58233fbafaf0f656ea1605159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JRProvider</type>
+        <definition>JRProvider getAsProvider</definition>
+        <argsstring>(String key)</argsstring>
+        <name>getAsProvider</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="459" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="459" bodyend="469"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1afa0caf1438682f87ec8aab62c382f426" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jsonify</definition>
+        <argsstring>(Object object, JSONStringer jsonStringer)</argsstring>
+        <name>jsonify</name>
+        <param>
+          <type>Object</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>JSONStringer</type>
+          <declname>jsonStringer</declname>
+        </param>
+        <exceptions> throws JSONException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="115" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="115" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a696abd3fb84b7626fdd0bed194fff8cd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>static Object unjsonify</definition>
+        <argsstring>(Object jsonValue)</argsstring>
+        <name>unjsonify</name>
+        <param>
+          <type>Object</type>
+          <declname>jsonValue</declname>
+        </param>
+        <exceptions> throws JSONException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="150" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="150" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A dictionary that maps <emphasis>String</emphasis> keys to values of different types. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" line="61" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRDictionary.java" bodystart="61" bodyend="491"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1ac10d4b03c7463f3b1322475f8eef3d98" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>DEFAULT_VALUE_BOOLEAN</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a87a25aef84ef8c1dbe0c07aa6e09ce22" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>DEFAULT_VALUE_INT</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a868d785d9acf2c64430719d6f46a5cee" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>DEFAULT_VALUE_STRING</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a6d1e53c79bf2c04fa81079f01b301016" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>fromJSON</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a21316c4269c7b15e172aa48e1c7dc883" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsBoolean</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a983d6d591c054d5c6fc0cd359f584d04" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsBoolean</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a21cc44cc5264cee8252891600b28e669" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsDictionary</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a755a04e077b2d3fa3a873291a88bc5ca" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsDictionary</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1ac63bf7999f4c6cd32eff4bb21dd41eae" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsInt</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1aee5a70494e7163fa1cdee66df51b90ae" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsInt</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1aba6c601cd9f8eca420682dfffae8aaf3" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsListOfStrings</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1afec71e1565a79ca196c3c5411eb4f136" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsListOfStrings</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1abfc2e2a58233fbafaf0f656ea1605159" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsProvider</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1aa658996dc3ad784535daf3c877006496" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsString</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1af532552e3bacf033ede4b38388575763" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>getAsString</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a9f1e3128dfb718f3c73be956f1c9fa63" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>isEmpty</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1afa0caf1438682f87ec8aab62c382f426" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>jsonify</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1aea3476646ca042dd082f73e0070469d0" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>put</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a512e4134fb793ed11fa380f7973d8531" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>put</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a28ede8e20620e3c896eeffad4d1ff3b3" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>put</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1aef8b1235c991781fabc56719d1d1f55d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>put</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a89d88ec2ba42a10e1d9d3ca530eec24a" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>put</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a2dcafb44c326b3d4a8b90a2979c2233d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>put</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a119a39174a4e931f3e2c1667304a77ba" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>put</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a5f9c662d1686e799935834f5cf336259" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>put</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1ab2180ad1176368ec105ebd4f4cb4ab19" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>put</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a4d73e6eb5deac61d3418e330ae5b75b3" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>put</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1ad3453fc513746169422b55f2505c26d1" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>putAll</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>TAG</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a693608dec873ba750e1bf45f50d81817" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>toJSON</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary_1a696abd3fb84b7626fdd0bed194fff8cd" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRDictionary</scope><name>unjsonify</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

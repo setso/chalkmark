@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::types::JRMediaObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">JRJsonifiable</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object" prot="public" virt="non-virtual">JRFlashMediaObject</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_image_media_object" prot="public" virt="non-virtual">JRImageMediaObject</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object" prot="public" virt="non-virtual">JRMp3MediaObject</derivedcompoundref>
+    <innerclass refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1_1_thumbnail_available_listener" prot="public">com::janrain::android::engage::types::JRMediaObject::ThumbnailAvailableListener</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1a2e5d7bf3bdb50182844e2c890a880b9b" prot="private" static="no" mutable="no">
+        <type>transient Bitmap</type>
+        <definition>transient Bitmap mThumbnailBitmap</definition>
+        <argsstring></argsstring>
+        <name>mThumbnailBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" line="54" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1aced99e4192a47fe0592231db2e10f27c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean hasThumbnail</definition>
+        <argsstring>()</argsstring>
+        <name>hasThumbnail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" line="56" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1ac086e95fc7fdfe34853c5bcf18ba62a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getThumbnail</definition>
+        <argsstring>()</argsstring>
+        <name>getThumbnail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" line="59" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1a55d6bb68e1fe624c2a6ee8410d91f1b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract String</type>
+        <definition>abstract String getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1a69a942495a0864024e78ba629b005b41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void downloadThumbnail</definition>
+        <argsstring>(final ThumbnailAvailableListener tal)</argsstring>
+        <name>downloadThumbnail</name>
+        <param>
+          <type>final ThumbnailAvailableListener</type>
+          <declname>tal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" line="63" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" bodystart="63" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1aa5b1092c9ca25b1ec3f891cefdbca31f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>abstract JRDictionary toJRDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>toJRDictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" line="95"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1a30cae6fed1b7ca8401b58dc58de99d8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Context</type>
+        <definition>Context getContext</definition>
+        <argsstring>()</argsstring>
+        <name>getContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" line="87" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" bodystart="87" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="79">
+        <label>JRMediaObject</label>
+      </node>
+      <node id="81">
+        <label>JRImageMediaObject</label>
+        <link refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_image_media_object"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>JRMp3MediaObject</label>
+        <link refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>JRFlashMediaObject</label>
+        <link refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" line="50" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" bodystart="50" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1a69a942495a0864024e78ba629b005b41" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMediaObject</scope><name>downloadThumbnail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1a30cae6fed1b7ca8401b58dc58de99d8b" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMediaObject</scope><name>getContext</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1ac086e95fc7fdfe34853c5bcf18ba62a6" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMediaObject</scope><name>getThumbnail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1a55d6bb68e1fe624c2a6ee8410d91f1b1" prot="public" virt="pure-virtual"><scope>com::janrain::android::engage::types::JRMediaObject</scope><name>getType</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1aced99e4192a47fe0592231db2e10f27c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMediaObject</scope><name>hasThumbnail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1a2e5d7bf3bdb50182844e2c890a880b9b" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMediaObject</scope><name>mThumbnailBitmap</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1aa5b1092c9ca25b1ec3f891cefdbca31f" prot="public" virt="pure-virtual"><scope>com::janrain::android::engage::types::JRMediaObject</scope><name>toJRDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff" >
+
+	<TableLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="1" >
+		
+		<TextView
+			android:text="Complete the following information and you will be ready to login to ChalkMark!"
+	        android:gravity="left"
+			android:layout_height="wrap_content"
+	        android:layout_marginLeft="15px"
+	        android:layout_marginRight="15px"
+	        android:layout_marginTop="10px" 
+		 	android:textSize="14sp"
+			android:textColor="#696969" >
+		</TextView>
+			
+		<EditText 
+			android:id="@+id/name"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:hint="Your first and last name"
+			android:singleLine="true"
+        	android:layout_marginLeft="15px"
+        	android:layout_marginRight="15px"
+			android:layout_marginTop="10px"
+			android:textSize="14sp" >
+		</EditText>
+
+		
+		<EditText 
+			android:id="@+id/email"
+			android:inputType="textEmailAddress"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+        	android:layout_marginLeft="15px"
+        	android:layout_marginRight="15px"
+			android:layout_marginTop="12px"
+			android:hint="Your Email address"
+			android:textSize="14sp" >
+		</EditText>
+		
+		<EditText 
+			android:id="@+id/password"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:password="true"
+        	android:layout_marginLeft="15px"
+        	android:layout_marginRight="15px"
+			android:layout_marginTop="12px"
+			android:hint="Password (make it difficult)"
+			android:textSize="14sp" >
+		</EditText> 
+		
+		<Button
+			android:id="@+id/terms"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="ChalkMark Terms of Service"
+	        android:layout_marginLeft="15px"
+	        android:layout_marginRight="15px"
+			android:layout_marginTop="35px"
+			android:background="#ffffff"
+			android:textColor="#1e90ff"
+		/>  
+		
+		<TextView
+			android:text="By clicking the create account button below you agree to the ChalkMark terms of service!"
+	        android:gravity="left"
+			android:layout_height="wrap_content"
+	        android:layout_marginLeft="15px"
+	        android:layout_marginRight="15px"
+	        android:layout_marginTop="10px" 
+		 	android:textSize="12sp" >
+		</TextView>
+	
+	</TableLayout>
+		
+	<Button
+		android:id="@+id/create"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Create ChalkMark Account"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:layout_marginBottom="10px" 
+		android:background="#ffd700"
+		android:textColor="#1e90ff"
+		android:padding="10px"
+		android:layout_alignParentBottom="true"
+	/>      
+    
+</RelativeLayout>

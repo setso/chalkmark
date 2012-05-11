@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:background="#000000" >
+
+    <EditText android:id="@+id/search_box" 
+		android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:hint="type to filter"
+        android:inputType="text"
+        android:maxLines="1" >
+    </EditText>
+
+	<LinearLayout android:id="@+id/contactslist"
+		android:layout_below="@id/search_box"	
+		android:layout_above="@id/mbuttons"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+	    
+	    <TableLayout android:id="@+id/TableLayout01"
+			android:layout_width="350dp" 
+			android:layout_height="fill_parent" 
+		    android:layout_above="@+id/ButtonLayout"
+			android:stretchColumns="*">
+	               	
+			<ListView android:id="@android:id/list" 
+		 		android:layout_width="fill_parent"
+		     	android:layout_height="fill_parent"
+				android:drawSelectorOnTop="true" >			
+			</ListView>
+		
+		</TableLayout>
+		
+	     <ScrollView   
+	        android:id="@+id/ScrollView01"
+			android:layout_height="fill_parent"   
+	      	android:layout_width="fill_parent">     
+	      	
+			<TextView
+				android:id="@+id/summary"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:textSize="14sp"
+				android:text="No Contacts Selected (Click on Each Name to Add or Remove)" >
+			</TextView>     
+			
+	     </ScrollView>   
+	
+	</LinearLayout>
+   
+
+	<LinearLayout
+	    android:id="@+id/mbuttons"
+	    android:layout_alignParentBottom="true" 
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal" 
+	    android:layout_height="35dp">
+	    
+	   <LinearLayout
+		    android:id="@+id/b2"
+		    android:layout_width="wrap_content" 
+	    	android:layout_height="fill_parent" 
+		    android:orientation="horizontal"
+		    android:layout_weight="1" >		
+		    <Button android:id="@+id/btnAll"  
+				android:layout_height="match_parent" 
+				android:gravity="center|center_horizontal"
+				android:text="Select All" android:layout_gravity="center" android:layout_width="match_parent">
+			</Button>				
+		</LinearLayout>
+		
+	
+		<LinearLayout
+		    android:id="@+id/b2"
+		    android:layout_width="wrap_content" 
+	    	android:layout_height="fill_parent" 
+		    android:orientation="horizontal"
+		    android:layout_weight="1" >		
+		    <Button android:id="@+id/btnDrop"  
+				android:layout_height="match_parent" 
+				android:gravity="center|center_horizontal"
+				android:text="Done" android:layout_width="match_parent" android:layout_weight="1">
+			</Button>				
+		</LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/b2"
+		    android:layout_width="wrap_content" 
+	    	android:layout_height="fill_parent" 
+		    android:orientation="horizontal"
+		    android:layout_weight="1" >		
+		    <Button android:id="@+id/btnClear"  
+				android:layout_height="match_parent" 
+				android:gravity="center|center_horizontal"
+				android:text="Clear All" android:layout_width="match_parent">
+			</Button>				
+		</LinearLayout>
+
+	</LinearLayout>
+	
+</RelativeLayout>

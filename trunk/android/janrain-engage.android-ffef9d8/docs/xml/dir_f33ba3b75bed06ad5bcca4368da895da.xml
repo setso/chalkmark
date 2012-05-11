@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="dir_f33ba3b75bed06ad5bcca4368da895da" kind="dir">
+    <compoundname>/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/</compoundname>
+    <innerfile refid="_auto_blanking_relative_layout_8java">AutoBlankingRelativeLayout.java</innerfile>
+    <innerfile refid="_color_button_8java">ColorButton.java</innerfile>
+    <innerfile refid="_custom_measuring_frame_layout_8java">CustomMeasuringFrameLayout.java</innerfile>
+    <innerfile refid="_j_r_fragment_host_activity_8java">JRFragmentHostActivity.java</innerfile>
+    <innerfile refid="_j_r_landing_fragment_8java">JRLandingFragment.java</innerfile>
+    <innerfile refid="_j_r_provider_list_fragment_8java">JRProviderListFragment.java</innerfile>
+    <innerfile refid="_j_r_publish_fragment_8java">JRPublishFragment.java</innerfile>
+    <innerfile refid="_j_r_ui_fragment_8java">JRUiFragment.java</innerfile>
+    <innerfile refid="_j_r_web_view_fragment_8java">JRWebViewFragment.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/"/>
+  </compounddef>
+</doxygen>

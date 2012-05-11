@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::utils::StringUtils</compoundname>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils_1a75b2612c1da9ff28892e930f3f816d5d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StringUtils</definition>
+        <argsstring>()</argsstring>
+        <name>StringUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" line="43" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils_1a826874f3950a33cd31c1f84f11e3a144" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String chomp</definition>
+        <argsstring>(String str, String separator)</argsstring>
+        <name>chomp</name>
+        <param>
+          <type>String</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>separator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes <computeroutput>separator</computeroutput> from the end of <computeroutput>str</computeroutput> if it&apos;s there, otherwise leave it alone.</para><para><preformatted>
+ StringUtils.chomp(null, *)         = null
+ StringUtils.chomp(&quot;&quot;, *)           = &quot;&quot;
+ StringUtils.chomp(&quot;foobar&quot;, &quot;bar&quot;) = &quot;foo&quot;
+ StringUtils.chomp(&quot;foobar&quot;, &quot;baz&quot;) = &quot;foobar&quot;
+ StringUtils.chomp(&quot;foo&quot;, &quot;foo&quot;)    = &quot;&quot;
+ StringUtils.chomp(&quot;foo &quot;, &quot;foo&quot;)   = &quot;foo &quot;
+ StringUtils.chomp(&quot; foo&quot;, &quot;foo&quot;)   = &quot; &quot;
+ StringUtils.chomp(&quot;foo&quot;, &quot;foooo&quot;)  = &quot;foo&quot;
+ StringUtils.chomp(&quot;foo&quot;, &quot;&quot;)       = &quot;foo&quot;
+ StringUtils.chomp(&quot;foo&quot;, null)     = &quot;foo&quot;
+ </preformatted></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the String to chomp from, may be null </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>separator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>separator String, may be null </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>String without trailing separator, <computeroutput>null</computeroutput> if null String input </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" line="68" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" bodystart="68" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils_1aea266f32f2ef7da868e1601f1b79d5cf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean stringToBoolean</definition>
+        <argsstring>(String stringToConvert, boolean defaultValue)</argsstring>
+        <name>stringToBoolean</name>
+        <param>
+          <type>String</type>
+          <declname>stringToConvert</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts the specified string to it&apos;s JSON representation.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to be converted to JSON. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The JSONified string. Converts string to boolean, checking for all supported meanings of true.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stringToConvert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to be converted to a boolean value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default value if the string cannot be converted.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The converted value if convertible, default value otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" line="110" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" bodystart="110" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils_1aa998d16b8eabb7d19d36a13f295aaf42" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean isTrue</definition>
+        <argsstring>(String stringToCheck)</argsstring>
+        <name>isTrue</name>
+        <param>
+          <type>String</type>
+          <declname>stringToCheck</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks to see if the specified string is one of the supported values that equates to true.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stringToCheck</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to examine.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the value is true, <computeroutput>false</computeroutput> otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" line="130" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" bodystart="130" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils_1a9907691932c9dbd0f9b7ff0f28743c74" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean isFalse</definition>
+        <argsstring>(String stringToCheck)</argsstring>
+        <name>isFalse</name>
+        <param>
+          <type>String</type>
+          <declname>stringToCheck</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks to see if the specified string is one of the supported values that equates to false.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stringToCheck</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to examine.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the value is false, <computeroutput>false</computeroutput> otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" line="154" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" bodystart="154" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" line="42" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/StringUtils.java" bodystart="42" bodyend="167"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils_1a826874f3950a33cd31c1f84f11e3a144" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::utils::StringUtils</scope><name>chomp</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils_1a9907691932c9dbd0f9b7ff0f28743c74" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::utils::StringUtils</scope><name>isFalse</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils_1aa998d16b8eabb7d19d36a13f295aaf42" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::utils::StringUtils</scope><name>isTrue</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils_1aea266f32f2ef7da868e1601f1b79d5cf" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::utils::StringUtils</scope><name>stringToBoolean</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils_1a75b2612c1da9ff28892e930f3f816d5d" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::utils::StringUtils</scope><name>StringUtils</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

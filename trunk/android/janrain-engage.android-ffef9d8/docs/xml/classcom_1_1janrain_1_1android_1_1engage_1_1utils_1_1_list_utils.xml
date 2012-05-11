@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_list_utils" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::utils::ListUtils</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_list_utils_1a153fc61de8b1af89ef3fad58429eeac5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean isEmpty</definition>
+        <argsstring>(List&lt;?&gt; list)</argsstring>
+        <name>isEmpty</name>
+        <param>
+          <type>List&lt;?&gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/ListUtils.java" line="59" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/ListUtils.java" bodystart="59" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/ListUtils.java" line="41" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/ListUtils.java" bodystart="41" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_list_utils_1a153fc61de8b1af89ef3fad58429eeac5" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::utils::ListUtils</scope><name>isEmpty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

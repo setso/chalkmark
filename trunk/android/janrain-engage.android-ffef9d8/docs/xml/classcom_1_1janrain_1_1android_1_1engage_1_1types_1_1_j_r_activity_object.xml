@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::types::JRActivityObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">JRJsonifiable</basecompoundref>
+    <innerclass refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1_1_shortened_url_callback" prot="public">com::janrain::android::engage::types::JRActivityObject::ShortenedUrlCallback</innerclass>
+      <sectiondef kind="user-defined">
+      <header>Private Attributes</header>
+      <description><para>The various properties of the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref> that you can access and configure through the object&apos;s constructor, getters, and setters </para></description>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a23a0fef34f1a97a5566ae77ab6ee7d70" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mAction</definition>
+        <argsstring></argsstring>
+        <name>mAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A string describing what the user did, written in the third person (e.g., &quot;wrote a restaurant review&quot;, &quot;posted a comment&quot;, &quot;took a quiz&quot;).</para><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a86e636bbfd02a39e0d345c5b9f46fc6f" kindref="member">Getter:</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="104" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ab34fa6a32bb5e2724ccf38e29b8deedb" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mUrl</definition>
+        <argsstring></argsstring>
+        <name>mUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The URL of the resource being mentioned in the activity update.</para><para><simplesect kind="par"><title>Getter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ad2ea28664c7db5089385e62816477d28" kindref="member">getUrl()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="112" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ae94df254bffa6663d441027d7d8275c0" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mUserGeneratedContent</definition>
+        <argsstring></argsstring>
+        <name>mUserGeneratedContent</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A string containing user-supplied content, such as a comment or the first paragraph of an article that the user wrote.</para><para><simplesect kind="note"><para>Some providers (Twitter in particular) may truncate this value.</para></simplesect>
+<simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a8be50b9e9701b2ebda10ec9b79245175" kindref="member">getUserGeneratedContent()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ae086330e2c43749d05930c201e2c8a6d" kindref="member">setUserGeneratedContent()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="124" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6a07e9575c466f0cfeb02907ae8d0973" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mTitle</definition>
+        <argsstring></argsstring>
+        <name>mTitle</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The title of the resource being mentioned in the activity update.</para><para><simplesect kind="note"><para>No length restriction on the status is imposed by Janrain Engage, however Yahoo truncates this value to 256 characters.</para></simplesect>
+<simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a888f94790c968e3f0b5de17e509098aa" kindref="member">getTitle()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a7d4a73d6a1db487dd96f658bdbc98ae9" kindref="member">setTitle()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="135" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6393a44879537429fc8269dda0086f20" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mDescription</definition>
+        <argsstring></argsstring>
+        <name>mDescription</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A description of the resource mentioned in the activity update.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ac7feffb7a33f63504ff1f87f19e2d2d8" kindref="member">getDescription()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a1d15d718177c4f5411ce6ab339889fd4" kindref="member">setDescription()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="143" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a9808cd0aa65b882929ba8be9a974b496" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_action_link" kindref="compound">JRActionLink</ref> &gt;</type>
+        <definition>List&lt;JRActionLink&gt; mActionLinks</definition>
+        <argsstring></argsstring>
+        <name>mActionLinks</name>
+        <initializer> new ArrayList&lt;<ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_action_link" kindref="compound">JRActionLink</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An array of <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_action_link" kindref="compound">JRActionLink</ref> objects, each having two attributes: <emphasis>text</emphasis> and <emphasis>href</emphasis>. An action link is a link a user can use to take action on an activity update on the provider.</para><para><simplesect kind="par"><title>Example:</title><para><programlisting><codeline><highlight class="normal"><sp/>action_links:</highlight></codeline>
+<codeline><highlight class="normal"><sp/>[</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;Rate<sp/>this<sp/>quiz<sp/>result&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;href&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;http://example.com/quiz/12345/result/6789/rate&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;Take<sp/>this<sp/>quiz&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;href&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;http://example.com/quiz/12345/take&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/>]</highlight></codeline>
+</programlisting></para></simplesect>
+<simplesect kind="note"><para>Any objects added to this array that are not of type <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_action_link" kindref="compound">JRActionLink</ref> will be ignored.</para></simplesect>
+<simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa6c896c3414d99e74895eda895025573" kindref="member">getActionLinks()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a081d9f6608b311f1d09baccfc22d765d" kindref="member">setActionLinks()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aeeaceaacba0d9f5a50626b0ab60ae48d" kindref="member">addActionLink()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="171" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3d89cbb011a9839da0b559556acad5f3" prot="private" static="no" mutable="no">
+        <type>List&lt; JRMediaObject &gt;</type>
+        <definition>List&lt;JRMediaObject&gt; mMedia</definition>
+        <argsstring></argsstring>
+        <name>mMedia</name>
+        <initializer> new ArrayList&lt;JRMediaObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An array of objects with base class <emphasis>JRMediaObject</emphasis> (i.e. <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_image_media_object" kindref="compound">JRImageMediaObject</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object" kindref="compound">JRFlashMediaObject</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object" kindref="compound">JRMp3MediaObject</ref>).</para><para>To publish attached media objects with your activity, create the preferred object, populate the object&apos;s fields, then add the object to the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3d89cbb011a9839da0b559556acad5f3" kindref="member">mMedia</ref> array. You can attach pictures, videos, and mp3s to your activity, although how the media objects get presented and whether or not they are used, depend on the provider.</para><para>If you include more than one media type in the array, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> will choose only one of these types, in this order:<orderedlist>
+<listitem><para>image</para></listitem><listitem><para>flash</para></listitem><listitem><para>mp3</para></listitem></orderedlist>
+</para><para>Also, any objects added to this array that do not inherit from <emphasis>JRMediaObject</emphasis> will be ignored.</para><para><simplesect kind="see"><para>Media object format and rules are identical to those described on the <ulink url="http://developers.facebook.com/docs/guides/attachments">Facebook Developer page on Attachments</ulink>.</para></simplesect>
+<simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a52553e9e6b54169e7479f988c09c4532" kindref="member">getMedia()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa891704e795b404d59b3b59f63103056" kindref="member">setMedia(List&lt;JRMediaObject&gt;)</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a09645c0a971972737f7b0463cd8c5b9b" kindref="member">setMedia(JRMediaObject)</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="198" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a1bede9988a27c100c89534a38559567a" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>JRDictionary mProperties</definition>
+        <argsstring></argsstring>
+        <name>mProperties</name>
+        <initializer> new <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An object with attributes describing properties of the update. An attribute <emphasis>value</emphasis> can be a string or an object with two attributes, <emphasis>text</emphasis> and <emphasis>href</emphasis>.</para><para><simplesect kind="par"><title>Example:</title><para><programlisting><codeline><highlight class="normal"><sp/><sp/><sp/>properties:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Time&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;05:00&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Location&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;Portland&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;href&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;http://en.wikipedia.org/wiki/Portland,_Oregon&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+</programlisting></para></simplesect>
+<simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1abbb9f5024dbb91acb1d08f22c11b7661" kindref="member">getProperties()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1acc0b2764a69084135df97b089df079d7" kindref="member">setProperties()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="220" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa82a78e3b966073395f5a3e26921c839" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kindref="compound">JREmailObject</ref></type>
+        <definition>JREmailObject mEmail</definition>
+        <argsstring></argsstring>
+        <name>mEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kindref="compound">JREmailObject</ref> containing the subject and message body of an email, if the user wishes to share via email.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a4f7ef1030ad7fb742f8ee9fa3cb122d0" kindref="member">getEmail()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a0184e83c255e2eb71d7acd22d57ec017" kindref="member">setEmail()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="229" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3140d87ea48963c09a373cb4eb1e60a1" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_sms_object" kindref="compound">JRSmsObject</ref></type>
+        <definition>JRSmsObject mSms</definition>
+        <argsstring></argsstring>
+        <name>mSms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_sms_object" kindref="compound">JRSmsObject</ref> containing the message body of an SMS, if the user wishes to share via SMS.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1adf134ff82d7bea22d1a8102aad55fa80" kindref="member">getSms()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6d80526f97601fd760df82361b7a3402" kindref="member">setSms()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="238" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Constructors</header>
+      <description><para>Constructor for <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref> </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a50adc0dbac14d515124196b3f605109b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JRActivityObject</definition>
+        <argsstring>(String action, String url)</argsstring>
+        <name>JRActivityObject</name>
+        <param>
+          <type>String</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref> initialized with the given action and URL.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string describing what the user did, written in the third person. This value cannot be null</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL of the resource being mentioned in the activity update. Null for no resource link.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IllegalArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if action is null </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="262" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="262" bodyend="269"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Getters/Setters</header>
+      <description><para>Getters and setters for the JRActivityObject&apos;s private properties </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a86e636bbfd02a39e0d345c5b9f46fc6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getAction</definition>
+        <argsstring>()</argsstring>
+        <name>getAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a23a0fef34f1a97a5566ae77ab6ee7d70" kindref="member">mAction</ref> property.</para><para><simplesect kind="return"><para>A string describing what the user did, written in the third person (e.g., &quot;wrote a restaurant review&quot;, &quot;posted a comment&quot;, &quot;took a quiz&quot;) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="285" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="285" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ad2ea28664c7db5089385e62816477d28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getUrl</definition>
+        <argsstring>()</argsstring>
+        <name>getUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ab34fa6a32bb5e2724ccf38e29b8deedb" kindref="member">mUrl</ref> property.</para><para><simplesect kind="return"><para>The URL of the resource being mentioned in the activity update </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="295" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="295" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a8be50b9e9701b2ebda10ec9b79245175" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getUserGeneratedContent</definition>
+        <argsstring>()</argsstring>
+        <name>getUserGeneratedContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ae94df254bffa6663d441027d7d8275c0" kindref="member">mUserGeneratedContent</ref> property.</para><para><simplesect kind="return"><para>A string containing user-supplied content, such as a comment or the first paragraph of an article that the user wrote </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="306" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="306" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ae086330e2c43749d05930c201e2c8a6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setUserGeneratedContent</definition>
+        <argsstring>(String userGeneratedContent)</argsstring>
+        <name>setUserGeneratedContent</name>
+        <param>
+          <type>String</type>
+          <declname>userGeneratedContent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ae94df254bffa6663d441027d7d8275c0" kindref="member">mUserGeneratedContent</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userGeneratedContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string containing user-supplied content, such as a comment or the first paragraph of an article that the user wrote </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="317" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="317" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a888f94790c968e3f0b5de17e509098aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6a07e9575c466f0cfeb02907ae8d0973" kindref="member">mTitle</ref> property.</para><para><simplesect kind="return"><para>The title of the resource being mentioned in the activity update </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="327" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="327" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a7d4a73d6a1db487dd96f658bdbc98ae9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setTitle</definition>
+        <argsstring>(String title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6a07e9575c466f0cfeb02907ae8d0973" kindref="member">mTitle</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the resource being mentioned in the activity update </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="337" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="337" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ac7feffb7a33f63504ff1f87f19e2d2d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6393a44879537429fc8269dda0086f20" kindref="member">mDescription</ref> property.</para><para><simplesect kind="return"><para>A description of the resource mentioned in the activity update </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="347" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="347" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a1d15d718177c4f5411ce6ab339889fd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setDescription</definition>
+        <argsstring>(String description)</argsstring>
+        <name>setDescription</name>
+        <param>
+          <type>String</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6393a44879537429fc8269dda0086f20" kindref="member">mDescription</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A description of the resource mentioned in the activity update </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="357" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="357" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa6c896c3414d99e74895eda895025573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_action_link" kindref="compound">JRActionLink</ref> &gt;</type>
+        <definition>List&lt;JRActionLink&gt; getActionLinks</definition>
+        <argsstring>()</argsstring>
+        <name>getActionLinks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a9808cd0aa65b882929ba8be9a974b496" kindref="member">mActionLinks</ref> property.</para><para><simplesect kind="return"><para>An array of <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_action_link" kindref="compound">JRActionLink</ref> objects, each having two attributes: <emphasis>text</emphasis> and <emphasis>href</emphasis>. An action link is a link a user can use to take action on an activity update on the provider </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="368" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="368" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a081d9f6608b311f1d09baccfc22d765d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setActionLinks</definition>
+        <argsstring>(List&lt; JRActionLink &gt; actionLinks)</argsstring>
+        <name>setActionLinks</name>
+        <param>
+          <type>List&lt; <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_action_link" kindref="compound">JRActionLink</ref> &gt;</type>
+          <declname>actionLinks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a9808cd0aa65b882929ba8be9a974b496" kindref="member">mActionLinks</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>actionLinks</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_action_link" kindref="compound">JRActionLink</ref> objects, each having two attributes: <emphasis>text</emphasis> and <emphasis>href</emphasis>. An action link is a link a user can use to take action on an activity update on the provider </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="379" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="379" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aeeaceaacba0d9f5a50626b0ab60ae48d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void addActionLink</definition>
+        <argsstring>(JRActionLink actionLink)</argsstring>
+        <name>addActionLink</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_action_link" kindref="compound">JRActionLink</ref></type>
+          <declname>actionLink</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add to the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a9808cd0aa65b882929ba8be9a974b496" kindref="member">mActionLinks</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>actionLink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_action_link" kindref="compound">JRActionLink</ref> to be added to the array of action links, creating the array if it hasn&apos;t already been created </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="390" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="390" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa5c1c8a738dd14b3720615d463f9620b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void addMedia</definition>
+        <argsstring>(JRMediaObject media)</argsstring>
+        <name>addMedia</name>
+        <param>
+          <type>JRMediaObject</type>
+          <declname>media</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias for <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa5c1c8a738dd14b3720615d463f9620b" kindref="member">addMedia(JRMediaObject)</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>media</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_image_media_object" kindref="compound">JRImageMediaObject</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object" kindref="compound">JRFlashMediaObject</ref>, or <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object" kindref="compound">JRMp3MediaObject</ref> to be added to the array of media objects, creating the array if it hasn&apos;t already been created </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="402" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="402" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a52553e9e6b54169e7479f988c09c4532" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; JRMediaObject &gt;</type>
+        <definition>List&lt;JRMediaObject&gt; getMedia</definition>
+        <argsstring>()</argsstring>
+        <name>getMedia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3d89cbb011a9839da0b559556acad5f3" kindref="member">mMedia</ref> property.</para><para><simplesect kind="return"><para>An array of objects with base class <emphasis>JRMediaObject</emphasis> (i.e. <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_image_media_object" kindref="compound">JRImageMediaObject</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object" kindref="compound">JRFlashMediaObject</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object" kindref="compound">JRMp3MediaObject</ref>) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="414" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="414" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa891704e795b404d59b3b59f63103056" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setMedia</definition>
+        <argsstring>(List&lt; JRMediaObject &gt; media)</argsstring>
+        <name>setMedia</name>
+        <param>
+          <type>List&lt; JRMediaObject &gt;</type>
+          <declname>media</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3d89cbb011a9839da0b559556acad5f3" kindref="member">mMedia</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>media</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of objects with base class <emphasis>JRMediaObject</emphasis> (i.e. <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_image_media_object" kindref="compound">JRImageMediaObject</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object" kindref="compound">JRFlashMediaObject</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object" kindref="compound">JRMp3MediaObject</ref>) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="425" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="425" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a09645c0a971972737f7b0463cd8c5b9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setMedia</definition>
+        <argsstring>(JRMediaObject mediaObject)</argsstring>
+        <name>setMedia</name>
+        <param>
+          <type>JRMediaObject</type>
+          <declname>mediaObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3d89cbb011a9839da0b559556acad5f3" kindref="member">mMedia</ref> property.</para><para><xrefsect id="deprecated_1_deprecated000003"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa5c1c8a738dd14b3720615d463f9620b" kindref="member">addMedia(JRMediaObject)</ref></para></xrefdescription></xrefsect></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaObject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_image_media_object" kindref="compound">JRImageMediaObject</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_flash_media_object" kindref="compound">JRFlashMediaObject</ref>, or <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object" kindref="compound">JRMp3MediaObject</ref> to be added to the array of media objects, creating the array if it hasn&apos;t already been created </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="438" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="438" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1abbb9f5024dbb91acb1d08f22c11b7661" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Map&lt; String, Object &gt;</type>
+        <definition>Map&lt;String, Object&gt; getProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a1bede9988a27c100c89534a38559567a" kindref="member">mProperties</ref> property.</para><para><simplesect kind="return"><para>An object with attributes describing properties of the update. An attribute value can be a string or an object with two attributes, <emphasis>text</emphasis> and <emphasis>href</emphasis>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="450" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="450" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1acc0b2764a69084135df97b089df079d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setProperties</definition>
+        <argsstring>(JRDictionary properties)</argsstring>
+        <name>setProperties</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a1bede9988a27c100c89534a38559567a" kindref="member">mProperties</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>properties</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An object with attributes describing properties of the update. An attribute value can be a string or an object with two attributes, <emphasis>text</emphasis> and <emphasis>href</emphasis>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="461" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="461" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a4f7ef1030ad7fb742f8ee9fa3cb122d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kindref="compound">JREmailObject</ref></type>
+        <definition>JREmailObject getEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa82a78e3b966073395f5a3e26921c839" kindref="member">mEmail</ref> property.</para><para><simplesect kind="return"><para>An <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kindref="compound">JREmailObject</ref> containing the content that a user can send via SMS to share an activity </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="471" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="471" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a0184e83c255e2eb71d7acd22d57ec017" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setEmail</definition>
+        <argsstring>(JREmailObject email)</argsstring>
+        <name>setEmail</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kindref="compound">JREmailObject</ref></type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa82a78e3b966073395f5a3e26921c839" kindref="member">mEmail</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object" kindref="compound">JREmailObject</ref> containing the content that a user can send via email to share an activity </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="481" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="481" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1adf134ff82d7bea22d1a8102aad55fa80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_sms_object" kindref="compound">JRSmsObject</ref></type>
+        <definition>JRSmsObject getSms</definition>
+        <argsstring>()</argsstring>
+        <name>getSms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3140d87ea48963c09a373cb4eb1e60a1" kindref="member">mSms</ref> property.</para><para><simplesect kind="return"><para>An <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_sms_object" kindref="compound">JRSmsObject</ref> containing the content that a user can send via SMS to share an activity </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="491" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="491" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6d80526f97601fd760df82361b7a3402" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setSms</definition>
+        <argsstring>(JRSmsObject sms)</argsstring>
+        <name>setSms</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_sms_object" kindref="compound">JRSmsObject</ref></type>
+          <declname>sms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the activity object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3140d87ea48963c09a373cb4eb1e60a1" kindref="member">mSms</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_sms_object" kindref="compound">JRSmsObject</ref> containing the content that a user can send via SMS to share an activity </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="501" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="501" bodyend="503"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer> JRActivityObject.class.getSimpleName()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="90" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1afd9a722e9e0f291cc111cdc947a60e0f" prot="private" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean mIsShortening</definition>
+        <argsstring></argsstring>
+        <name>mIsShortening</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="241" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a2e367c610a4272cf8f761419530d4942" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mShortenedUrl</definition>
+        <argsstring></argsstring>
+        <name>mShortenedUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="242" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a985a1b0429a8a359a4783c7409b91e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>JRDictionary toJRDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>toJRDictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="518" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="518" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a67e3c32af4d5ad0e7a36840244024ecc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void shortenUrls</definition>
+        <argsstring>(final ShortenedUrlCallback callback)</argsstring>
+        <name>shortenUrls</name>
+        <param>
+          <type>final ShortenedUrlCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="537" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="537" bodyend="636"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An activity object you create, populate, and post to the user&apos;s activity stream. </para>    </briefdescription>
+    <detaileddescription>
+<para>Create an activity object, fill in the object&apos;s fields, and pass the object to the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> library when you are ready to publish. Currently supported providers are:<itemizedlist>
+<listitem><para>Facebook</para></listitem><listitem><para>LinkedIn</para></listitem><listitem><para>Twitter</para></listitem><listitem><para>MySpace</para></listitem><listitem><para>Yahoo!</para></listitem></itemizedlist>
+</para><para>Janrain Engage will make a best effort to use all of the fields submitted in the activity request, but note that how they get presented (and which ones are used) ultimately depends on the provider.</para><para>This API will work if and only if:<itemizedlist>
+<listitem><para>Your Janrain Engage application has been configured with the given provider</para></listitem><listitem><para>The user has already authenticated and has given consent to publish activity</para></listitem></itemizedlist>
+</para><para>Otherwise, you will be given an error response indicating what was wrong. Detailed error responses will also be given if the activity parameter does not meet the formatting requirements described below.</para><para><simplesect kind="see"><para>For more information of Janrain Engage&apos;s activity api, see <ulink url="http://documentation.janrain.com/activity">the activity section</ulink> of our API Documentation. </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="48">
+        <label>JRSmsObject</label>
+        <link refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_sms_object"/>
+      </node>
+      <node id="50">
+        <label>JRDictionary</label>
+        <link refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary"/>
+      </node>
+      <node id="47">
+        <label>JRActivityObject</label>
+        <link refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object"/>
+        <childnode refid="48" relation="usage">
+          <edgelabel>mSms</edgelabel>
+        </childnode>
+        <childnode refid="49" relation="usage">
+          <edgelabel>mEmail</edgelabel>
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>mProperties</edgelabel>
+        </childnode>
+      </node>
+      <node id="49">
+        <label>JREmailObject</label>
+        <link refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_email_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" line="89" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRActivityObject.java" bodystart="89" bodyend="637"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aeeaceaacba0d9f5a50626b0ab60ae48d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>addActionLink</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa5c1c8a738dd14b3720615d463f9620b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>addMedia</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a86e636bbfd02a39e0d345c5b9f46fc6f" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>getAction</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa6c896c3414d99e74895eda895025573" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>getActionLinks</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ac7feffb7a33f63504ff1f87f19e2d2d8" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>getDescription</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a4f7ef1030ad7fb742f8ee9fa3cb122d0" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>getEmail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a52553e9e6b54169e7479f988c09c4532" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>getMedia</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1abbb9f5024dbb91acb1d08f22c11b7661" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>getProperties</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1adf134ff82d7bea22d1a8102aad55fa80" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>getSms</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a888f94790c968e3f0b5de17e509098aa" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>getTitle</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ad2ea28664c7db5089385e62816477d28" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>getUrl</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a8be50b9e9701b2ebda10ec9b79245175" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>getUserGeneratedContent</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a50adc0dbac14d515124196b3f605109b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>JRActivityObject</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a23a0fef34f1a97a5566ae77ab6ee7d70" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mAction</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a9808cd0aa65b882929ba8be9a974b496" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mActionLinks</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6393a44879537429fc8269dda0086f20" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mDescription</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa82a78e3b966073395f5a3e26921c839" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mEmail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1afd9a722e9e0f291cc111cdc947a60e0f" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mIsShortening</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3d89cbb011a9839da0b559556acad5f3" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mMedia</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a1bede9988a27c100c89534a38559567a" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mProperties</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a2e367c610a4272cf8f761419530d4942" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mShortenedUrl</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3140d87ea48963c09a373cb4eb1e60a1" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mSms</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6a07e9575c466f0cfeb02907ae8d0973" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mTitle</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ab34fa6a32bb5e2724ccf38e29b8deedb" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mUrl</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ae94df254bffa6663d441027d7d8275c0" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>mUserGeneratedContent</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a081d9f6608b311f1d09baccfc22d765d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>setActionLinks</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a1d15d718177c4f5411ce6ab339889fd4" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>setDescription</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a0184e83c255e2eb71d7acd22d57ec017" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>setEmail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1aa891704e795b404d59b3b59f63103056" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>setMedia</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a09645c0a971972737f7b0463cd8c5b9b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>setMedia</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1acc0b2764a69084135df97b089df079d7" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>setProperties</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a6d80526f97601fd760df82361b7a3402" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>setSms</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a7d4a73d6a1db487dd96f658bdbc98ae9" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>setTitle</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1ae086330e2c43749d05930c201e2c8a6d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>setUserGeneratedContent</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a67e3c32af4d5ad0e7a36840244024ecc" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>shortenUrls</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>TAG</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a985a1b0429a8a359a4783c7409b91e3a" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRActivityObject</scope><name>toJRDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

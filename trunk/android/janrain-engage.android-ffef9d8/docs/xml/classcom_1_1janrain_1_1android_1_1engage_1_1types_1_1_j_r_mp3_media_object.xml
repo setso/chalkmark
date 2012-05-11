@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::types::JRMp3MediaObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JRMediaObject</basecompoundref>
+      <sectiondef kind="user-defined">
+      <header>Private Attributes</header>
+      <description><para>The various properties of the mp3 media object that you can access and configure through the object&apos;s constructor, getters, and setters </para></description>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a55bae62e4521511e834270cbb7910aa6" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mSrc</definition>
+        <argsstring></argsstring>
+        <name>mSrc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The URL of the mp3 file to be rendered.</para><para><simplesect kind="par"><title>Getter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a942f1490911b90f61fcc82f4f0674838" kindref="member">getSrc()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="67" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a6a07e9575c466f0cfeb02907ae8d0973" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mTitle</definition>
+        <argsstring></argsstring>
+        <name>mTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The title of the song.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a888f94790c968e3f0b5de17e509098aa" kindref="member">getTitle()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a7d4a73d6a1db487dd96f658bdbc98ae9" kindref="member">setTitle()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="75" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a447e5238acd3b656ad1658af4d1d585b" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mArtist</definition>
+        <argsstring></argsstring>
+        <name>mArtist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The artist.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a1b9f565753d008491c59887680bd570e" kindref="member">getArtist()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1ad3502580239a5b59adb83dbbd4651fe4" kindref="member">setArtist()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="83" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a0beebc1720c6f4bcf3190b3a112658b4" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mAlbum</definition>
+        <argsstring></argsstring>
+        <name>mAlbum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The album.</para><para><simplesect kind="par"><title>Getter/Setter:</title><para><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a11ac7b770ff2135e877c241ddb5db662" kindref="member">getAlbum()</ref>, <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a90033ebe6c28a946a4c88965365961fb" kindref="member">setAlbum()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="91" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Constructors</header>
+      <description><para>Constructor for an mp3 media object </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1af0943c007a4be987b3441b4317061306" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JRMp3MediaObject</definition>
+        <argsstring>(String src)</argsstring>
+        <name>JRMp3MediaObject</name>
+        <param>
+          <type>String</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object" kindref="compound">JRMp3MediaObject</ref> initialized with the given src.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL of the mp3 file to be rendered. This value cannot be null</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IllegalArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if src is null </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="108" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="108" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Getters/Setters</header>
+      <description><para>Getters and setters for the mp3 media object&apos;s private properties </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a942f1490911b90f61fcc82f4f0674838" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getSrc</definition>
+        <argsstring>()</argsstring>
+        <name>getSrc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the mp3 object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a55bae62e4521511e834270cbb7910aa6" kindref="member">mSrc</ref> property.</para><para><simplesect kind="return"><para>The URL of the MP3 file to be rendered </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="125" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="125" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a888f94790c968e3f0b5de17e509098aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the mp3 object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a6a07e9575c466f0cfeb02907ae8d0973" kindref="member">mTitle</ref> property.</para><para><simplesect kind="return"><para>The title of the song </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="135" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="135" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a7d4a73d6a1db487dd96f658bdbc98ae9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setTitle</definition>
+        <argsstring>(String title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the mp3 object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a6a07e9575c466f0cfeb02907ae8d0973" kindref="member">mTitle</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the song </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="145" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="145" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a1b9f565753d008491c59887680bd570e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getArtist</definition>
+        <argsstring>()</argsstring>
+        <name>getArtist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the mp3 object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a447e5238acd3b656ad1658af4d1d585b" kindref="member">mArtist</ref> property.</para><para><simplesect kind="return"><para>The artist </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="155" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="155" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1ad3502580239a5b59adb83dbbd4651fe4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setArtist</definition>
+        <argsstring>(String artist)</argsstring>
+        <name>setArtist</name>
+        <param>
+          <type>String</type>
+          <declname>artist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the mp3 object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a447e5238acd3b656ad1658af4d1d585b" kindref="member">mArtist</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>artist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The artist </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="165" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="165" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a11ac7b770ff2135e877c241ddb5db662" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getAlbum</definition>
+        <argsstring>()</argsstring>
+        <name>getAlbum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter for the mp3 object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a0beebc1720c6f4bcf3190b3a112658b4" kindref="member">mAlbum</ref> property.</para><para><simplesect kind="return"><para>The album </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="175" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="175" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a90033ebe6c28a946a4c88965365961fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setAlbum</definition>
+        <argsstring>(String album)</argsstring>
+        <name>setAlbum</name>
+        <param>
+          <type>String</type>
+          <declname>album</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for the mp3 object&apos;s <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a0beebc1720c6f4bcf3190b3a112658b4" kindref="member">mAlbum</ref> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>album</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The album </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="185" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="185" bodyend="187"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a68adac94351807681f1b2828b9c68734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="191" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="191" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a985a1b0429a8a359a4783c7409b91e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>JRDictionary toJRDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>toJRDictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="196" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="196" bodyend="206"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Mp3 object to be included in a post to a user&apos;s stream. </para>    </briefdescription>
+    <detaileddescription>
+<para>Create an mp3 media object, fill in the object&apos;s fields, and add the object to the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a3d89cbb011a9839da0b559556acad5f3" kindref="member">JRActivityObject.mMedia</ref> array in your <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref>. How the mp3s get presented and whether or not they are used, depend on the provider.</para><para>Each mp3 must contain a <emphasis>src</emphasis> url, which is the URL of the MP3 file to be rendered. The mp3 can also include a <emphasis>title</emphasis>, <emphasis>artist</emphasis>, and <emphasis>album</emphasis>.</para><para><simplesect kind="note"><para>You can only include one <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object" kindref="compound">JRMp3MediaObject</ref> in the media array. Any others will be ignored.</para></simplesect>
+* @ Format and rules are identical to those described on the <ulink url="http://developers.facebook.com/docs/guides/attachments">Facebook Developer page on Attachments</ulink>. </para>    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" line="54" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMp3MediaObject.java" bodystart="54" bodyend="207"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1a69a942495a0864024e78ba629b005b41" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>downloadThumbnail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a11ac7b770ff2135e877c241ddb5db662" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>getAlbum</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a1b9f565753d008491c59887680bd570e" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>getArtist</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a942f1490911b90f61fcc82f4f0674838" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>getSrc</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1ac086e95fc7fdfe34853c5bcf18ba62a6" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>getThumbnail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a888f94790c968e3f0b5de17e509098aa" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>getTitle</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a68adac94351807681f1b2828b9c68734" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>getType</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1aced99e4192a47fe0592231db2e10f27c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>hasThumbnail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1af0943c007a4be987b3441b4317061306" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>JRMp3MediaObject</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a0beebc1720c6f4bcf3190b3a112658b4" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>mAlbum</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a447e5238acd3b656ad1658af4d1d585b" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>mArtist</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a55bae62e4521511e834270cbb7910aa6" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>mSrc</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a6a07e9575c466f0cfeb02907ae8d0973" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>mTitle</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a90033ebe6c28a946a4c88965365961fb" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>setAlbum</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1ad3502580239a5b59adb83dbbd4651fe4" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>setArtist</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a7d4a73d6a1db487dd96f658bdbc98ae9" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>setTitle</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_mp3_media_object_1a985a1b0429a8a359a4783c7409b91e3a" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMp3MediaObject</scope><name>toJRDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

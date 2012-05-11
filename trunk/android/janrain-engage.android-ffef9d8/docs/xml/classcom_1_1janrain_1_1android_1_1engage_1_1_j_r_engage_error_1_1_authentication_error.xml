@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_authentication_error" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::JREngageError::AuthenticationError</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_authentication_error_1a422a703df864c3b879186e13631846b2" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int START</definition>
+        <argsstring></argsstring>
+        <name>START</name>
+        <initializer> 200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="151" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_authentication_error_1a2a7bcbe1d3c039bfdd57b21077249ec7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int AUTHENTICATION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>AUTHENTICATION_FAILED</name>
+        <initializer> START</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The authentication failed because of:<itemizedlist>
+<listitem><para>There was a network error in the WebView used to authenticate the user</para></listitem><listitem><para>There was an unrecognized Engage error during authentication (details found in the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error" kindref="compound">JREngageError</ref> message)</para></listitem><listitem><para>There was a network error contacting Engage during authentication (details found in the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error" kindref="compound">JREngageError</ref> exception) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="161" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for error code constants related to authentication. See <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1adc00833722df4f26a365c53a43a04631" kindref="member">JREngageError.mCode</ref> for more information. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="150" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="150" bodyend="162"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_authentication_error_1a2a7bcbe1d3c039bfdd57b21077249ec7" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::AuthenticationError</scope><name>AUTHENTICATION_FAILED</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_authentication_error_1a422a703df864c3b879186e13631846b2" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::AuthenticationError</scope><name>START</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

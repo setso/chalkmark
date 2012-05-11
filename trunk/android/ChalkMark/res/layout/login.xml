@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff" >
+
+<TableLayout	
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:stretchColumns="1" >	
+	
+	<TextView
+         android:text="ChalkMark for Android"
+         android:gravity="left"
+         android:layout_marginLeft="15px"
+         android:layout_marginTop="15px" 
+		 android:textSize="18sp"
+	/>
+	
+	<TextView
+         android:text="With ChalkMark you can leave a message for any of your Facebook friends at any location on Earth. Each message is your mark at that location. Your friends will see the mark when they are near it."
+         android:textColor="#708090"
+         android:layout_marginLeft="15px"
+         android:layout_marginRight="15px"
+         android:layout_marginTop="15px" 
+		 android:textSize="18sp"
+		 android:layout_gravity="center_vertical|right"
+	/>
+	
+	<Button android:layout_marginLeft="15px" 
+		android:text="Click Here for More Info" 
+		android:id="@+id/info" 
+		android:textColor="#1e90ff" 
+		android:layout_marginTop="10px" 
+		android:padding="3px" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:textSize="16sp" 
+		android:layout_marginRight="15px"
+		android:gravity="left"
+		android:background="#ffffff">
+	</Button>   
+	
+	<Button android:layout_marginLeft="15px" 
+		android:text="Login using Facebook" 
+		android:id="@+id/facebook" 
+		android:textColor="#1e90ff" 
+		android:layout_marginTop="25px" 
+		android:padding="8px" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:textSize="18sp" 
+		android:layout_marginRight="15px">
+	</Button>   
+	
+	<ImageView android:id="@+id/background_image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/chalkmark_welcome_logo"
+		android:layout_marginTop="15px" 
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+	/>
+	
+		
+</TableLayout>     
+
+</LinearLayout>

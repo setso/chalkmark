@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper" kind="class" prot="private">
+    <compoundname>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Drawable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a375627fd04d0d5cb81ebcaad39a7fe92" prot="private" static="no" mutable="no">
+        <type>Drawable</type>
+        <definition>Drawable mDrawable</definition>
+        <argsstring></argsstring>
+        <name>mDrawable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="162" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a028de719382f2904bf6f25e0cfbfd270" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ColorFilterRejectingDrawableWrapper</definition>
+        <argsstring>(Drawable d)</argsstring>
+        <name>ColorFilterRejectingDrawableWrapper</name>
+        <param>
+          <type>Drawable</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="163" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="163" bodyend="165"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a722caa842c64f7f62459a4d69d2a1d96" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void _setColorFilter</definition>
+        <argsstring>(int color, PorterDuff.Mode mode)</argsstring>
+        <name>_setColorFilter</name>
+        <param>
+          <type>int</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>PorterDuff.Mode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="167" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="167" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a25bca9a1352e622b784056afad242b25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void draw</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>draw</name>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="171" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a8bd29819819ef7f76692e19e17eb3c2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setAlpha</definition>
+        <argsstring>(int alpha)</argsstring>
+        <name>setAlpha</name>
+        <param>
+          <type>int</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="176" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a187b1a3105d9bc2aebd6e6b503ce1a56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setColorFilter</definition>
+        <argsstring>(ColorFilter cf)</argsstring>
+        <name>setColorFilter</name>
+        <param>
+          <type>ColorFilter</type>
+          <declname>cf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="181" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a0c8618c617e65d5ab8400704bbc09ed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getOpacity</definition>
+        <argsstring>()</argsstring>
+        <name>getOpacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="186" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="186" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a4465ad295cfad6e476a6cff47779ecde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setBounds</definition>
+        <argsstring>(int left, int top, int right, int bottom)</argsstring>
+        <name>setBounds</name>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bottom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="191" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="191" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1afc2bab77937fec51b7951616cdbde2b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setBounds</definition>
+        <argsstring>(Rect bounds)</argsstring>
+        <name>setBounds</name>
+        <param>
+          <type>Rect</type>
+          <declname>bounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="196" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="196" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a2c4ccc73fa8da48959766514f12d27dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setChangingConfigurations</definition>
+        <argsstring>(int configs)</argsstring>
+        <name>setChangingConfigurations</name>
+        <param>
+          <type>int</type>
+          <declname>configs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="201" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="201" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1aaacf21c197eef87d34f030f4053ea4d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getChangingConfigurations</definition>
+        <argsstring>()</argsstring>
+        <name>getChangingConfigurations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="206" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="206" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ab099d887876a862f357debccfbba7b9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setDither</definition>
+        <argsstring>(boolean dither)</argsstring>
+        <name>setDither</name>
+        <param>
+          <type>boolean</type>
+          <declname>dither</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="211" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="211" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a5d700c4270a3e1b7118ed8d5f8e2e364" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setFilterBitmap</definition>
+        <argsstring>(boolean filter)</argsstring>
+        <name>setFilterBitmap</name>
+        <param>
+          <type>boolean</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="216" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="216" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1af10524a54f278f14be831e31aa1c64ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void invalidateSelf</definition>
+        <argsstring>()</argsstring>
+        <name>invalidateSelf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="221" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="221" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a0461b41e48dc08299506944ce5187ca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void scheduleSelf</definition>
+        <argsstring>(Runnable what, long when)</argsstring>
+        <name>scheduleSelf</name>
+        <param>
+          <type>Runnable</type>
+          <declname>what</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>when</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="226" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="226" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1aa85d1fcb44494d6bf58f3c67b27036cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void unscheduleSelf</definition>
+        <argsstring>(Runnable what)</argsstring>
+        <name>unscheduleSelf</name>
+        <param>
+          <type>Runnable</type>
+          <declname>what</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="231" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="231" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ae3dd74abb39f44673cb76e48772572e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setColorFilter</definition>
+        <argsstring>(int color, PorterDuff.Mode mode)</argsstring>
+        <name>setColorFilter</name>
+        <param>
+          <type>int</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>PorterDuff.Mode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="236" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="236" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ab61e58618b4ad5ae77e66597e0c34df4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void clearColorFilter</definition>
+        <argsstring>()</argsstring>
+        <name>clearColorFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="241" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="241" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ae9631672f6225904a3ac0e3a6fee4d2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean isStateful</definition>
+        <argsstring>()</argsstring>
+        <name>isStateful</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="246" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="246" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a96231ac279e3e004b8afbb0413f20e5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean setState</definition>
+        <argsstring>(int[] stateSet)</argsstring>
+        <name>setState</name>
+        <param>
+          <type>int[]</type>
+          <declname>stateSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="251" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="251" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1aab22c0e314b7797f960d859ba885a8ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[]</type>
+        <definition>int [] getState</definition>
+        <argsstring>()</argsstring>
+        <name>getState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="256" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="256" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1aefe901398ac8afec1ed3fa3b611a32a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Drawable</type>
+        <definition>Drawable getCurrent</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="261" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="261" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a0b3a1a29d1f00a71d76267900b046b34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean setVisible</definition>
+        <argsstring>(boolean visible, boolean restart)</argsstring>
+        <name>setVisible</name>
+        <param>
+          <type>boolean</type>
+          <declname>visible</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>restart</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="266" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="266" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a1991344faa8a332a36de30f16ab3fef4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Region</type>
+        <definition>Region getTransparentRegion</definition>
+        <argsstring>()</argsstring>
+        <name>getTransparentRegion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="271" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="271" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1aeba92462a1b31a326957c34fe12eef86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getIntrinsicWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getIntrinsicWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="291" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="291" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ae3432e55107fbe29491fcdfb04423fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getIntrinsicHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getIntrinsicHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="296" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="296" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ac99a2e6f8ae510770bb984583d297633" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getMinimumWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getMinimumWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="301" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="301" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ac64b27285edf4c4411591ef2844f802e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getMinimumHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getMinimumHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="306" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="306" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ace6f47e769ff982240f92b3bf9dc3428" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean getPadding</definition>
+        <argsstring>(Rect padding)</argsstring>
+        <name>getPadding</name>
+        <param>
+          <type>Rect</type>
+          <declname>padding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="311" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="311" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a4f25cdfda3d19c5df77bf47e9ac39d77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ColorFilterRejectingDrawableWrapper</type>
+        <definition>ColorFilterRejectingDrawableWrapper mutate</definition>
+        <argsstring>()</argsstring>
+        <name>mutate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="316" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="316" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1abd51a03f7e3828c3566625b25cd54e1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void inflate</definition>
+        <argsstring>(Resources r, XmlPullParser parser, AttributeSet attrs)</argsstring>
+        <name>inflate</name>
+        <param>
+          <type>Resources</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>XmlPullParser</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>AttributeSet</type>
+          <declname>attrs</declname>
+        </param>
+        <exceptions> throws XmlPullParserException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="323" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="322" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a8a6c5bb6565ff2e8d50fa493e6c2eb01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ConstantState</type>
+        <definition>ConstantState getConstantState</definition>
+        <argsstring>()</argsstring>
+        <name>getConstantState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="329" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="329" bodyend="331"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" line="161" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/ColorButton.java" bodystart="161" bodyend="332"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a722caa842c64f7f62459a4d69d2a1d96" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>_setColorFilter</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ab61e58618b4ad5ae77e66597e0c34df4" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>clearColorFilter</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a028de719382f2904bf6f25e0cfbfd270" prot="package" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>ColorFilterRejectingDrawableWrapper</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a25bca9a1352e622b784056afad242b25" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>draw</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1aaacf21c197eef87d34f030f4053ea4d5" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getChangingConfigurations</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a8a6c5bb6565ff2e8d50fa493e6c2eb01" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getConstantState</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1aefe901398ac8afec1ed3fa3b611a32a5" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getCurrent</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ae3432e55107fbe29491fcdfb04423fd5" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getIntrinsicHeight</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1aeba92462a1b31a326957c34fe12eef86" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getIntrinsicWidth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ac64b27285edf4c4411591ef2844f802e" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getMinimumHeight</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ac99a2e6f8ae510770bb984583d297633" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getMinimumWidth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a0c8618c617e65d5ab8400704bbc09ed1" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getOpacity</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ace6f47e769ff982240f92b3bf9dc3428" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getPadding</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1aab22c0e314b7797f960d859ba885a8ef" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getState</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a1991344faa8a332a36de30f16ab3fef4" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>getTransparentRegion</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1abd51a03f7e3828c3566625b25cd54e1b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>inflate</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1af10524a54f278f14be831e31aa1c64ac" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>invalidateSelf</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ae9631672f6225904a3ac0e3a6fee4d2d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>isStateful</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a375627fd04d0d5cb81ebcaad39a7fe92" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>mDrawable</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a4f25cdfda3d19c5df77bf47e9ac39d77" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>mutate</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a0461b41e48dc08299506944ce5187ca3" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>scheduleSelf</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a8bd29819819ef7f76692e19e17eb3c2e" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>setAlpha</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a4465ad295cfad6e476a6cff47779ecde" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>setBounds</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1afc2bab77937fec51b7951616cdbde2b8" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>setBounds</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a2c4ccc73fa8da48959766514f12d27dd" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>setChangingConfigurations</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a187b1a3105d9bc2aebd6e6b503ce1a56" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>setColorFilter</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ae3dd74abb39f44673cb76e48772572e7" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>setColorFilter</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1ab099d887876a862f357debccfbba7b9e" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>setDither</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a5d700c4270a3e1b7118ed8d5f8e2e364" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>setFilterBitmap</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a96231ac279e3e004b8afbb0413f20e5a" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>setState</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1a0b3a1a29d1f00a71d76267900b046b34" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>setVisible</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button_1_1_color_filter_rejecting_drawable_wrapper_1aa85d1fcb44494d6bf58f3c67b27036cd" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::ColorButton::ColorFilterRejectingDrawableWrapper</scope><name>unscheduleSelf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

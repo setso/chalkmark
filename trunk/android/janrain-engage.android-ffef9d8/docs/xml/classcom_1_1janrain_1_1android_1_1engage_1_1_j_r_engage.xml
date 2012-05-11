@@ -1,0 +1,974 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::JREngage</compoundname>
+      <sectiondef kind="user-defined">
+      <header>Get the JREngage Instance</header>
+      <description><para>Methods that initialize and return the shared <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> instance </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a8a7d2401f2d02773a0da78177e493f36" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref></type>
+        <definition>static JREngage initInstance</definition>
+        <argsstring>(Activity activity, String appId, String tokenUrl, JREngageDelegate delegate)</argsstring>
+        <name>initInstance</name>
+        <param>
+          <type>Activity</type>
+          <declname>activity</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>appId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>tokenUrl</declname>
+        </param>
+        <param>
+          <type><ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref></type>
+          <declname>delegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes and returns the singleton instance of <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>activity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Android Activity, used for access to system resources (e.g. global preferences). This value cannot be null</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>appId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Your 20-character application ID. You can find this on your application&apos;s Engage Dashboard at <ulink url="http://rpxnow.com">http://rpxnow.com</ulink>. This value cannot be null</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tokenUrl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL on your server where you wish to complete authentication, or null. If provided, the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> library will post the user&apos;s authentication token to this URL where it can used for further authentication and processing. When complete, the library will pass the server&apos;s response back to the your application</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delegate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delegate object that implements the <ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref> interface</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The shared instance of the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> object initialized with the given appId, tokenUrl, and delegate. If the given appId is null, returns null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="176" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="173" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a7c79a12fbe98d3dc3567f481b164e4f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref></type>
+        <definition>static JREngage initInstance</definition>
+        <argsstring>(Context context, String appId, String tokenUrl, JREngageDelegate delegate)</argsstring>
+        <name>initInstance</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>appId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>tokenUrl</declname>
+        </param>
+        <param>
+          <type><ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref></type>
+          <declname>delegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes and returns the singleton instance of <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref>.</para><para><xrefsect id="deprecated_1_deprecated000001"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a8a7d2401f2d02773a0da78177e493f36" kindref="member">initInstance(Activity, String, String, JREngageDelegate)</ref> instead.</para></xrefdescription></xrefsect></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>context</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Android Activity, used for access to system resources (e.g. global preferences). This value cannot be null</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>appId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Your 20-character application ID. You can find this on your application&apos;s Engage Dashboard at <ulink url="http://rpxnow.com">http://rpxnow.com</ulink>. This value cannot be null</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tokenUrl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL on your server where you wish to complete authentication, or null. If provided, the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> library will post the user&apos;s authentication token to this URL where it can used for further authentication and processing. When complete, the library will pass the server&apos;s response back to the your application</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delegate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delegate object that implements the <ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref> interface</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The shared instance of the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> object initialized with the given appId, tokenUrl, and delegate. If the given appId is null, returns null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="226" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="223" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a9ce0c212c5efaf0f55bc44a36a1ac688" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref></type>
+        <definition>static JREngage getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the singleton instance, provided it has been initialized.</para><para><simplesect kind="return"><para>The <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> instance if properly initialized, null otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="236" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="236" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Manage Authenticated Users</header>
+      <description><para>Methods that manage authenticated users remembered by the library </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a85a4829f1caab300e8b01dc47aee638d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void signoutUserForProvider</definition>
+        <argsstring>(String provider)</argsstring>
+        <name>signoutUserForProvider</name>
+        <param>
+          <type>String</type>
+          <declname>provider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove the user&apos;s credentials for the given provider from the library.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>provider</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the provider on which the user authenticated. For a list of possible strings, please see the <ulink url="http://documentation.janrain.com/engage/sdks/ios/mobile-providers#basicProviders">List of Providers</ulink> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="403" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="403" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a7877c06caf812fc767c43352f0509380" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void signoutUserForAllProviders</definition>
+        <argsstring>()</argsstring>
+        <name>signoutUserForAllProviders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove the user&apos;s credentials for all providers from the library. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="411" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="411" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a11ec9d4e5b5d2cbbbd8e02f95d799979" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setAlwaysForceReauthentication</definition>
+        <argsstring>(boolean force)</argsstring>
+        <name>setAlwaysForceReauthentication</name>
+        <param>
+          <type>boolean</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Specify whether the Engage for Android library will require the user to reauthenticate. Reauthentication will require the user to re-enter their password.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><computeroutput>true</computeroutput> if the library should force reauthentication for all providers or <computeroutput>false</computeroutput> if the library should allow cached credentials to authenticate the user </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="424" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="424" bodyend="427"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Cancel the JREngage Dialogs</header>
+      <description><para>Methods to cancel authentication and social publishing </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a5d37932565edbaf3d879f5848a7bc889" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cancelAuthentication</definition>
+        <argsstring>()</argsstring>
+        <name>cancelAuthentication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stops the authentication flow. This finishes all Engage for Android activities and returns the calling Activity to the top of the application&apos;s activity stack. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="440" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="440" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a45445132f9f15aa224c19e11bec26982" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cancelPublishing</definition>
+        <argsstring>()</argsstring>
+        <name>cancelPublishing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stops the publishing flow. This finishes all Engage for Android activities and returns the calling Activity to the top of the application&apos;s activity stack. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="452" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="452" bodyend="458"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Server-side Authentication</header>
+      <description><para>Methods to configure server-side authentication </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a9cae37926c51b92a0d934b65cd14829c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setTokenUrl</definition>
+        <argsstring>(String newTokenUrl)</argsstring>
+        <name>setTokenUrl</name>
+        <param>
+          <type>String</type>
+          <declname>newTokenUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Specify a token URL (potentially a different token URL than the one the library was initialized with).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newTokenUrl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new token URL you wish authentications to post the Engage <emphasis>auth_info</emphasis> <emphasis>token</emphasis> to </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="484" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="484" bodyend="487"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Manage the JREngage Delegates</header>
+      <description><para>Add/remove delegates that implement the <ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref> interface </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1ac65be7ecc11892e4d850c4d3cf6c2547" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void addDelegate</definition>
+        <argsstring>(JREngageDelegate delegate)</argsstring>
+        <name>addDelegate</name>
+        <param>
+          <type><ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref></type>
+          <declname>delegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a <ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref> to the library.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>delegate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object that implements the <ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref> interface </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="503" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="503" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a0d40fb874a4b703ca00bcad051cff621" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void removeDelegate</definition>
+        <argsstring>(JREngageDelegate delegate)</argsstring>
+        <name>removeDelegate</name>
+        <param>
+          <type><ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref></type>
+          <declname>delegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove a <ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref> from the library.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>delegate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object that implements the <ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref> interface </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="514" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="514" bodyend="517"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Show the JREngage Dialogs</header>
+      <description><para><anchor id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1showMethods"/></para><para>Methods that display the Engage for Android dialogs which initiate authentication and social publishing </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a0de1aa16e951a1b62e2ef459b1596e83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showAuthenticationDialog</definition>
+        <argsstring>()</argsstring>
+        <name>showAuthenticationDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Begins authentication. The library will start a new Android Activity and take the user through the sign-in process. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="564" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="564" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1ad1f8c683188718a475f7bb6276b6d45b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showAuthenticationDialog</definition>
+        <argsstring>(boolean skipReturningUserLandingPage)</argsstring>
+        <name>showAuthenticationDialog</name>
+        <param>
+          <type>boolean</type>
+          <declname>skipReturningUserLandingPage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Begins authentication. The library will start a new Android Activity and take the user through the sign-in process.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>skipReturningUserLandingPage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Prevents the dialog from opening to the returning-user landing page when <computeroutput>true</computeroutput>. That is, the dialog will always open straight to the list of providers. The dialog falls back to the default behavior when <computeroutput>false</computeroutput> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>If you always want to force the user to re=enter his/her credentials, pass <computeroutput>true</computeroutput> to the method <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a11ec9d4e5b5d2cbbbd8e02f95d799979" kindref="member">setAlwaysForceReauthentication()</ref>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="583" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="583" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a4b029811d11b8a46483a22ecb5b87a53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showSocialPublishingDialog</definition>
+        <argsstring>(JRActivityObject activity)</argsstring>
+        <name>showSocialPublishingDialog</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref></type>
+          <declname>activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Begin social publishing. The library will start a new Android <emphasis>Activity</emphasis> enabling the user to publish a social share. The user will also be taken through the sign-in process, if necessary.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>activity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The activity you wish to share </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="603" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="603" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1aab585550cfd0f8d4b3643119d1e5edae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showSocialPublishingFragment</definition>
+        <argsstring>(JRActivityObject activity, FragmentActivity hostActivity, int containerId, boolean addToBackStack, Integer transit, Integer transitRes, Integer customEnterAnimation, Integer customExitAnimation)</argsstring>
+        <name>showSocialPublishingFragment</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref></type>
+          <declname>activity</declname>
+        </param>
+        <param>
+          <type>FragmentActivity</type>
+          <declname>hostActivity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>containerId</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>addToBackStack</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>transit</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>transitRes</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>customEnterAnimation</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>customExitAnimation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Begin social publishing. The library will display a new Android <emphasis>Fragment</emphasis> enabling the user to publish a social share. The user will also be taken through the sign-in process, if necessary.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>activity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The activity you wish to share </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hostActivity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The android.support.v4.app.FragmentActivity which will host the publishing fragment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>containerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The resource ID of a FrameLayout to embed the publishing fragment in </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addToBackStack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if the publishing fragment should be added to the back stack, false otherwise </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Select a standard transition animation for this transaction. See FragmentTransaction.setTransition. Null for not set </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transitRes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set a custom style resource that will be used for resolving transit animations. Null for not set </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>customEnterAnimation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set a custom enter animation. May be null if-and-only-if customExitAnimation is also null </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>customExitAnimation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set a custom exit animation. May be null if-and-only-if customEnterAnimation is also null </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="645" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="638" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a92fe6f1acd3e5b6a4273d5b56db2ae4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void showSocialPublishingFragment</definition>
+        <argsstring>(JRActivityObject activity, FragmentActivity hostActivity, int containerId)</argsstring>
+        <name>showSocialPublishingFragment</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref></type>
+          <declname>activity</declname>
+        </param>
+        <param>
+          <type>FragmentActivity</type>
+          <declname>hostActivity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>containerId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Begin social publishing. The library will display a new Android <emphasis>Fragment</emphasis> enabling the user to publish a social share. The user will also be taken through the sign-in process, if necessary. This simple variant displays the Fragment, does not add it to the Fragment back stack, and uses default animations.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>activity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The activity you wish to share </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hostActivity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The android.support.v4.app.FragmentActivity which will host the publishing fragment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>containerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The resource ID of a FrameLayout to embed the publishing fragment in </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="687" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="685" bodyend="689"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a45de3c7650ada30af67a22c2dc2d2f1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_publish_fragment" kindref="compound">JRPublishFragment</ref></type>
+        <definition>JRPublishFragment createSocialPublishingFragment</definition>
+        <argsstring>(JRActivityObject activity)</argsstring>
+        <name>createSocialPublishingFragment</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref></type>
+          <declname>activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new android.support.v4.Fragment for social publishing. Use this if you wish to manage the FragmentTransaction yourself.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>activity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The JRActivityObject to share, may not be null</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The created Fragment, or null upon error (caused by library configuration failure) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="701" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="701" bodyend="708"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Enable a Subset of Providers</header>
+      <description><para><anchor id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1enableProviders"/></para><para>Methods that configure at runtime a subset of providers to use with the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> dialogs. These methods can only configure a subset of the configured and enabled providers found on your Engage application&apos;s dashboard. </para></description>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1ad21acf712468c635c95ca7069b2d12e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setEnabledAuthenticationProviders</definition>
+        <argsstring>(List&lt; String &gt; enabledProviders)</argsstring>
+        <name>setEnabledAuthenticationProviders</name>
+        <param>
+          <type>List&lt; String &gt;</type>
+          <declname>enabledProviders</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the list of providers that are enabled for authentication. This does not supersede your RP&apos;s deplyoment settings for Android sign-in, as configured on rpxnow.com, it is a supplemental filter to that configuration.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enabledProviders</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A list of providers which will be enabled. This set will be intersected with the set of providers configured on the Engage Dashboard, that intersection will be the providers that are actually available to the end-user. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="730" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="730" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a330b420fe18081dfdda8d4d75038bd48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setEnabledAuthenticationProviders</definition>
+        <argsstring>(String[] enabledProviders)</argsstring>
+        <name>setEnabledAuthenticationProviders</name>
+        <param>
+          <type>String[]</type>
+          <declname>enabledProviders</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience variant of setEnabledAuthenticationProviders(List&lt;String&gt;) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enabledProviders</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of providers which will be enabled. This set will be intersected with the set of providers configured on the Engage Dashboard, that intersection will be the providers that are actually available to the end-user. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="741" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="741" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a23f33da66c75476aacb1924fabb946f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setEnabledSharingProviders</definition>
+        <argsstring>(List&lt; String &gt; enabledSharingProviders)</argsstring>
+        <name>setEnabledSharingProviders</name>
+        <param>
+          <type>List&lt; String &gt;</type>
+          <declname>enabledSharingProviders</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the list of providers that are enabled for social sharing. This does not supersede your RP&apos;s deplyoment settings for Android social sharing, as configured on rpxnow.com, it is a supplemental filter to that configuration.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enabledSharingProviders</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Which providers to enable for authentication, null for all providers. A list of social sharing providers which will be enabled. This set will be intersected with the set of providers configured on the Engage Dashboard, that intersection will be the providers that are actually available to the end-user. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="756" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="756" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a4640f63bce5822a6bd4b92c3258357be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setEnabledSharingProviders</definition>
+        <argsstring>(String[] enabledSharingProviders)</argsstring>
+        <name>setEnabledSharingProviders</name>
+        <param>
+          <type>String[]</type>
+          <declname>enabledSharingProviders</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience variant of setEnabledSharingProviders(List&lt;String&gt;) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enabledSharingProviders</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of social sharing providers which will be enabled. This set will be intersected with the set of providers configured on the Engage Dashboard, that intersection will be the providers that are actually available to the end-user. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="767" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="767" bodyend="769"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer> JREngage.class.getSimpleName()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="127" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1aa0d5707e9dcc35ed6506a27c4cbde3d8" prot="private" static="yes" mutable="no">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref></type>
+        <definition>JREngage sInstance</definition>
+        <argsstring></argsstring>
+        <name>sInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="130" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1af113ac02cb3e3bb6625492e8ba142192" prot="private" static="no" mutable="no">
+        <type>Activity</type>
+        <definition>Activity mActivity</definition>
+        <argsstring></argsstring>
+        <name>mActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="133" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a35a40b886acd0f82cc60bdcdf7bd72fa" prot="private" static="no" mutable="no">
+        <type>JRSession</type>
+        <definition>JRSession mSession</definition>
+        <argsstring></argsstring>
+        <name>mSession</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="136" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1ad8a0cc0678a5877bd001eeb25c101598" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref> &gt;</type>
+        <definition>ArrayList&lt;JREngageDelegate&gt; mDelegates</definition>
+        <argsstring></argsstring>
+        <name>mDelegates</name>
+        <initializer> new ArrayList&lt;<ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="139" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a0570337dc9260844b7d32e5770f2c72f" prot="private" static="no" mutable="no">
+        <type>JRSessionDelegate</type>
+        <definition>JRSessionDelegate mJrsd</definition>
+        <argsstring></argsstring>
+        <name>mJrsd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="387" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a3bdb7ed962738a097c0a9a2ef534c9b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JREngage</definition>
+        <argsstring>()</argsstring>
+        <name>JREngage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="141" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1abc10e6f90e2af9dc51449f6efca40342" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void initialize</definition>
+        <argsstring>(Activity activity, String appId, String tokenUrl, JREngageDelegate delegate)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>Activity</type>
+          <declname>activity</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>appId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>tokenUrl</declname>
+        </param>
+        <param>
+          <type><ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref></type>
+          <declname>delegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="279" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="276" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1abbb84184bff9bb3752fd2f9fd5dec510" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void finishJrActivities</definition>
+        <argsstring>()</argsstring>
+        <name>finishJrActivities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="464" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="464" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a27038b64c4e8d9a2fb68baa8a31bbe50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void engageDidFailWithError</definition>
+        <argsstring>(JREngageError error)</argsstring>
+        <name>engageDidFailWithError</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error" kindref="compound">JREngageError</ref></type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="520" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="520" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a90ec3f7e536c11e330a71a6dd255f470" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean checkSessionDataError</definition>
+        <argsstring>()</argsstring>
+        <name>checkSessionDataError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="526" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="526" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a3871172e2cd1e10585eadefd814d0a74" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void checkNullJRActivity</definition>
+        <argsstring>(JRActivityObject activity)</argsstring>
+        <name>checkNullJRActivity</name>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object" kindref="compound">JRActivityObject</ref></type>
+          <declname>activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="546" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="546" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a3e746026f30432304348ccd24ee9e7c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized List&lt; <ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref> &gt;</type>
+        <definition>synchronized List&lt;JREngageDelegate&gt; getDelegatesCopy</definition>
+        <argsstring>()</argsstring>
+        <name>getDelegatesCopy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="772" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="772" bodyend="774"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a227d1d22cb76e3597b09ae6644ecbf75" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Activity</type>
+        <definition>static Activity getActivity</definition>
+        <argsstring>()</argsstring>
+        <name>getActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="248" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="248" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a7dc8f558f74069797840008e0b547cd6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void setContext</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>setContext</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="261" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="261" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a6816a1d4ddd8f8ade0d57ce8152a2bab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void setActivityContext</definition>
+        <argsstring>(Activity activity)</argsstring>
+        <name>setActivityContext</name>
+        <param>
+          <type>Activity</type>
+          <declname>activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="272" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="272" bodyend="274"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> class provides methods for configuring the Engage for Android library and initiating authentication and social sharing. </para>    </briefdescription>
+    <detaileddescription>
+<para>Prior to using the Engage for Android library, you must already have an application on <ulink url="http://rpxnow.com">http://rpxnow.com</ulink>. This is all that is required for basic authentication, although some providers require extra configuration (which can be done through your application&apos;s <ulink url="http://rpxnow.com/relying_parties">Dashboard</ulink>). For social publishing, you will need to configure your Engage application with the desired providers.</para><para>You may optionally implement server-side authentication. When configured, the Engage for Android library can post the user&apos;s authentication token to a URL on your server: the token URL. Your server can complete authentication, access more of the Engage web API, log the authentication, etc. and the server&apos;s response will be passed back through to your Android application.</para><para>To use <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref>:<itemizedlist>
+<listitem><para>Call <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a8a7d2401f2d02773a0da78177e493f36" kindref="member">JREngage.initInstance</ref></para></listitem><listitem><para>Save the returned <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage" kindref="compound">JREngage</ref> object</para></listitem><listitem><para>Invoke <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a0de1aa16e951a1b62e2ef459b1596e83" kindref="member">showAuthenticationDialog()</ref> or <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a4b029811d11b8a46483a22ecb5b87a53" kindref="member">showSocialPublishingDialog(JRActivityObject activity)</ref></para></listitem><listitem><para>You may implement <ref refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_delegate" kindref="compound">JREngageDelegate</ref> to receive responses </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="62">
+        <label>JREngage</label>
+        <link refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage"/>
+        <childnode refid="62" relation="usage">
+          <edgelabel>sInstance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" line="126" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngage.java" bodystart="126" bodyend="775"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1ac65be7ecc11892e4d850c4d3cf6c2547" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>addDelegate</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a5d37932565edbaf3d879f5848a7bc889" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>cancelAuthentication</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a45445132f9f15aa224c19e11bec26982" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>cancelPublishing</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a3871172e2cd1e10585eadefd814d0a74" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>checkNullJRActivity</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a90ec3f7e536c11e330a71a6dd255f470" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>checkSessionDataError</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a45de3c7650ada30af67a22c2dc2d2f1d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>createSocialPublishingFragment</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a27038b64c4e8d9a2fb68baa8a31bbe50" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>engageDidFailWithError</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1abbb84184bff9bb3752fd2f9fd5dec510" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>finishJrActivities</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a227d1d22cb76e3597b09ae6644ecbf75" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>getActivity</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a3e746026f30432304348ccd24ee9e7c9" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>getDelegatesCopy</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a9ce0c212c5efaf0f55bc44a36a1ac688" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>getInstance</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1abc10e6f90e2af9dc51449f6efca40342" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>initialize</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a8a7d2401f2d02773a0da78177e493f36" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>initInstance</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a7c79a12fbe98d3dc3567f481b164e4f4" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>initInstance</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a3bdb7ed962738a097c0a9a2ef534c9b7" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>JREngage</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1af113ac02cb3e3bb6625492e8ba142192" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>mActivity</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1ad8a0cc0678a5877bd001eeb25c101598" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>mDelegates</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a0570337dc9260844b7d32e5770f2c72f" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>mJrsd</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a35a40b886acd0f82cc60bdcdf7bd72fa" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>mSession</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a0d40fb874a4b703ca00bcad051cff621" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>removeDelegate</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a6816a1d4ddd8f8ade0d57ce8152a2bab" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>setActivityContext</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a11ec9d4e5b5d2cbbbd8e02f95d799979" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>setAlwaysForceReauthentication</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a7dc8f558f74069797840008e0b547cd6" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>setContext</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1ad21acf712468c635c95ca7069b2d12e9" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>setEnabledAuthenticationProviders</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a330b420fe18081dfdda8d4d75038bd48" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>setEnabledAuthenticationProviders</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a23f33da66c75476aacb1924fabb946f3" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>setEnabledSharingProviders</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a4640f63bce5822a6bd4b92c3258357be" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>setEnabledSharingProviders</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a9cae37926c51b92a0d934b65cd14829c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>setTokenUrl</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a0de1aa16e951a1b62e2ef459b1596e83" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>showAuthenticationDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1ad1f8c683188718a475f7bb6276b6d45b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>showAuthenticationDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a4b029811d11b8a46483a22ecb5b87a53" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>showSocialPublishingDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1aab585550cfd0f8d4b3643119d1e5edae" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>showSocialPublishingFragment</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a92fe6f1acd3e5b6a4273d5b56db2ae4a" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>showSocialPublishingFragment</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a7877c06caf812fc767c43352f0509380" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>signoutUserForAllProviders</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a85a4829f1caab300e8b01dc47aee638d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>signoutUserForProvider</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1aa0d5707e9dcc35ed6506a27c4cbde3d8" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>sInstance</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngage</scope><name>TAG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+	<item android:id="@+id/delete"
+		android:title="Delete" 
+	/>
+	
+	<item android:id="@+id/map"
+		android:title="Show on Map" />
+		
+	<item android:id="@+id/basket"
+		android:title="Add to Basket" />
+	
+</menu>

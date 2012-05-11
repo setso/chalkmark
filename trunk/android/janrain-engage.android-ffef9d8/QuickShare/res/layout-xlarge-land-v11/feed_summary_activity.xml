@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <fragment
+        android:id="@+id/list"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="45"
+        android:layout_margin="4px"
+
+        android:name="com.janrain.android.quickshare.FeedSummaryFragment"
+        />
+
+    <FrameLayout
+        android:id="@+id/details"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="55"
+        android:layout_margin="4px"
+
+        android:background="?android:attr/detailsElementBackground"
+        />
+</LinearLayout>

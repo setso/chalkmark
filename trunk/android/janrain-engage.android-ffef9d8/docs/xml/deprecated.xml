@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <detaileddescription>
+<para><anchor id="deprecated_1_deprecated000003"/> <variablelist>
+<varlistentry><term>Member <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_activity_object_1a09645c0a971972737f7b0463cd8c5b9b" kindref="member">JRActivityObject.setMedia</ref> (JRMediaObject mediaObject) </term></varlistentry>
+<listitem><para>use #addMedia(JRMediaObject)</para></listitem>
+</variablelist>
+</para><para><anchor id="deprecated_1_deprecated000001"/> <variablelist>
+<varlistentry><term>Member <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_1a7c79a12fbe98d3dc3567f481b164e4f4" kindref="member">JREngage.initInstance</ref> (Context context, String appId, String tokenUrl, JREngageDelegate delegate) </term></varlistentry>
+<listitem><para>Use #initInstance(Activity, String, String, JREngageDelegate) instead.</para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

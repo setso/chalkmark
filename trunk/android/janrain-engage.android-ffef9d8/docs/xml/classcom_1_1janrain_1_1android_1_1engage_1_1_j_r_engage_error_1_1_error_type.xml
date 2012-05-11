@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::JREngageError::ErrorType</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1af4841fff47bfb96940985f95967d5f41" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String NO_NETWORK_CONNECTION</definition>
+        <argsstring></argsstring>
+        <name>NO_NETWORK_CONNECTION</name>
+        <initializer>&quot;noNetwork&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="54" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1a078b2c779a2f510dcc5f8b0b0fb2b607" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String MINOR</definition>
+        <argsstring></argsstring>
+        <name>MINOR</name>
+        <initializer>&quot;minor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="59" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1a74562a95119dde5b8da65f071adba5b5" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String MAJOR</definition>
+        <argsstring></argsstring>
+        <name>MAJOR</name>
+        <initializer>&quot;major&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="64" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1ac2837260a237df9c11feebf84d26fd3d" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String CONFIGURATION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>CONFIGURATION_FAILED</name>
+        <initializer>&quot;configurationFailed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The Engage configuration query failed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="69" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1a5b437058532046ab521d6511a81b7847" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String CONFIGURATION_INFORMATION_MISSING</definition>
+        <argsstring></argsstring>
+        <name>CONFIGURATION_INFORMATION_MISSING</name>
+        <initializer>&quot;missingInformation&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>There are no providers configured on the Engage dashboard for the Engage app </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="74" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1aa68ab1ad27fd39a9d45d1838bd849b15" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String AUTHENTICATION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>AUTHENTICATION_FAILED</name>
+        <initializer>&quot;authenticationFailed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The authentication failed because of:<itemizedlist>
+<listitem><para>There was a network error in the WebView used to authenticate the user</para></listitem><listitem><para>There was an unrecognized Engage error during authentication (details found in the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error" kindref="compound">JREngageError</ref> message)</para></listitem><listitem><para>There was a network error contacting Engage during authentication (details found in the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error" kindref="compound">JREngageError</ref> exception) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="84" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1a300bb87da77e1fe095e344c7a62568e2" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String PUBLISH_FAILED</definition>
+        <argsstring></argsstring>
+        <name>PUBLISH_FAILED</name>
+        <initializer>&quot;publishFailed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The social publishing failed because:<itemizedlist>
+<listitem><para>There was a response JSON decoding error</para></listitem><listitem><para>There was an unrecognized error response from Engage</para></listitem><listitem><para>The Engage app&apos;s Facebook credential has exceeded its feed action request limit</para></listitem><listitem><para>There was an unrecognized Facebook error (found in the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error" kindref="compound">JREngageError</ref> message) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="93" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1aa3ee11055506ccb85af37ce26086b16d" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String PUBLISH_NEEDS_REAUTHENTICATION</definition>
+        <argsstring></argsstring>
+        <name>PUBLISH_NEEDS_REAUTHENTICATION</name>
+        <initializer>&quot;publishNeedsReauthentication&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The social publishing failed because the OAuth publishing token associated with the mobile device token has expired or is otherwise no longer valid. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="99" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1a958d71a06cc65ebc2fa08c44bd1d0901" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String PUBLISH_INVALID_ACTIVITY</definition>
+        <argsstring></argsstring>
+        <name>PUBLISH_INVALID_ACTIVITY</name>
+        <initializer>&quot;publishInvalidActivity&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The social publishing failed because Engage rejected the supplied activity as invalid.<itemizedlist>
+<listitem><para>With code <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a5201c4729f0d1eba2ef74bb9124f90eb" kindref="member">SocialPublishingError.LINKEDIN_CHARACTER_EXCEEDED</ref> the error was caused by a too long message for LinkedIn</para></listitem><listitem><para>With code <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a439570f460717f08c4a2430fac3cf728" kindref="member">SocialPublishingError.DUPLICATE_TWITTER</ref> the error was caused by a duplicate Twitter status update.</para></listitem><listitem><para>With code <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1af0c33320c2f6dbeaa0cbcb387c342094" kindref="member">SocialPublishingError.FAILED</ref> the error cause was unknown, details may be found in the <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error" kindref="compound">JREngageError</ref> message. </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="110" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>String based error categorizations. See <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1a84262b4adb38cc036235e6f973b922fe" kindref="member">JREngageError.mType</ref> for more information. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="50" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="50" bodyend="111"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1aa68ab1ad27fd39a9d45d1838bd849b15" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::ErrorType</scope><name>AUTHENTICATION_FAILED</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1ac2837260a237df9c11feebf84d26fd3d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::ErrorType</scope><name>CONFIGURATION_FAILED</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1a5b437058532046ab521d6511a81b7847" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::ErrorType</scope><name>CONFIGURATION_INFORMATION_MISSING</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1a74562a95119dde5b8da65f071adba5b5" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::ErrorType</scope><name>MAJOR</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1a078b2c779a2f510dcc5f8b0b0fb2b607" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::ErrorType</scope><name>MINOR</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1af4841fff47bfb96940985f95967d5f41" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::ErrorType</scope><name>NO_NETWORK_CONNECTION</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1a300bb87da77e1fe095e344c7a62568e2" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::ErrorType</scope><name>PUBLISH_FAILED</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1a958d71a06cc65ebc2fa08c44bd1d0901" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::ErrorType</scope><name>PUBLISH_INVALID_ACTIVITY</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_error_type_1aa3ee11055506ccb85af37ce26086b16d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::ErrorType</scope><name>PUBLISH_NEEDS_REAUTHENTICATION</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_i_o_utils" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::utils::IOUtils</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_i_o_utils_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer> IOUtils.class.getSimpleName()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/IOUtils.java" line="46" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/IOUtils.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_i_o_utils_1ad812781ca3b6bcd84b47a298fd2bbd44" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>IOUtils</definition>
+        <argsstring>()</argsstring>
+        <name>IOUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/IOUtils.java" line="48" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/IOUtils.java" bodystart="48" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_i_o_utils_1a96881dc0bd687adf3c4bde5beb430cc0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] readFromStream</definition>
+        <argsstring>(InputStream in)</argsstring>
+        <name>readFromStream</name>
+        <param>
+          <type>InputStream</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the entire contents of the specified stream to a byte array.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input stream to read the contents of.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A byte array representing the full contents of the stream, null if stream is null or operation failed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/IOUtils.java" line="61" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/IOUtils.java" bodystart="61" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_i_o_utils_1ad8bcf7d95043d960841da8d510101fd5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] readFromStream</definition>
+        <argsstring>(InputStream in, boolean shouldThrowOnError)</argsstring>
+        <name>readFromStream</name>
+        <param>
+          <type>InputStream</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>shouldThrowOnError</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the entire contents of the specified stream to a byte array.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input stream to read the contents of.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shouldThrowOnError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag indicating whether or not the user wants to handle exceptions that are thrown during this operation.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A byte array representing the full contents of the stream, null if stream is null.</para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the user passed <computeroutput>true</computeroutput> for &apos;shouldThrowOnError&apos; and an IOException has occurred. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/IOUtils.java" line="87" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/IOUtils.java" bodystart="87" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/IOUtils.java" line="45" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/IOUtils.java" bodystart="45" bodyend="107"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_i_o_utils_1ad812781ca3b6bcd84b47a298fd2bbd44" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::utils::IOUtils</scope><name>IOUtils</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_i_o_utils_1a96881dc0bd687adf3c4bde5beb430cc0" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::utils::IOUtils</scope><name>readFromStream</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_i_o_utils_1ad8bcf7d95043d960841da8d510101fd5" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::utils::IOUtils</scope><name>readFromStream</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_i_o_utils_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::utils::IOUtils</scope><name>TAG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

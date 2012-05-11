@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+			package="chalkmark.project"
+			android:versionCode="3"
+			android:versionName="1">
+		
+		<uses-permission android:name="android.permission.INTERNET" />
+		
+		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+		
+		<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+		
+		<uses-permission android:name="android.permission.VIBRATE"/>
+		
+		<uses-permission android:name="android.permission.SOUND" />
+		
+		<uses-sdk android:minSdkVersion="4" />
+				
+		<supports-screens
+				android:largeScreens="true"
+				android:normalScreens="true"
+		/>
+		
+		<application android:label="@string/app_name"
+					 android:debuggable="false"
+					 android:icon="@drawable/ic_launcher" >
+		
+	          	<uses-library android:name="com.google.android.maps" />
+	          	
+	         	<activity android:name=".ChalkMark" 
+	         		android:screenOrientation="portrait"
+	         		android:label="@string/app_name"
+					android:theme="@android:style/Theme.NoTitleBar" >
+					<intent-filter>
+						<action android:name="android.intent.action.MAIN" />
+						<category android:name="android.intent.category.LAUNCHER" />
+					</intent-filter>
+				</activity>
+				
+				<activity android:name=".ChalkMarkTabHost" android:screenOrientation="portrait" />
+				
+				<activity android:name=".MakeMark" 
+					android:windowSoftInputMode="adjustPan" />
+					
+				<activity android:name=".ChalkBoard"  
+					android:screenOrientation="portrait" />
+					
+				<activity android:name=".MyMarks" 
+					android:screenOrientation="portrait" />
+					
+				<activity android:name=".Contacts"  />
+					
+				<activity android:name=".ViewSelected" 
+					android:screenOrientation="portrait" />
+					
+				<activity android:name=".MessageDetails" />
+					
+				<activity android:name=".MarkInfoMap"  />
+				
+				<activity android:name=".MarkNotify"  />
+				
+				<activity android:name=".ChalkmarkInfo"  />
+				
+				<service android:enabled="true" android:name=".LocService"></service>
+	
+		        <activity android:name="com.janrain.android.engage.ui.JRProvidersActivity"
+		            android:configChanges="orientation"/>
+		
+		  		<activity android:name="com.janrain.android.engage.ui.JRLandingActivity"
+		            android:theme="@android:style/Theme.Light"
+		            android:configChanges="orientation"/>
+		
+		 		<activity android:name="com.janrain.android.engage.ui.JRWebViewActivity"
+		            android:theme="@android:style/Theme.Light"
+		            android:configChanges="orientation"/>
+		
+		  		<activity android:name="com.janrain.android.engage.ui.JRPublishActivity"
+		            android:theme="@android:style/Theme.Light.NoTitleBar"
+		            android:configChanges="orientation"/>
+        
+		</application>
+</manifest>

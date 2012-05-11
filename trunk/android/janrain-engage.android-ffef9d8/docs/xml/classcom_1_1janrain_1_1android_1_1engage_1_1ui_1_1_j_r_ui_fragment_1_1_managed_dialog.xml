@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_managed_dialog" kind="class" prot="private">
+    <compoundname>com::janrain::android::engage::ui::JRUiFragment::ManagedDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_managed_dialog_1a5964e368be1a4c7ef6e89c8e13c517d4" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mId</definition>
+        <argsstring></argsstring>
+        <name>mId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="220" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_managed_dialog_1ae1b55cd0e80b2517f1ac2b27cd5dd64c" prot="package" static="no" mutable="no">
+        <type>transient Dialog</type>
+        <definition>transient Dialog mDialog</definition>
+        <argsstring></argsstring>
+        <name>mDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="221" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_managed_dialog_1ac6208efe98e5959b678cf936bb439630" prot="package" static="no" mutable="no">
+        <type>transient Bundle</type>
+        <definition>transient Bundle mOptions</definition>
+        <argsstring></argsstring>
+        <name>mOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="222" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_managed_dialog_1a5b5ed277f8c26ecb7b708900ad1e3136" prot="package" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean mShowing</definition>
+        <argsstring></argsstring>
+        <name>mShowing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="223" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" line="219" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRUiFragment.java" bodystart="219" bodyend="224"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_managed_dialog_1ae1b55cd0e80b2517f1ac2b27cd5dd64c" prot="package" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment::ManagedDialog</scope><name>mDialog</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_managed_dialog_1a5964e368be1a4c7ef6e89c8e13c517d4" prot="package" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment::ManagedDialog</scope><name>mId</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_managed_dialog_1ac6208efe98e5959b678cf936bb439630" prot="package" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment::ManagedDialog</scope><name>mOptions</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment_1_1_managed_dialog_1a5b5ed277f8c26ecb7b708900ad1e3136" prot="package" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRUiFragment::ManagedDialog</scope><name>mShowing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

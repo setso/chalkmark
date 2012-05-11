@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::JREngageError::SocialPublishingError</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a422a703df864c3b879186e13631846b2" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int START</definition>
+        <argsstring></argsstring>
+        <name>START</name>
+        <initializer> 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="169" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1af0c33320c2f6dbeaa0cbcb387c342094" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int FAILED</definition>
+        <argsstring></argsstring>
+        <name>FAILED</name>
+        <initializer> START</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Social publishing failed because of an unknown reason. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="174" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a0bc55b82f9bcb7072bc60bb5f89bcdbf" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int ACTIVITY_NIL</definition>
+        <argsstring></argsstring>
+        <name>ACTIVITY_NIL</name>
+        <initializer> START + 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="179" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a0ca7943d34ac5428e6a50f792f5657a1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int MISSING_API_KEY</definition>
+        <argsstring></argsstring>
+        <name>MISSING_API_KEY</name>
+        <initializer> START + 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Social publishing failed because of a missing Engage API key. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="184" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a1662b58ed1f81b95e3794ce3df252844" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int INVALID_OAUTH_TOKEN</definition>
+        <argsstring></argsstring>
+        <name>INVALID_OAUTH_TOKEN</name>
+        <initializer> START + 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Engage missing API key parameter error. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="189" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a439570f460717f08c4a2430fac3cf728" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int DUPLICATE_TWITTER</definition>
+        <argsstring></argsstring>
+        <name>DUPLICATE_TWITTER</name>
+        <initializer> START + 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Duplicate Twitter status update error. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="194" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a5201c4729f0d1eba2ef74bb9124f90eb" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int LINKEDIN_CHARACTER_EXCEEDED</definition>
+        <argsstring></argsstring>
+        <name>LINKEDIN_CHARACTER_EXCEEDED</name>
+        <initializer> START + 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LinkedIn character count limit exceeded. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="199" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a03ee812583965aa5c6174a7ce3a46782" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int FEED_ACTION_REQUEST_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>FEED_ACTION_REQUEST_LIMIT</name>
+        <initializer> START + 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Facebook feed action request over-limit error. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="204" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for error code constants related to social publishing. See <ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1adc00833722df4f26a365c53a43a04631" kindref="member">JREngageError.mCode</ref> for more information. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" line="168" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/JREngageError.java" bodystart="168" bodyend="205"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a0bc55b82f9bcb7072bc60bb5f89bcdbf" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::SocialPublishingError</scope><name>ACTIVITY_NIL</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a439570f460717f08c4a2430fac3cf728" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::SocialPublishingError</scope><name>DUPLICATE_TWITTER</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1af0c33320c2f6dbeaa0cbcb387c342094" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::SocialPublishingError</scope><name>FAILED</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a03ee812583965aa5c6174a7ce3a46782" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::SocialPublishingError</scope><name>FEED_ACTION_REQUEST_LIMIT</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a1662b58ed1f81b95e3794ce3df252844" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::SocialPublishingError</scope><name>INVALID_OAUTH_TOKEN</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a5201c4729f0d1eba2ef74bb9124f90eb" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::SocialPublishingError</scope><name>LINKEDIN_CHARACTER_EXCEEDED</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a0ca7943d34ac5428e6a50f792f5657a1" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::SocialPublishingError</scope><name>MISSING_API_KEY</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1_j_r_engage_error_1_1_social_publishing_error_1a422a703df864c3b879186e13631846b2" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::JREngageError::SocialPublishingError</scope><name>START</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

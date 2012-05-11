@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="namespacecom_1_1janrain_1_1android_1_1engage_1_1ui" kind="namespace">
+    <compoundname>com::janrain::android::engage::ui</compoundname>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_auto_blanking_relative_layout" prot="public">com::janrain::android::engage::ui::AutoBlankingRelativeLayout</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_color_button" prot="public">com::janrain::android::engage::ui::ColorButton</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_custom_measuring_frame_layout" prot="public">com::janrain::android::engage::ui::CustomMeasuringFrameLayout</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity" prot="public">com::janrain::android::engage::ui::JRFragmentHostActivity</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_landing_fragment" prot="public">com::janrain::android::engage::ui::JRLandingFragment</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_provider_list_fragment" prot="public">com::janrain::android::engage::ui::JRProviderListFragment</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_publish_fragment" prot="public">com::janrain::android::engage::ui::JRPublishFragment</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_ui_fragment" prot="public">com::janrain::android::engage::ui::JRUiFragment</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_web_view_fragment" prot="public">com::janrain::android::engage::ui::JRWebViewFragment</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" line="33"/>
+  </compounddef>
+</doxygen>

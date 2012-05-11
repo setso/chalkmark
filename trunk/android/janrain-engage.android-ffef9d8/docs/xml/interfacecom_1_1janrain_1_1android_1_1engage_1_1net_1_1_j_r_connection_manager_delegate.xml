@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="interfacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate" kind="interface" prot="public">
+    <compoundname>com::janrain::android::engage::net::JRConnectionManagerDelegate</compoundname>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1_1_simple_j_r_connection_manager_delegate" prot="public" virt="non-virtual">JRConnectionManagerDelegate.SimpleJRConnectionManagerDelegate</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_session" prot="public" virt="non-virtual">JRSession</derivedcompoundref>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1_1_simple_j_r_connection_manager_delegate" prot="public">com::janrain::android::engage::net::JRConnectionManagerDelegate::SimpleJRConnectionManagerDelegate</innerclass>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="interfacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1a9e94e8ae5352b3b1cb53a614d1e5febb" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void connectionDidFinishLoading</definition>
+        <argsstring>(HttpResponseHeaders headers, byte[] payload, String requestUrl, Object tag)</argsstring>
+        <name>connectionDidFinishLoading</name>
+        <param>
+          <type>HttpResponseHeaders</type>
+          <declname>headers</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>requestUrl</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/JRConnectionManagerDelegate.java" line="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1a5f8323d73bc32bfee3989e98e5436ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void connectionDidFail</definition>
+        <argsstring>(Exception ex, String requestUrl, Object tag)</argsstring>
+        <name>connectionDidFail</name>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>requestUrl</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/JRConnectionManagerDelegate.java" line="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/JRConnectionManagerDelegate.java" line="41" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/JRConnectionManagerDelegate.java" bodystart="41" bodyend="57"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1a5f8323d73bc32bfee3989e98e5436ec2" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::net::JRConnectionManagerDelegate</scope><name>connectionDidFail</name></member>
+      <member refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1a9e94e8ae5352b3b1cb53a614d1e5febb" prot="package" virt="non-virtual"><scope>com::janrain::android::engage::net::JRConnectionManagerDelegate</scope><name>connectionDidFinishLoading</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

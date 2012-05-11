@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JREngage Simple Demo</string>
+    <string name="btn_auth_label">Test Authentication</string>
+    <string name="btn_pub_label">Test Publishing</string>
+    <string name="btn_land_label">Test Landing</string>
+</resources>

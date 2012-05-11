@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="jr_dialog" parent="@android:style/Theme.Dialog" />
+    <style name="jr_fullscreen_no_title" parent="@android:style/Theme.Light.NoTitleBar" />
+    <style name="jr_fullscreen" parent="android:style/Theme.Light" />
+
+    <style name="jr_about_dialog_text">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

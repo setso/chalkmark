@@ -1,0 +1,36 @@
+<resources>
+    <string name="html_style_sheet">
+        body
+        {
+            font-family:"Helvetica";
+            color:#333333;
+            font-size:20px;
+            padding:0px;
+            margin:44px;
+        }
+
+        div.title
+        {
+            font-size:24px;
+            color:#074764;
+        }
+
+        div.posted_by
+        {
+            font-size:16px;
+            color:#999999;
+        }
+
+        div.date
+        {
+        font-size:16px;
+            color:#999999;
+        }
+
+        p
+        {
+            color:#333333;
+            font-size:20px;
+        }
+    </string>
+</resources>

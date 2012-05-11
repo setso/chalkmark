@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff" >
+	
+		
+	<Button android:id="@+id/people"
+		android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+		android:layout_marginTop="5dp"
+		android:textSize="16sp" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Select Friends" 
+	/>
+			
+	<EditText android:id="@+id/subject"
+		android:layout_below="@id/people"
+		android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+		android:layout_width="fill_parent" 
+		android:layout_height="50dp"
+		android:hint="Short Message Summary"
+		android:textSize="16sp" 
+	/>
+	
+	<EditText android:id="@+id/body" 
+		android:layout_below="@id/subject"
+		android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+		android:layout_height="100dp"
+		android:layout_width="fill_parent" 
+		android:hint="Type full message details here to be received on location" 
+		android:textSize="16sp" >
+	</EditText>
+		
+	<LinearLayout android:id="@+id/list1"
+		android:layout_below="@id/body"
+		android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" 
+		android:layout_width="fill_parent"  
+		android:layout_height="35dp" >
+		<ImageView android:id="@+id/camera"
+			android:src="@drawable/button_include_photo" 
+			android:layout_width="fill_parent"  
+			android:layout_height="fill_parent"
+		    android:orientation="horizontal" >
+		</ImageView>	
+	</LinearLayout>	
+					
+			
+	<TextView android:id="@+id/progress" 
+		android:layout_below="@id/list1"
+		android:layout_marginTop="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:text="Expiration 25 days"
+		android:textSize="18sp"
+		android:layout_alignParentLeft="true" >
+	</TextView>
+	
+	
+	<SeekBar android:id="@+id/seekbar" 
+		android:layout_below="@id/progress"
+		android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:max="51" 
+		android:progress="25"
+		android:focusable="true" 
+		android:contentDescription="Expiration" >
+	</SeekBar>
+			
+	<TextView android:id="@+id/radius" 
+		android:layout_below="@id/seekbar"
+		android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:text="Pick-Up Radius: 1000 yards"
+		android:textSize="18sp"
+		android:layout_alignParentLeft="true" >
+	</TextView>
+	
+	
+	<SeekBar android:id="@+id/seekbar2" 
+		android:layout_below="@id/radius"
+		android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:max="1760" 
+		android:progress="1000"
+		android:focusable="true" 
+		android:contentDescription="Radius" >
+	</SeekBar>
+			
+	<LinearLayout
+	    android:id="@+id/mbuttons"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal" 
+	    android:gravity="center"
+	    android:layout_height="wrap_content" 
+	    android:layout_marginLeft="10px"
+	    android:layout_marginRight="10px"
+	    android:layout_marginBottom="5px"
+	    android:layout_alignParentBottom="true">
+	    
+		<LinearLayout
+		    android:id="@+id/b1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:orientation="horizontal"
+		    android:layout_weight="1">
+		    <Button android:id="@+id/cancel"
+		    	android:text="Cancel" 
+		    	android:textColor="#000000" 
+		    	android:textSize="18sp"  
+		    	android:padding="2dp" 
+		    	android:layout_height="wrap_content" 
+		    	android:layout_width="wrap_content" 
+		    	android:layout_weight="1" 
+		    	android:gravity="center|center_horizontal">
+		    </Button>
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/b2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:orientation="horizontal"
+		    android:layout_weight="1">
+		    <Button android:id="@+id/drop" 
+		    	android:gravity="center" 
+		    	android:text="Submit" 
+		    	android:textColor="#000000" 
+		    	android:textSize="18sp" 
+		    	android:padding="2dp" 
+		    	android:layout_height="wrap_content" 
+		    	android:layout_width="wrap_content" 
+		    	android:layout_weight="1">
+		    </Button>
+		</LinearLayout>
+		
+	</LinearLayout> 
+	
+</RelativeLayout>
+

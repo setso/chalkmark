@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="interfacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1_1_async_http_response_listener" kind="interface" prot="public">
+    <compoundname>com::janrain::android::engage::net::async::AsyncHttpClient::AsyncHttpResponseListener</compoundname>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager" prot="public" virt="non-virtual">JRConnectionManager</derivedcompoundref>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="interfacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1_1_async_http_response_listener_1a651acded0b54df85049d2bb41d441d2c" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void onResponseReceived</definition>
+        <argsstring>(AsyncHttpResponse response)</argsstring>
+        <name>onResponseReceived</name>
+        <param>
+          <type>AsyncHttpResponse</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method invoked when a response from an asynchronous request is received.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The response object returned from the asynchronous request. This object will contain either the the response headers and data or if an issue occurs, an exception detailing the issue encountered. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" line="291"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" line="282" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" bodystart="282" bodyend="292"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1_1_async_http_response_listener_1a651acded0b54df85049d2bb41d441d2c" prot="package" virt="non-virtual"><scope>com::janrain::android::engage::net::async::AsyncHttpClient::AsyncHttpResponseListener</scope><name>onResponseReceived</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

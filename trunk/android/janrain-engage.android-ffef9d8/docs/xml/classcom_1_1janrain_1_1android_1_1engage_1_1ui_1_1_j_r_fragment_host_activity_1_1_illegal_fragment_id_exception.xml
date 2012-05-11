@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1_1_illegal_fragment_id_exception" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::ui::JRFragmentHostActivity::IllegalFragmentIdException</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1_1_illegal_fragment_id_exception_1a243cefe689bfe4136f601a08daadbc4a" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mFragId</definition>
+        <argsstring></argsstring>
+        <name>mFragId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRFragmentHostActivity.java" line="194" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRFragmentHostActivity.java" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1_1_illegal_fragment_id_exception_1a5722a7a8e144e39b3e42dac63b59e21b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>IllegalFragmentIdException</definition>
+        <argsstring>(int fragId)</argsstring>
+        <name>IllegalFragmentIdException</name>
+        <param>
+          <type>int</type>
+          <declname>fragId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRFragmentHostActivity.java" line="196" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRFragmentHostActivity.java" bodystart="196" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1_1_illegal_fragment_id_exception_1ad146fa8579a5f8a876c4688cc5a68520" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRFragmentHostActivity.java" line="200" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRFragmentHostActivity.java" bodystart="200" bodyend="202"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRFragmentHostActivity.java" line="193" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRFragmentHostActivity.java" bodystart="193" bodyend="203"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1_1_illegal_fragment_id_exception_1a5722a7a8e144e39b3e42dac63b59e21b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::IllegalFragmentIdException</scope><name>IllegalFragmentIdException</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1_1_illegal_fragment_id_exception_1a243cefe689bfe4136f601a08daadbc4a" prot="package" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::IllegalFragmentIdException</scope><name>mFragId</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1_1_illegal_fragment_id_exception_1ad146fa8579a5f8a876c4688cc5a68520" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::IllegalFragmentIdException</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

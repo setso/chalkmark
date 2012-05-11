@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff" >
+	
+	<TableLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="1"
+		android:background="#ffffff" android:layout_below="@+id/mbuttons">
+	
+		<com.google.android.maps.MapView
+	        android:id="@+id/mapview"
+	        android:layout_width="fill_parent"
+    		android:layout_height="fill_parent" 
+	        android:clickable="true"
+	        android:apiKey="0Ajn0AV3QpWa9q7A0EFKSkcFpDRYDblPwjusXWA" >
+	    </com.google.android.maps.MapView>
+    	
+      	<ImageView android:id="@+id/drag"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/marker_cross"
+    		android:visibility="gone" >
+  		</ImageView> 
+    
+	</TableLayout>	
+	
+	
+	<LinearLayout
+	    android:id="@+id/mbuttons"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal" 
+	    android:layout_alignParentTop="true" 
+	    android:layout_height="35dp">
+	    
+	   <LinearLayout
+		    android:id="@+id/b2"
+		    android:layout_width="240dp" 
+			android:paddingLeft="5dip" 
+	    	android:layout_height="fill_parent" 
+		    android:orientation="horizontal"
+		    android:layout_weight="1" >		
+		        
+			<ImageView android:id="@+id/make_mark"
+				android:src="@drawable/button_make_mark" 
+				android:layout_width="fill_parent" 
+				android:layout_height="match_parent"/>
+				
+		</LinearLayout>
+		
+		
+		<LinearLayout
+		    android:id="@+id/b2"
+		    android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+		    android:layout_marginLeft="5px"
+	    	android:layout_marginRight="5px"
+		    android:orientation="horizontal"
+		    android:layout_weight="1">		
+		        
+			<ImageView android:id="@+id/refresh_map"
+				android:layout_width="fill_parent"
+				android:src="@drawable/button_refresh_map" android:layout_height="match_parent"/>
+			 		    
+		</LinearLayout>   
+		
+		<LinearLayout
+		    android:id="@+id/b1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+	    	android:layout_marginLeft="5px"
+	    	android:layout_marginRight="5px"
+		    android:orientation="horizontal"
+		    android:layout_weight="1">
+			<ImageView android:layout_width="fill_parent" android:layout_height="match_parent" android:id="@+id/my_location" android:src="@drawable/button_my_location"></ImageView>
+    		  				
+		</LinearLayout>
+				
+	</LinearLayout> 
+
+</RelativeLayout>
+
+
+<!-- android:apiKey="0Ajn0AV3QpWa9q7A0EFKSkcFpDRYDblPwjusXWA" -->

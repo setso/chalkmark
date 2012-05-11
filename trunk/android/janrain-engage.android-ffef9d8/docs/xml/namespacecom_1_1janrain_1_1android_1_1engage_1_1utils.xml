@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="namespacecom_1_1janrain_1_1android_1_1engage_1_1utils" kind="namespace">
+    <compoundname>com::janrain::android::engage::utils</compoundname>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_android_utils" prot="public">com::janrain::android::engage::utils::AndroidUtils</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver" prot="public">com::janrain::android::engage::utils::Archiver</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_i_o_utils" prot="public">com::janrain::android::engage::utils::IOUtils</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_list_utils" prot="public">com::janrain::android::engage::utils::ListUtils</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_prefs" prot="public">com::janrain::android::engage::utils::Prefs</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_string_utils" prot="public">com::janrain::android::engage::utils::StringUtils</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/AndroidUtils.java" line="33"/>
+  </compounddef>
+</doxygen>

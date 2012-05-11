@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="namespacecom_1_1janrain_1_1android_1_1engage_1_1net" kind="namespace">
+    <compoundname>com::janrain::android::engage::net</compoundname>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager" prot="public">com::janrain::android::engage::net::JRConnectionManager</innerclass>
+    <innerclass refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate" prot="public">com::janrain::android::engage::net::JRConnectionManagerDelegate</innerclass>
+    <innernamespace refid="namespacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1async">com::janrain::android::engage::net::async</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1"/>
+  </compounddef>
+</doxygen>

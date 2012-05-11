@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1_1_fullscreen" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JRFragmentHostActivity</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1_1_fullscreen_no_title_bar" prot="public" virt="non-virtual">JRFragmentHostActivity.FullscreenNoTitleBar</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRFragmentHostActivity.java" line="219" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/JRFragmentHostActivity.java" bodystart="219" bodyend="219"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1a56d1aa9f923f19b1121151a3ac2e7a1a" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>ACTION_FINISH_FRAGMENT</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1a408b47ffba06df97ac1875741713f6e0" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>createIntentForCurrentScreen</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1ab8156156ab1f5f1556ca5ec536930d50" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>EXTRA_FINISH_FRAGMENT_TARGET</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1a40fe6f4108018469985ee2d293f05cf7" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>FINISH_INTENT_FILTER</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1aa8f5cfac5e3af4e89b40e1b53c49dd28" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>FINISH_TARGET_ALL</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1aa2db49877e6651aa100f1bf0bda42a10" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>isAuthFlow</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1a89727f51c1f6f1b6705eea4c95175c0b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>JR_AUTH_FLOW</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1aaa9234461424a20ebe14f71f4e9405a5" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>JR_FRAGMENT_ID</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1a95e5f0c5846e22cb41b63a3decd8325c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>JR_LANDING</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1a227f6646d63fc183c1227be40d2afbc5" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>JR_PROVIDER_LIST</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1aeb0ca39d4eee54f74a8bb818630eb73c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>JR_PUBLISH</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1ae2dd4f7e35e3e038a0f060ab1ee394fb" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>JR_WEBVIEW</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1a3bc85abb35d480f743e4b74d5de3d549" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>onActivityResult</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1acb776333595cb036bf935852041cb088" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>onBackPressed</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1a85e87cb5ced88dff7c8173ecc4f636d1" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1af09f6e77f8fb370071383504a006758f" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>onKeyDown</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1a14768c382cfd134f7688413a3eb56d08" prot="protected" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>onResume</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_j_r_fragment_host_activity_1aaaaa0c353216e6d0e31d0f2fbc5c351b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::JRFragmentHostActivity::Fullscreen</scope><name>setTheme</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

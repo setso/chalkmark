@@ -1,0 +1,4 @@
+<resources>
+    <style name="JanrainDemoTheme" parent="android:Theme.Holo.Light">
+    </style>
+</resources>

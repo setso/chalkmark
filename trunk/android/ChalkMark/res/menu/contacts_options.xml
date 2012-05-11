@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#ffffff" >
+		
+	<item android:id="@+id/refresh_contacts"
+		android:title="Refresh Contacts"
+		android:icon="@drawable/ic_menu_refresh" >
+	</item>
+		
+	<item android:id="@+id/view_selected"
+		android:title="View Selected"
+		android:icon="@drawable/ic_menu_span" >
+	</item>
+	
+</menu>

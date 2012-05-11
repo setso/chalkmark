@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.janrain.android.engage">
+
+    <!--According to Xav Ducrochet nothing from the Library Project's manifest *except* the package
+        is respected by the Android SDK.  He recommends that the activities contained in a
+        library project be listed for reference purpose so that they can easily be copied
+        into the calling application's AndroidManifest.xml-->
+    <!--See this post: https://groups.google.com/group/android-developers/msg/9db36f18521fca7d
+        which is part of this thread:
+        https://groups.google.com/group/android-developers/browse_thread/thread/0b4a5d751346655b/9db36f18521fca7d#9db36f18521fca7d -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="13"/>
+
+    <!-- For Janrain Engage library -->
+    <activity
+        android:name="com.janrain.android.engage.ui.JRFragmentHostActivity"
+        android:configChanges="orientation|screenSize"
+        android:theme="@style/jr_dialog"
+        android:windowSoftInputMode="adjustResize|stateHidden"
+        />
+
+    <activity
+        android:name="com.janrain.android.engage.ui.JRFragmentHostActivity$Fullscreen"
+        android:configChanges="orientation|screenSize"
+        android:theme="@style/jr_fullscreen"
+        android:windowSoftInputMode="adjustResize|stateHidden"
+        />
+
+    <activity
+        android:name="com.janrain.android.engage.ui.JRFragmentHostActivity$FullscreenNoTitleBar"
+        android:configChanges="orientation|screenSize"
+        android:theme="@style/jr_fullscreen_no_title"
+        android:windowSoftInputMode="adjustResize|stateHidden"
+        />
+
+
+</manifest>

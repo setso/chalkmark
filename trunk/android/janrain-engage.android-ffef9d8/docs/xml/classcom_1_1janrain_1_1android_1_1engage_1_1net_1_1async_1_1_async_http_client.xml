@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::net::async::AsyncHttpClient</compoundname>
+    <innerclass refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1_1_async_http_response_listener" prot="public">com::janrain::android::engage::net::async::AsyncHttpClient::AsyncHttpResponseListener</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1_1_http_callback_wrapper" prot="public">com::janrain::android::engage::net::async::AsyncHttpClient::HttpCallbackWrapper</innerclass>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1_1_http_sender" prot="public">com::janrain::android::engage::net::async::AsyncHttpClient::HttpSender</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer> AsyncHttpClient.class.getSimpleName()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" line="71" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1a46271af1bf04293304a24ba410b861a3" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String USER_AGENT</definition>
+        <argsstring></argsstring>
+        <name>USER_AGENT</name>
+        <initializer>&quot;Mozilla/5.0 (Linux; U; Android 2.2; en-us; Droid Build/FRG22D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" line="72" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1a742ca9d36b1320256957f44170631429" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String HEADER_ACCEPT_ENCODING</definition>
+        <argsstring></argsstring>
+        <name>HEADER_ACCEPT_ENCODING</name>
+        <initializer>&quot;Accept-Encoding&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" line="73" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1a94a33eb971478d949ae4746a84a6adc1" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String ENCODING_GZIP</definition>
+        <argsstring></argsstring>
+        <name>ENCODING_GZIP</name>
+        <initializer>&quot;gzip&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" line="74" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1ab9114ea86dbb39b4ab0c644a409a8ada" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AsyncHttpClient</definition>
+        <argsstring>()</argsstring>
+        <name>AsyncHttpClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" line="76" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" bodystart="76" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" line="70" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/async/AsyncHttpClient.java" bodystart="70" bodyend="293"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1ab9114ea86dbb39b4ab0c644a409a8ada" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::net::async::AsyncHttpClient</scope><name>AsyncHttpClient</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1a94a33eb971478d949ae4746a84a6adc1" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::net::async::AsyncHttpClient</scope><name>ENCODING_GZIP</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1a742ca9d36b1320256957f44170631429" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::net::async::AsyncHttpClient</scope><name>HEADER_ACCEPT_ENCODING</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::net::async::AsyncHttpClient</scope><name>TAG</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1async_1_1_async_http_client_1a46271af1bf04293304a24ba410b861a3" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::net::async::AsyncHttpClient</scope><name>USER_AGENT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

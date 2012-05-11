@@ -1,0 +1,5 @@
+We follow modified AOSP style guidelines:
+http://source.android.com/source/code-style.html
+
+Like that but with 110 character columns and a preference for /**/
+comments over // comments.

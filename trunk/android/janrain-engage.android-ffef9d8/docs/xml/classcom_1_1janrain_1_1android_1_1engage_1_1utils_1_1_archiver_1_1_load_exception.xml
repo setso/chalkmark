@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1_1_load_exception" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::utils::Archiver::LoadException</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1_1_load_exception_1ae29ffe98604e9249a659f05189eabe79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LoadException</definition>
+        <argsstring>(Throwable throwable)</argsstring>
+        <name>LoadException</name>
+        <param>
+          <type>Throwable</type>
+          <declname>throwable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" line="163" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" bodystart="163" bodyend="165"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" line="162" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" bodystart="162" bodyend="166"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1_1_load_exception_1ae29ffe98604e9249a659f05189eabe79" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::utils::Archiver::LoadException</scope><name>LoadException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

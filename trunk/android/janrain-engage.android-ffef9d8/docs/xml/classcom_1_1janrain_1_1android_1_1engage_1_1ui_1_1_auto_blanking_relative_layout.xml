@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_auto_blanking_relative_layout" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::ui::AutoBlankingRelativeLayout</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RelativeLayout</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_auto_blanking_relative_layout_1a7b636d999aa66ddbc8cd4c82b8b1cc1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AutoBlankingRelativeLayout</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>AutoBlankingRelativeLayout</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" line="45" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_auto_blanking_relative_layout_1a83bd216be09d6cf3f5ea0eff1e58d02c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AutoBlankingRelativeLayout</definition>
+        <argsstring>(Context context, AttributeSet attrs)</argsstring>
+        <name>AutoBlankingRelativeLayout</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>AttributeSet</type>
+          <declname>attrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" line="49" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_auto_blanking_relative_layout_1a958b47c667a0ce9e442cc22fc88b4cfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AutoBlankingRelativeLayout</definition>
+        <argsstring>(Context context, AttributeSet attrs, int defStyle)</argsstring>
+        <name>AutoBlankingRelativeLayout</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>AttributeSet</type>
+          <declname>attrs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>defStyle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" line="53" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_auto_blanking_relative_layout_1a25bca9a1352e622b784056afad242b25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void draw</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>draw</name>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" line="75" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" bodystart="75" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" line="44" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/ui/AutoBlankingRelativeLayout.java" bodystart="44" bodyend="142"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_auto_blanking_relative_layout_1a7b636d999aa66ddbc8cd4c82b8b1cc1c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::AutoBlankingRelativeLayout</scope><name>AutoBlankingRelativeLayout</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_auto_blanking_relative_layout_1a83bd216be09d6cf3f5ea0eff1e58d02c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::AutoBlankingRelativeLayout</scope><name>AutoBlankingRelativeLayout</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_auto_blanking_relative_layout_1a958b47c667a0ce9e442cc22fc88b4cfb" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::AutoBlankingRelativeLayout</scope><name>AutoBlankingRelativeLayout</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1ui_1_1_auto_blanking_relative_layout_1a25bca9a1352e622b784056afad242b25" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::ui::AutoBlankingRelativeLayout</scope><name>draw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

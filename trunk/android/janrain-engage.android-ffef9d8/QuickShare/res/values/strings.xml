@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Activity Strings -->
+    <string name="app_name">Quick Share</string>
+    <string name="janrain_welcome_message">Browse the Janrain Blog and publish stories to your social networks.</string>
+    <string name="janrain_url">http://www.janrain.com</string>
+    <string name="loading_janrain_blog">Loading the Janrain Blog...</string>
+    <string name="view_janrain_blog">View the Janrain Blog</string>
+    <string name="reload_janrain_blog">Reload the Janrain Blog</string>
+
+    <!-- Feed Summary Activity Strings -->
+    <string name="janrain_blog">Janrain Blog</string>
+    <string name="refresh_janrain_blog">Refresh</string>
+    <string name="empty_feed">There are currently no stories available. Please refresh.</string>
+
+    <!-- Story Detail Activity Strings -->
+    <string name="html_style_sheet_common">
+        a:link    { color:#009DDC; }
+        a:visited { color:#074764; }
+        a:active  { color:#7AC143; }
+    </string>
+    <string name="html_style_sheet">
+        body
+        {
+            font-family:"Helvetica";
+            color:#333333;
+            font-size:14px;
+            padding:0px;
+            margin:10px;
+        }
+
+        div.title
+        {
+            font-size:16px;
+            color:#074764;
+        }
+
+        div.posted_by
+        {
+            font-size:12px;
+            color:#999999;
+        }
+
+        div.date
+        {
+            font-size:12px;
+            color:#999999;
+        }
+
+        p
+        {
+            color:#333333;
+            font-size:14px;
+        }
+    </string>
+
+    <!-- Deeper WebView Activity Strings -->
+</resources>

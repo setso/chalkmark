@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="_providers" kind="page">
+    <compoundname>Providers</compoundname>
+    <detaileddescription>
+<para><htmlonly> 
+&lt;!-- Script to resize the iFrames; Only works because iFrames origin is on same domain and iFrame
+      code contains script that calls this script --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    function resize(width, height, id) {
+        var iframe = document.getElementById(id);
+        iframe.width = width;
+        iframe.height = height + 50;
+        iframe.scrolling = false;
+        console.log(width);
+        console.log(height);
+    }
+&lt;/script&gt;
+
+&lt;!-- Redundant attributes to force scrolling to work across multiple browsers --&gt;
+&lt;iframe id=&quot;intro&quot; src=&quot;../mobile_providers?list=intro&amp;device=android&quot; width=&quot;100%&quot; height=&quot;100%&quot;
+    style=&quot;border:none; overflow:hidden;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;
+  Your browser does not support iFrames.
+&lt;/iframe&gt;
+</htmlonly></para><para><anchor id="_providers_1basicProviders"/> <htmlonly> 
+&lt;iframe id=&quot;basic&quot; src=&quot;../mobile_providers?list=basic&amp;device=android&quot; width=&quot;100%&quot; height=&quot;100%&quot;
+    style=&quot;border:none; overflow:hidden;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;
+  Your browser does not support iFrames.
+  &lt;a href=&quot;../mobile_providers?list=basic&amp;device=android&quot;&gt;List of Providers&lt;/a&gt;
+&lt;/iframe&gt;&lt;/p&gt;
+</htmlonly></para><para><anchor id="_providers_1socialProviders"/> <htmlonly> 
+&lt;iframe id=&quot;social&quot; src=&quot;../mobile_providers?list=social&amp;device=android&quot; width=&quot;100%&quot; height=&quot;100%&quot;
+    style=&quot;border:none; overflow:hidden;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;
+  Your browser does not support iFrames.
+  &lt;a href=&quot;../mobile_providers?list=social&amp;device=android&quot;&gt;List of Social Providers&lt;/a&gt;
+&lt;/iframe&gt;&lt;/p&gt;
+</htmlonly> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

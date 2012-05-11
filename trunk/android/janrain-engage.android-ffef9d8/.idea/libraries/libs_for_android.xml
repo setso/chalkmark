@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs-for-android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/QuickShare/libs/imageloader.jar!/" />
+      <root url="jar://$PROJECT_DIR$/QuickShare/libs/filecache.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/QuickShare/libs/filecache.jar!/" />
+      <root url="jar://$PROJECT_DIR$/QuickShare/libs/imageloader.jar!/" />
+    </SOURCES>
+  </library>
+</component>

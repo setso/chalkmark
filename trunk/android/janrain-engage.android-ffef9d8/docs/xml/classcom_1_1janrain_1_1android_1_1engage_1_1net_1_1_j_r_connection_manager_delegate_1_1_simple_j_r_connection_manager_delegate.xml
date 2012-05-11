@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1_1_simple_j_r_connection_manager_delegate" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::net::JRConnectionManagerDelegate::SimpleJRConnectionManagerDelegate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JRConnectionManagerDelegate</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1_1_simple_j_r_connection_manager_delegate_1a9e94e8ae5352b3b1cb53a614d1e5febb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void connectionDidFinishLoading</definition>
+        <argsstring>(HttpResponseHeaders headers, byte[] payload, String requestUrl, Object tag)</argsstring>
+        <name>connectionDidFinishLoading</name>
+        <param>
+          <type>HttpResponseHeaders</type>
+          <declname>headers</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>requestUrl</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/JRConnectionManagerDelegate.java" line="53" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/JRConnectionManagerDelegate.java" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1_1_simple_j_r_connection_manager_delegate_1a5f8323d73bc32bfee3989e98e5436ec2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void connectionDidFail</definition>
+        <argsstring>(Exception ex, String requestUrl, Object tag)</argsstring>
+        <name>connectionDidFail</name>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>requestUrl</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/JRConnectionManagerDelegate.java" line="55" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/JRConnectionManagerDelegate.java" bodystart="55" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/JRConnectionManagerDelegate.java" line="49" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/net/JRConnectionManagerDelegate.java" bodystart="49" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1_1_simple_j_r_connection_manager_delegate_1a5f8323d73bc32bfee3989e98e5436ec2" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::net::JRConnectionManagerDelegate::SimpleJRConnectionManagerDelegate</scope><name>connectionDidFail</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1net_1_1_j_r_connection_manager_delegate_1_1_simple_j_r_connection_manager_delegate_1a9e94e8ae5352b3b1cb53a614d1e5febb" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::net::JRConnectionManagerDelegate::SimpleJRConnectionManagerDelegate</scope><name>connectionDidFinishLoading</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

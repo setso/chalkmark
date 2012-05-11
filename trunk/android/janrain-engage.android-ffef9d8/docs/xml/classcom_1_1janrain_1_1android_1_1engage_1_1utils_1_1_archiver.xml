@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::utils::Archiver</compoundname>
+    <innerclass refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1_1_load_exception" prot="public">com::janrain::android::engage::utils::Archiver::LoadException</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer> Archiver.class.getSimpleName()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" line="52" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1ab63e7e1fe9ad1e3f03f4a44e5bbd763e" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String DICTIONARY_FILE_SEPARATOR</definition>
+        <argsstring></argsstring>
+        <name>DICTIONARY_FILE_SEPARATOR</name>
+        <initializer>&quot;~&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" line="54" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1a9d053638a5874f79d850e23d9bddde06" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String DICTIONARY_BASE_FORMAT</definition>
+        <argsstring></argsstring>
+        <name>DICTIONARY_BASE_FORMAT</name>
+        <initializer>&quot;%s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" line="56" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1a9bd7a518d31886cc725e6a210f9e44fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Archiver</definition>
+        <argsstring>()</argsstring>
+        <name>Archiver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" line="58" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" bodystart="58" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1a2264a2a4cda7dcfde968fb94108f7f95" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void save</definition>
+        <argsstring>(String name, Object object)</argsstring>
+        <name>save</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Saves (archives) the specified object to the local (protected) file system.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name the object will be saved as on disk. This parameter cannot be null.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to be saved.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IllegalArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if the name parameter is null. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IllegalStateException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if JREngage.getContext() returns null. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" line="74" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" bodystart="74" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1a4d98601b3b5fc631645c92d1294dd8f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static&lt; T &gt; T</type>
+        <definition>static &lt;T&gt; T load</definition>
+        <argsstring>(String name)</argsstring>
+        <name>load</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <exceptions> throws LoadException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loads (unarchives) the specified object from the local (protected) file system.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the object to be loaded from disk. This parameter cannot be null.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The object if found and loaded, null otherwise.</para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IllegalArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if the name parameter is null. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IllegalStateException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if JREngage.getContext() returns null. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>LoadException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if there was any problem loading the object. (Including SUID mismatches, IO exceptions, de-serialization exceptions, cosmic rays, et cetera.) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" line="128" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" bodystart="128" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" line="51" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/utils/Archiver.java" bodystart="51" bodyend="167"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1a9bd7a518d31886cc725e6a210f9e44fc" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::utils::Archiver</scope><name>Archiver</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1a9d053638a5874f79d850e23d9bddde06" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::utils::Archiver</scope><name>DICTIONARY_BASE_FORMAT</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1ab63e7e1fe9ad1e3f03f4a44e5bbd763e" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::utils::Archiver</scope><name>DICTIONARY_FILE_SEPARATOR</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1a4d98601b3b5fc631645c92d1294dd8f0" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::utils::Archiver</scope><name>load</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1a2264a2a4cda7dcfde968fb94108f7f95" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::utils::Archiver</scope><name>save</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1utils_1_1_archiver_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::utils::Archiver</scope><name>TAG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

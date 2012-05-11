@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.janrain.android.simpledemo"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="13" />
+
+    <!--
+        Tab appearance notes
+
+        on the Nexus S:
+        Sdk 7, 6, 5 is a brushed aluminum looking halftone with a slightly darker selected tab
+        and no tab separators between unselected tabs and a tab strip at the bottom
+        4 is a very dark grey gradient with a much lighter selected tab and a tab strip at the
+        bottom that looks bad with our white background below the tab strip because it has a
+        black line at the bottom.  and very slight tab separators between unselected tabs
+
+        on the 2.1 emulator:
+        Sdk 7 is black unselected tabs with a halftone selected tab, a tab strip at the bottom,
+        and a light separator between selected tabs.
+        4 is halftone unselected tabs with separators and a tab strip at the bottom and a light
+        gray selected tab.
+    -->
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:theme="@android:style/Theme.Light"
+        >
+
+        <activity android:name=".MainActivity">
+            <!--android:launchMode="singleTask">-->
+                <!--singleTask isn't working as documented, instead it's behaving as described in
+                    this bug report:
+                    http://code.google.com/p/android/issues/detail?id=11160&can=5&colspec=ID%20Type%20Status%20Owner%20Summary%20Stars
+                    -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <!-- For Janrain Engage library -->
+        <activity
+            android:name="com.janrain.android.engage.ui.JRFragmentHostActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/jr_dialog"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            />
+
+        <activity
+            android:name="com.janrain.android.engage.ui.JRFragmentHostActivity$Fullscreen"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/jr_fullscreen"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            />
+
+        <activity
+            android:name="com.janrain.android.engage.ui.JRFragmentHostActivity$FullscreenNoTitleBar"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/jr_fullscreen_no_title"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            />
+
+    </application>
+
+</manifest>

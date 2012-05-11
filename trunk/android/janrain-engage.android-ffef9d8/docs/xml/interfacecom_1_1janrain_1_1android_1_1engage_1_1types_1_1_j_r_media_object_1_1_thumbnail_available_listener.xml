@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="interfacecom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1_1_thumbnail_available_listener" kind="interface" prot="public">
+    <compoundname>com::janrain::android::engage::types::JRMediaObject::ThumbnailAvailableListener</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1_1_thumbnail_available_listener_1aa98be1ebf41ba53b2bfd5d1007016f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void onThumbnailAvailable</definition>
+        <argsstring>(Bitmap b)</argsstring>
+        <name>onThumbnailAvailable</name>
+        <param>
+          <type>Bitmap</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" line="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" line="91" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/types/JRMediaObject.java" bodystart="91" bodyend="93"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_media_object_1_1_thumbnail_available_listener_1aa98be1ebf41ba53b2bfd5d1007016f96" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::types::JRMediaObject::ThumbnailAvailableListener</scope><name>onThumbnailAvailable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

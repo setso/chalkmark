@@ -1,0 +1,842 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.4">
+  <compounddef id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider" kind="class" prot="public">
+    <compoundname>com::janrain::android::engage::session::JRProvider</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a98a70021dbca301562452b81e4b9e76a" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_FRIENDLY_NAME</definition>
+        <argsstring></argsstring>
+        <name>KEY_FRIENDLY_NAME</name>
+        <initializer>&quot;friendly_name&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="74" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad178a73499dbce86242839486ab5bed0" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_INPUT_PROMPT</definition>
+        <argsstring></argsstring>
+        <name>KEY_INPUT_PROMPT</name>
+        <initializer>&quot;input_prompt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="77" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ac02af6b163c67dc9b9e346163ed276d1" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_OPENID_IDENTIFIER</definition>
+        <argsstring></argsstring>
+        <name>KEY_OPENID_IDENTIFIER</name>
+        <initializer>&quot;openid_identifier&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="78" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ae97315beea95395e0f381aedd2ff13f9" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_URL</definition>
+        <argsstring></argsstring>
+        <name>KEY_URL</name>
+        <initializer>&quot;url&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="79" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a6c7cbc19140ad9cfd642b9eba2910f13" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_REQUIRES_INPUT</definition>
+        <argsstring></argsstring>
+        <name>KEY_REQUIRES_INPUT</name>
+        <initializer>&quot;requires_input&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="80" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad461d1ee9bd6c87e6845ccea14818675" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_SOCIAL_SHARING_PROPERTIES</definition>
+        <argsstring></argsstring>
+        <name>KEY_SOCIAL_SHARING_PROPERTIES</name>
+        <initializer>&quot;social_sharing_properties&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="81" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a2776cc6ed9c931e175602bd57fbedb6f" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_COOKIE_DOMAINS</definition>
+        <argsstring></argsstring>
+        <name>KEY_COOKIE_DOMAINS</name>
+        <initializer>&quot;cookie_domains&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="82" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a14c39680294a16bab3da737e0a2fe050" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String KEY_ANDROID_WEBVIEW_OPTIONS</definition>
+        <argsstring></argsstring>
+        <name>KEY_ANDROID_WEBVIEW_OPTIONS</name>
+        <initializer>&quot;android_webview_options&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="83" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer> JRProvider.class.getSimpleName()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="85" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1adcdfc1cf80f5130713ed92d6af5495f8" prot="private" static="yes" mutable="no">
+        <type>Map&lt; String, Drawable &gt;</type>
+        <definition>Map&lt;String, Drawable&gt; provider_list_icon_drawables</definition>
+        <argsstring></argsstring>
+        <name>provider_list_icon_drawables</name>
+        <initializer> new HashMap&lt;String, Drawable&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="87" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad20cd4d9c9dda6d8d4bac2f356b4f7f4" prot="private" static="yes" mutable="no">
+        <type>final Map&lt; String, Integer &gt;</type>
+        <definition>final Map&lt;String, Integer&gt; provider_list_icon_resources</definition>
+        <argsstring></argsstring>
+        <name>provider_list_icon_resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="123" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a547f06c5135caf54756cc1ac427b4d26" prot="private" static="yes" mutable="no">
+        <type>HashMap&lt; String, Drawable &gt;</type>
+        <definition>HashMap&lt;String, Drawable&gt; provider_logo_drawables</definition>
+        <argsstring></argsstring>
+        <name>provider_logo_drawables</name>
+        <initializer>
+            new HashMap&lt;String, Drawable&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="126" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ae7edc22a11406768ee78eaf0d013716f" prot="private" static="yes" mutable="no">
+        <type>final HashMap&lt; String, Integer &gt;</type>
+        <definition>final HashMap&lt;String, Integer&gt; provider_logo_resources</definition>
+        <argsstring></argsstring>
+        <name>provider_logo_resources</name>
+        <initializer>
+            new HashMap&lt;String, Integer&gt;(){
+                    {
+                        put(&quot;logo_aol&quot;, R.drawable.jr_logo_aol);
+                        put(&quot;logo_blogger&quot;, R.drawable.jr_logo_blogger);
+                        put(&quot;logo_facebook&quot;, R.drawable.jr_logo_facebook);
+                        put(&quot;logo_flickr&quot;, R.drawable.jr_logo_flickr);
+                        put(&quot;logo_foursquare&quot;, R.drawable.jr_logo_foursquare);
+                        put(&quot;logo_google&quot;, R.drawable.jr_logo_google);
+                        put(&quot;logo_hyves&quot;, R.drawable.jr_logo_hyves);
+                        put(&quot;logo_linkedin&quot;, R.drawable.jr_logo_linkedin);
+                        put(&quot;logo_live_id&quot;, R.drawable.jr_logo_live_id);
+                        put(&quot;logo_livejournal&quot;, R.drawable.jr_logo_livejournal);
+                        put(&quot;logo_myopenid&quot;, R.drawable.jr_logo_myopenid);
+                        put(&quot;logo_myspace&quot;, R.drawable.jr_logo_myspace);
+                        put(&quot;logo_netlog&quot;, R.drawable.jr_logo_netlog);
+                        put(&quot;logo_openid&quot;, R.drawable.jr_logo_openid);
+                        put(&quot;logo_orkut&quot;, R.drawable.jr_logo_orkut);
+                        put(&quot;logo_paypal&quot;, R.drawable.jr_logo_paypal);
+                        put(&quot;logo_salesforce&quot;, R.drawable.jr_logo_salesforce);
+                        put(&quot;logo_twitter&quot;, R.drawable.jr_logo_twitter);
+                        put(&quot;logo_verisign&quot;, R.drawable.jr_logo_verisign);
+                        put(&quot;logo_vzn&quot;, R.drawable.jr_logo_vzn);
+                        put(&quot;logo_yahoo&quot;, R.drawable.jr_logo_yahoo);
+                    }
+            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="155" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a3e0018763e60939d5c4b735eed427978" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mName</definition>
+        <argsstring></argsstring>
+        <name>mName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="157" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a0a499bcfb6e92a9ad9ff2501b9295531" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mFriendlyName</definition>
+        <argsstring></argsstring>
+        <name>mFriendlyName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="158" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1acc20f926a5a8de53b6d00569717f2e58" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mPlaceholderText</definition>
+        <argsstring></argsstring>
+        <name>mPlaceholderText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="159" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a25a0ce25f92393ab8801f65a9c00d6d2" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mShortText</definition>
+        <argsstring></argsstring>
+        <name>mShortText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="160" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1aa41574ac39e166b0685394a2d190de56" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean mRequiresInput</definition>
+        <argsstring></argsstring>
+        <name>mRequiresInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="161" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a25b4a31e846d956829cf627260f24598" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mOpenIdentifier</definition>
+        <argsstring></argsstring>
+        <name>mOpenIdentifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="162" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1aee286e0eb51f7a1e0a25a2d17e7c910f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String mStartAuthenticationUrl</definition>
+        <argsstring></argsstring>
+        <name>mStartAuthenticationUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="163" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a0f34fc267cd2ac4c6c2674e9f4953b6a" prot="private" static="no" mutable="no">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; mCookieDomains</definition>
+        <argsstring></argsstring>
+        <name>mCookieDomains</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="164" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad0450118ee30db7ec14ebeb9bb349700" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>JRDictionary mSocialSharingProperties</definition>
+        <argsstring></argsstring>
+        <name>mSocialSharingProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="165" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ac3a7f30e1f7b4e5685425f02a7451485" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>JRDictionary mWebViewOptions</definition>
+        <argsstring></argsstring>
+        <name>mWebViewOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="166" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a5aa45946f5300718b3bf0d9051473541" prot="private" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean mForceReauth</definition>
+        <argsstring></argsstring>
+        <name>mForceReauth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="168" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1acaae283e8c6a7b8e7bb53857203449de" prot="private" static="no" mutable="no">
+        <type>transient String</type>
+        <definition>transient String mUserInput</definition>
+        <argsstring></argsstring>
+        <name>mUserInput</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="169" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1abcbcd32353f1cbaefd1fbe9fdca4c2db" prot="private" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean mCurrentlyDownloading</definition>
+        <argsstring></argsstring>
+        <name>mCurrentlyDownloading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="170" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ac0d5271e22a09feae99a5a13b6ead42d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JRProvider</definition>
+        <argsstring>(String name, JRDictionary dictionary)</argsstring>
+        <name>JRProvider</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+          <declname>dictionary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="178" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="178" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1af791944a498d90d7ae100d1bb86601d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; getCookieDomains</definition>
+        <argsstring>()</argsstring>
+        <name>getCookieDomains</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="211" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="211" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a78ee178b6a73658d65ca60da4d1e6683" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="215" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="215" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a9672085ebb092712cd3c63c03d7f41cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getFriendlyName</definition>
+        <argsstring>()</argsstring>
+        <name>getFriendlyName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="219" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="219" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1abc03f48679495b2d9ac59631877ce6a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getPlaceholderText</definition>
+        <argsstring>()</argsstring>
+        <name>getPlaceholderText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="223" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="223" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a5ebb661a63836571d920dc7b91db5a8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getShortText</definition>
+        <argsstring>()</argsstring>
+        <name>getShortText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="227" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="227" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1afaa6664d61d4457e0ba96e7108245027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean requiresInput</definition>
+        <argsstring>()</argsstring>
+        <name>requiresInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="231" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="231" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a77e20b0fb85124ab06be81b68aaeafc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getOpenIdentifier</definition>
+        <argsstring>()</argsstring>
+        <name>getOpenIdentifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="235" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="235" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a85109e923686c8ee0134fa0d1421121c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getStartAuthenticationUrl</definition>
+        <argsstring>()</argsstring>
+        <name>getStartAuthenticationUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="239" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="239" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ae51314d521e20a11808832f505afc58b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>JRDictionary getSocialSharingProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getSocialSharingProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="243" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="243" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a3893ecbb6c6e33daec44eabb9d195222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary" kindref="compound">JRDictionary</ref></type>
+        <definition>JRDictionary getWebViewOptions</definition>
+        <argsstring>()</argsstring>
+        <name>getWebViewOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="247" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="247" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad10f977d8d35743e990c92cfc510388d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean getForceReauth</definition>
+        <argsstring>()</argsstring>
+        <name>getForceReauth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="251" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="251" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a695f8d465c01f8070bc7f9575c0bedc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setForceReauth</definition>
+        <argsstring>(boolean forceReauth)</argsstring>
+        <name>setForceReauth</name>
+        <param>
+          <type>boolean</type>
+          <declname>forceReauth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="255" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="255" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a0ed69559e8c02c2023a338ada72eb724" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String getUserInput</definition>
+        <argsstring>()</argsstring>
+        <name>getUserInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="261" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="261" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a46a7420fd73f8cb248461bcc3a260cca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void setUserInput</definition>
+        <argsstring>(String userInput)</argsstring>
+        <name>setUserInput</name>
+        <param>
+          <type>String</type>
+          <declname>userInput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="265" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="265" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1af579b7cdbe9b263ea259097eaec5eac1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Drawable</type>
+        <definition>Drawable getProviderIcon</definition>
+        <argsstring>(Context c)</argsstring>
+        <name>getProviderIcon</name>
+        <param>
+          <type>Context</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="343" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="343" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a1696845867a60cf59384b22dc1eae233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Drawable</type>
+        <definition>Drawable getProviderLogo</definition>
+        <argsstring>(Context c)</argsstring>
+        <name>getProviderLogo</name>
+        <param>
+          <type>Context</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="347" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="347" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a209936d7dd34d07fe1860cd37824f9ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Drawable</type>
+        <definition>Drawable getTabSpecIndicatorDrawable</definition>
+        <argsstring>(Context c)</argsstring>
+        <name>getTabSpecIndicatorDrawable</name>
+        <param>
+          <type>Context</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="351" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="351" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a6c2ffef2bc44c7623c80391c8c73f400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void loadDynamicVariables</definition>
+        <argsstring>()</argsstring>
+        <name>loadDynamicVariables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="416" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="416" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad146fa8579a5f8a876c4688cc5a68520" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="423" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="423" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a3f67824683a5ac09a7101eafea1bb9e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int getProviderColor</definition>
+        <argsstring>(boolean withAlpha)</argsstring>
+        <name>getProviderColor</name>
+        <param>
+          <type>boolean</type>
+          <declname>withAlpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="435" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="435" bodyend="474"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a18dc94bf5ae51468bdf1bbfb19489e33" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Drawable</type>
+        <definition>Drawable getDrawable</definition>
+        <argsstring>(Context c, String drawableName, Map&lt; String, Drawable &gt; drawableMap, Map&lt; String, Integer &gt; resourceMap)</argsstring>
+        <name>getDrawable</name>
+        <param>
+          <type>Context</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>drawableName</declname>
+        </param>
+        <param>
+          <type>Map&lt; String, Drawable &gt;</type>
+          <declname>drawableMap</declname>
+        </param>
+        <param>
+          <type>Map&lt; String, Integer &gt;</type>
+          <declname>resourceMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="276" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="273" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ae0f3a124d14445cec093c6f62d7450f9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void downloadIcons</definition>
+        <argsstring>(final Context c)</argsstring>
+        <name>downloadIcons</name>
+        <param>
+          <type>final Context</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="370" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="370" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a30cae6fed1b7ca8401b58dc58de99d8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Context</type>
+        <definition>Context getContext</definition>
+        <argsstring>()</argsstring>
+        <name>getContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="427" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="427" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a85fd269790d5ccfe6fd489770007dd45" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Resources</type>
+        <definition>Resources getResources</definition>
+        <argsstring>()</argsstring>
+        <name>getResources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="431" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="431" bodyend="433"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="87">
+        <label>JRProvider</label>
+        <childnode refid="88" relation="usage">
+          <edgelabel>mWebViewOptions</edgelabel>
+          <edgelabel>mSocialSharingProperties</edgelabel>
+        </childnode>
+      </node>
+      <node id="88">
+        <label>JRDictionary</label>
+        <link refid="classcom_1_1janrain_1_1android_1_1engage_1_1types_1_1_j_r_dictionary"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" line="72" bodyfile="/Users/nathan/android-code/engage.android/JREngage/src/com/janrain/android/engage/session/JRProvider.java" bodystart="72" bodyend="475"/>
+    <listofallmembers>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ae0f3a124d14445cec093c6f62d7450f9" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>downloadIcons</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a30cae6fed1b7ca8401b58dc58de99d8b" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getContext</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1af791944a498d90d7ae100d1bb86601d9" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getCookieDomains</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a18dc94bf5ae51468bdf1bbfb19489e33" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getDrawable</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad10f977d8d35743e990c92cfc510388d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getForceReauth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a9672085ebb092712cd3c63c03d7f41cc" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getFriendlyName</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a78ee178b6a73658d65ca60da4d1e6683" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getName</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a77e20b0fb85124ab06be81b68aaeafc3" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getOpenIdentifier</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1abc03f48679495b2d9ac59631877ce6a7" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getPlaceholderText</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a3f67824683a5ac09a7101eafea1bb9e5" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getProviderColor</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1af579b7cdbe9b263ea259097eaec5eac1" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getProviderIcon</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a1696845867a60cf59384b22dc1eae233" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getProviderLogo</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a85fd269790d5ccfe6fd489770007dd45" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getResources</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a5ebb661a63836571d920dc7b91db5a8b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getShortText</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ae51314d521e20a11808832f505afc58b" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getSocialSharingProperties</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a85109e923686c8ee0134fa0d1421121c" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getStartAuthenticationUrl</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a209936d7dd34d07fe1860cd37824f9ff" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getTabSpecIndicatorDrawable</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a0ed69559e8c02c2023a338ada72eb724" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getUserInput</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a3893ecbb6c6e33daec44eabb9d195222" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>getWebViewOptions</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ac0d5271e22a09feae99a5a13b6ead42d" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>JRProvider</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a14c39680294a16bab3da737e0a2fe050" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>KEY_ANDROID_WEBVIEW_OPTIONS</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a2776cc6ed9c931e175602bd57fbedb6f" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>KEY_COOKIE_DOMAINS</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a98a70021dbca301562452b81e4b9e76a" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>KEY_FRIENDLY_NAME</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad178a73499dbce86242839486ab5bed0" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>KEY_INPUT_PROMPT</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ac02af6b163c67dc9b9e346163ed276d1" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>KEY_OPENID_IDENTIFIER</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a6c7cbc19140ad9cfd642b9eba2910f13" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>KEY_REQUIRES_INPUT</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad461d1ee9bd6c87e6845ccea14818675" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>KEY_SOCIAL_SHARING_PROPERTIES</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ae97315beea95395e0f381aedd2ff13f9" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>KEY_URL</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a6c2ffef2bc44c7623c80391c8c73f400" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>loadDynamicVariables</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a0f34fc267cd2ac4c6c2674e9f4953b6a" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mCookieDomains</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1abcbcd32353f1cbaefd1fbe9fdca4c2db" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mCurrentlyDownloading</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a5aa45946f5300718b3bf0d9051473541" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mForceReauth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a0a499bcfb6e92a9ad9ff2501b9295531" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mFriendlyName</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a3e0018763e60939d5c4b735eed427978" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mName</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a25b4a31e846d956829cf627260f24598" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mOpenIdentifier</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1acc20f926a5a8de53b6d00569717f2e58" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mPlaceholderText</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1aa41574ac39e166b0685394a2d190de56" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mRequiresInput</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a25a0ce25f92393ab8801f65a9c00d6d2" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mShortText</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad0450118ee30db7ec14ebeb9bb349700" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mSocialSharingProperties</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1aee286e0eb51f7a1e0a25a2d17e7c910f" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mStartAuthenticationUrl</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1acaae283e8c6a7b8e7bb53857203449de" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mUserInput</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ac3a7f30e1f7b4e5685425f02a7451485" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>mWebViewOptions</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1adcdfc1cf80f5130713ed92d6af5495f8" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>provider_list_icon_drawables</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad20cd4d9c9dda6d8d4bac2f356b4f7f4" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>provider_list_icon_resources</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a547f06c5135caf54756cc1ac427b4d26" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>provider_logo_drawables</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ae7edc22a11406768ee78eaf0d013716f" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>provider_logo_resources</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1afaa6664d61d4457e0ba96e7108245027" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>requiresInput</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a695f8d465c01f8070bc7f9575c0bedc4" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>setForceReauth</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a46a7420fd73f8cb248461bcc3a260cca" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>setUserInput</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1a844c5efdea72aa6bf76fb98b1072572a" prot="private" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>TAG</name></member>
+      <member refid="classcom_1_1janrain_1_1android_1_1engage_1_1session_1_1_j_r_provider_1ad146fa8579a5f8a876c4688cc5a68520" prot="public" virt="non-virtual"><scope>com::janrain::android::engage::session::JRProvider</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

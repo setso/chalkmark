@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.maps.MapView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/map"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:apiKey="0Ajn0AV3QpWa9q7A0EFKSkcFpDRYDblPwjusXWA"
+	android:clickable="true" 
+/>
+
+<!-- Production: 	android:apiKey="0Ajn0AV3QpWa9q7A0EFKSkcFpDRYDblPwjusXWA" -->
+<!-- Debug Key : 	android:apiKey="0Ajn0AV3QpWb6ZkXupV6zJeZbXx5ZX7cR4-TQXA" -->
+
+	
