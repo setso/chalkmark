@@ -3,6 +3,8 @@ import re
 import pymongo
 import sys
 
+# hello
+
 ### You need
 def f_l(line):
 	""" Removes the first and last character of line """
