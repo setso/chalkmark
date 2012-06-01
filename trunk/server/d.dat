@@ -1,0 +1,30 @@
+datasrc_start
+datasrc_id='google_places_food'
+start_args
+radius = 100; 
+key  = 'AIzaSyDQFFnogfQkdMv_xk2CeHIpMLvPJNEylZw'
+types = 'food';
+sensor = 'false';
+sep='&'
+location='XXXX'
+end_args
+base_url = "https://maps.googleapis.com/maps/api/place/search/json?";
+ord =['types','sensor','radius','location','key']; 
+end
+datasrc_end
+datasrc_start
+
+
+###
+datasrc_id='twitter'
+start_args
+radius=5km
+rpp=100
+sep='&'
+geocode='XXXX'
+end_args
+code = 'geocode = location+","+radius'
+base_url = "
+##
+datasrc_id = 'yelp'
+
